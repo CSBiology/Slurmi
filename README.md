@@ -1,1 +1,1 @@
-# Slurmi
+# SimpleSlurmFSharp
