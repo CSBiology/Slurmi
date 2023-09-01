@@ -6,7 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Workflow.fs" />
+    <Compile Include="Process.fs" />
+    <Compile Include="Environment.fs" />
+    <Compile Include="Job.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicObj" Version="2.0.0" />
+	<PackageReference Include="Fli" Version="1.10.0" />
+
+  </ItemGroup>	
 
 </Project>
