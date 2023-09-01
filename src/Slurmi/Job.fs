@@ -5,6 +5,8 @@ open System.Runtime.InteropServices
 open Fli
 open Process
 open Environment
+open Dependency
+
 
 module Job =
     let ifOnlyOneDigit (digit:int) =
@@ -160,7 +162,7 @@ module Job =
             job.TryGetValue "parsable"
 
         static member SetDependency
-            ([<Optional; DefaultParameterValue(null)>]?Dependency:bool) =
+            ([<Optional; DefaultParameterValue(null)>]?Dependency:TypeOfDep*DependencyType[]) =
                 (fun (job: Job) ->
                     Dependency  |> DynObj.setValueOpt job "dependency"
                     job

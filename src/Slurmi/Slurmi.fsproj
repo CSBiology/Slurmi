@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Workflow.fs" />
     <Compile Include="Process.fs" />
     <Compile Include="Environment.fs" />
+    <Compile Include="Dependency.fs" />
     <Compile Include="Job.fs" />
+    <Compile Include="Workflow.fs" />
+    <Compile Include="Slurmi.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
