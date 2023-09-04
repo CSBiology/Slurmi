@@ -4,11 +4,8 @@ open Expecto
 open DynamicObj
 open Fli
 open Slurmi
-open Job
-open Environment
-open Workflow
 open Process
-open Slurmi.Slurmi
+open helperFunctions
 
 
 [<Tests>]
@@ -40,7 +37,7 @@ let tests =
             newenv.AddCommandAndArgument "hello" "panda" |> ignore
             myJob2 |> Job.SetEnvironment newenv |> ignore
 
-            let jobscript = createJobscript myJob2
+            let jobscript = Job.createJobscript myJob2
             Expect.equal myJob2.Name "MyJob2" "JobName check"
             Expect.equal myJob2.Processes [("MyProgram",["MyArgument1";"MyArgument2"])] "JobCommands2 check"
             Expect.equal (myJob2 |> Job.tryGetNode) (Some "MyNode") "Acces value Node Job check"
@@ -125,16 +122,16 @@ let tests =
 
 
         testCase "JobFunctions" <| fun _ -> 
-            Expect.equal (ifOnlyOneDigit 2) "02" "ifOnlyOneDigit 02 check"
-            Expect.equal (ifOnlyOneDigit 12) "12" "ifOnlyOneDigit 12 check"
-            Expect.equal (formatTime (1,2,3,4)) "01-02:03:04" "formatTime 1 check"
-            Expect.equal (formatTime (0,0,0,2)) "00-00:00:02" "formatTime 2 check"
+            Expect.equal (Job.ifOnlyOneDigit 2) "02" "ifOnlyOneDigit 02 check"
+            Expect.equal (Job.ifOnlyOneDigit 12) "12" "ifOnlyOneDigit 12 check"
+            Expect.equal (Job.formatTime (1,2,3,4)) "01-02:03:04" "formatTime 1 check"
+            Expect.equal (Job.formatTime (0,0,0,2)) "00-00:00:02" "formatTime 2 check"
 
         testCase "general functions" <| fun _ -> 
             let jobArray = 
                 [|
                     Job ("MyJob",[("MyProgram",["MyArgument1";"MyArgument2"])]);
-                    Job ("MyJob2",[("MyProgram2",["MyArgument12";"MyArgument22"])]);
+                    Job ("MyJob2",[("MyProWgram2",["MyArgument12";"MyArgument22"])]);
                     Job ("MyJob3",[("MyProgram3",["MyArgument13";"MyArgument23"])]);
                 |]
             Expect.equal (findDependencyName "MyJob" jobArray) "$Job0" "findDependencyName 1 check"

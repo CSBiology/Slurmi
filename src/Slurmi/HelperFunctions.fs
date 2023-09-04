@@ -3,11 +3,9 @@
 open DynamicObj
 open System.Runtime.InteropServices
 open Fli
-open Workflow
-open Job
 
 
-module Slurmi =
+module helperFunctions =
 
     let findDependencyName (name:string) (jobArray:Job array )= 
         let id =
@@ -60,7 +58,7 @@ module Slurmi =
                     "#!/bin/bash"
                 ;
                     (match (wf |> Workflow.tryGetTime) with
-                    | (Some value) -> (sprintf "#SBATCH --time=%s" (formatTime (value:?>(int*int*int*int))))
+                    | (Some value) -> (sprintf "#SBATCH --time=%s" (Job.formatTime (value:?>(int*int*int*int))))
                     | (None) -> "")
                 ;
                     (match (wf |> Workflow.tryGetPartition) with

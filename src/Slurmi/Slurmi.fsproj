@@ -11,7 +11,7 @@
     <Compile Include="Dependency.fs" />
     <Compile Include="Job.fs" />
     <Compile Include="Workflow.fs" />
-    <Compile Include="Slurmi.fs" />
+    <Compile Include="HelperFunctions.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
