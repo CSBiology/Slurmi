@@ -22,6 +22,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2B7C862
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Slurmi.Tests", "tests\Slurmi.Tests\Slurmi.Tests.fsproj", "{E5DBDE73-7F07-4AE0-9F88-8481A1449321}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3F1EFAF6-6190-45C9-846C-BE8DD6220E71}"
+	ProjectSection(SolutionItems) = preProject
+		docs\docfx_project\docfx.json = docs\docfx_project\docfx.json
+		docs\docfx_project\toc.yml = docs\docfx_project\toc.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{876BAFF8-7221-4E72-A08A-7C242856DAAA}"
+	ProjectSection(SolutionItems) = preProject
+		docs\docfx_project\articles\intro.md = docs\docfx_project\articles\intro.md
+		docs\docfx_project\articles\toc.yml = docs\docfx_project\articles\toc.yml
+		docs\docfx_project\articles\tut.md = docs\docfx_project\articles\tut.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +61,7 @@ Global
 		{CA8DED9B-B95C-4D0E-AB9A-D0B7C84F35AB} = {75EF1C77-75AB-4F62-B1A7-9328D0F54746}
 		{FE6F04F4-A73D-48B5-B097-F862D3C08A40} = {C962F6DA-8AEC-4CF1-81A8-9E4210613D63}
 		{E5DBDE73-7F07-4AE0-9F88-8481A1449321} = {E2B7C862-F483-47CC-AF7A-C08A8E852224}
+		{876BAFF8-7221-4E72-A08A-7C242856DAAA} = {3F1EFAF6-6190-45C9-846C-BE8DD6220E71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C91B5CDD-B250-4185-BC10-EF826D5C0FB6}

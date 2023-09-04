@@ -4,7 +4,7 @@ open System.Runtime.InteropServices
 open Fli 
 
 open Job
-open Dependency
+
 
 
 module Workflow = 
@@ -25,6 +25,7 @@ module Workflow =
 
         static member tryGetTime (wf: Workflow) =
             wf.TryGetValue "time"
+
         static member SetPartition
             ([<Optional; DefaultParameterValue(null)>]?Partition:string) =
                 (fun (wf: Workflow) ->

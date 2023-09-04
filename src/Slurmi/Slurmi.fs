@@ -5,7 +5,6 @@ open System.Runtime.InteropServices
 open Fli
 open Workflow
 open Job
-open Dependency
 
 
 module Slurmi =
@@ -20,7 +19,7 @@ module Slurmi =
 
     let getDependency (job:Job)= 
         (match (job |> Job.tryGetDependency) with
-        | (Some value) ->  "--dependency="+(dependencies (fst (value:?>(TypeOfDep*DependencyType[]))) (snd (value:?>(TypeOfDep*DependencyType[])))) //(sprintf "#SBATCH --mem=%s" (value:?>string))
+        | (Some value) ->  "--dependency="+(DependencyType.concat (fst (value:?>(TypeOfDep*DependencyType[]))) (snd (value:?>(TypeOfDep*DependencyType[]))))
         | (None) -> "")
     
     let createNamesForWF (jobs:Job array)= 
