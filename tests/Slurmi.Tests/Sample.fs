@@ -36,8 +36,62 @@ let tests =
             newenv.AddCommandAndArgument "module load" "proteomiqon" |> ignore
             newenv.AddCommandAndArgument "hello" "panda" |> ignore
             myJob2 |> Job.SetEnvironment newenv |> ignore
+            myJob2 |> Job.SetAccount "MyAccount" |> ignore
+            myJob2 |> Job.SetBatch ["This";"Is";"A";"Test";"&";"Batch"] |> ignore 
+            myJob2 |> Job.SetBurstBufferSpecification ["This";"|";"Is";"A";"Test"] |> ignore
+            myJob2 |> Job.SetBurstBufferSpecificationFilePath "BBF" |> ignore
+            myJob2 |> Job.SetWorkingDirectory "wdir" |> ignore
+            myJob2 |> Job.SetClusters ["cluster1";"cluster2"] |> ignore
+            myJob2 |> Job.SetComment "new comment $§" |> ignore
+            myJob2 |> Job.SetContainer "MyContainer" |> ignore
+            myJob2 |> Job.SetContainerID "MyContainerID" |> ignore
+            myJob2 |> Job.SetContiguous true |> ignore
+            myJob2 |> Job.SetSpezializedCores 3 |> ignore
+            myJob2 |> Job.SetCoresPerSocket 2 |> ignore
+            myJob2 |> Job.SetCPUsPerGPU 7 |> ignore
+            myJob2 |> Job.SetDelayBoot 8 |> ignore
+            myJob2 |> Job.SetExclude ["Hey";"Exclude";"Me"] |> ignore
+            myJob2 |> Job.SetExtra "Hey I'm Extra" |> ignore
+            myJob2 |> Job.SetGroupID "CSB" |> ignore
+            myJob2 |> Job.SetHold true |> ignore
+            myJob2 |> Job.SetIgnorePBS true |> ignore
+            myJob2 |> Job.SetInput "MyInput" |> ignore
+            myJob2 |> Job.SetKillOnInvalidDep true |> ignore
+            myJob2 |> Job.SetMailUser "example@type.de" |> ignore
+            myJob2 |> Job.SetMemoryPerGPU "30gb" |> ignore 
+            myJob2 |> Job.SetMemoryPerCPU "20gb" |> ignore 
+            myJob2 |> Job.SetMinCPUs 9 |> ignore
+            myJob2 |> Job.SetNoRequeue true |> ignore
+            myJob2 |> Job.SetNodeFile "MyNodeFile" |> ignore
+            myJob2 |> Job.SetNTasksPerCore 10 |> ignore
+            myJob2 |> Job.SetNTasksPerGPU 20 |> ignore
+            myJob2 |> Job.SetNTasksPerNode 23 |> ignore
+            myJob2 |> Job.SetNTasksPerSocket 1337 |> ignore
+            myJob2 |> Job.SetOvercommit true |> ignore
+            myJob2 |> Job.SetOversubscribe true |> ignore
+            myJob2 |> Job.SetPrefer ["ThisCPU";"ThisNode"] |> ignore
+            myJob2 |> Job.SetQuiet true |> ignore 
+            myJob2 |> Job.SetReboot true |> ignore
+            myJob2 |> Job.SetRequeue true |> ignore
+            myJob2 |> Job.SetReservation ["Here";"There"] |> ignore
+            myJob2 |> Job.SetSocketsPerNode 69 |> ignore
+            myJob2 |> Job.SetSpreadJob true |> ignore
+            myJob2 |> Job.SetTestOnly true |> ignore
+            myJob2 |> Job.SetThreadSpec 42 |> ignore
+            myJob2 |> Job.SetThreadsPerCore 2323 |> ignore
+            myJob2 |> Job.SetMinTime ((1,2,3,4)) |> ignore
+            myJob2 |> Job.SetUserID "MyUserID" |> ignore
+            myJob2 |> Job.SetUseMinNodes true |> ignore
+            myJob2 |> Job.SetVerbose true |> ignore
+            myJob2 |> Job.SetWait true |> ignore
+            myJob2 |> Job.SetWaitAllNodes true |> ignore
+            myJob2 |> Job.SetWrap ["Wrap";"Burrito";"Taco"] |> ignore
 
-            let jobscript = Job.createJobscript myJob2
+            
+
+
+
+            //let jobscript = Job.createJobscript myJob2
             Expect.equal myJob2.Name "MyJob2" "JobName check"
             Expect.equal myJob2.Processes [("MyProgram",["MyArgument1";"MyArgument2"])] "JobCommands2 check"
             Expect.equal (myJob2 |> Job.tryGetNode) (Some "MyNode") "Acces value Node Job check"
@@ -52,7 +106,56 @@ let tests =
             Expect.equal (myJob2 |> Job.tryGetError) (Some "MyError") "Acces value Error Job check"
             Expect.equal (myJob2 |> Job.tryGetJobID) (Some 1234) "Acces value JodId Job check"
             Expect.equal (myJob2 |> Job.tryGetParsable) (Some true) "Acces value Parsable Job check"
-            
+            Expect.equal (myJob2 |> Job.tryGetAccount) (Some "MyAccount") "Acces value Account Job check"
+            Expect.equal (myJob2 |> Job.tryGetBatch) (Some ["ThisIsATest&Batch"]) "Acces value Batch Job check"
+            Expect.equal (myJob2 |> Job.tryGetBurstBufferSpecification) (Some ["This|IsATest"]) "Acces value BBS Job check"
+            Expect.equal (myJob2 |> Job.tryGetBurstBufferSpecificationFilePath) (Some "BBF")  "Acces value BBS Job check"
+            Expect.equal (myJob2 |> Job.tryGetWorkingDirectory) (Some "wdir") "Acces value workingdirectory Job check"
+            Expect.equal (myJob2 |> Job.tryGetClusters) (Some ["cluster1,cluster2"]) "Acces value clusters Job check"
+            Expect.equal (myJob2 |> Job.tryGetComment) (Some "new comment $§") "Acces value comment Job check"
+            Expect.equal (myJob2 |> Job.tryGetContainer) (Some "MyContainer") "Acces value container Job check"
+            Expect.equal (myJob2 |> Job.tryGetContainerID) (Some "MyContainerID") "Acces value containerID Job check"
+            Expect.equal (myJob2 |> Job.tryGetContiguous) (Some true) "Acces value contiguous Job check"
+            Expect.equal (myJob2 |> Job.tryGetSpezializedCores) (Some 3) "Acces value spezializedCores Job check"
+            Expect.equal (myJob2 |> Job.tryGetCoresPerSocket) (Some 2) "Acces value coresPerSocket Job check"
+            Expect.equal (myJob2 |> Job.tryGetCPUsPerGPU) (Some 7) "Acces value CPUsPerGPU Job check"
+            Expect.equal (myJob2 |> Job.tryGetDelayBoot) (Some 8) "Acces value delayBoot Job check"
+            Expect.equal (myJob2 |> Job.tryGetExclude) (Some ["Hey Exclude Me"]) "Acces value exclude Job check"
+            Expect.equal (myJob2 |> Job.tryGetExtra) (Some "Hey I'm Extra") "Acces value extra Job check"
+            Expect.equal (myJob2 |> Job.tryGetGroupID) (Some "CSB") "Acces value groupID Job check"
+            Expect.equal (myJob2 |> Job.tryGetHold) (Some true) "Acces value hold Job check"
+            Expect.equal (myJob2 |> Job.tryGetIgnorePBS) (Some true) "Acces value ignorePBS Job check"
+            Expect.equal (myJob2 |> Job.tryGetInput) (Some "MyInput") "Acces value input Job check"
+            Expect.equal (myJob2 |> Job.tryGetKillOnInvalidDep) (Some true) "Acces value killOnInvalidDep Job check"
+            Expect.equal (myJob2 |> Job.tryGetMailUser) (Some "example@type.de") "Acces value mailUser Job check"
+            Expect.equal (myJob2 |> Job.tryGetMemoryPerGPU) (Some "30gb") "Acces value memoryPerGPU Job check"
+            Expect.equal (myJob2 |> Job.tryGetMemoryPerCPU) (Some "20gb") "Acces value memoryPerCPU Job check"
+            Expect.equal (myJob2 |> Job.tryGetMinCPUs) (Some 9) "Acces value minCPUs Job check"
+            Expect.equal (myJob2 |> Job.tryGetNoRequeue) (Some true) "Acces value noRequeue Job check"
+            Expect.equal (myJob2 |> Job.tryGetNodeFile) (Some "MyNodeFile") "Acces value nodeFile Job check"
+            Expect.equal (myJob2 |> Job.tryGetNTasksPerCore) (Some 10) "Acces value nTasksPerCore Job check"
+            Expect.equal (myJob2 |> Job.tryGetNTasksPerGPU) (Some 20) "Acces value nTasksPerGPU Job check"
+            Expect.equal (myJob2 |> Job.tryGetNTasksPerNode) (Some 23) "Acces value nTasksPerNode Job check"
+            Expect.equal (myJob2 |> Job.tryGetNTasksPerSocket) (Some 1337) "Acces value nTasksPerSocket Job check"
+            Expect.equal (myJob2 |> Job.tryGetOvercommit) (Some true) "Acces value overcommit Job check"
+            Expect.equal (myJob2 |> Job.tryGetOversubscribe) (Some true) "Acces value oversubscribe Job check"
+            Expect.equal (myJob2 |> Job.tryGetPrefer) (Some "ThisCPU ThisNode") "Acces value prefer Job check"
+            Expect.equal (myJob2 |> Job.tryGetQuiet) (Some true) "Acces value quiet Job check"
+            Expect.equal (myJob2 |> Job.tryGetReboot) (Some true) "Acces value reboot Job check"
+            Expect.equal (myJob2 |> Job.tryGetRequeue) (Some true) "Acces value requeue Job check"
+            Expect.equal (myJob2 |> Job.tryGetReservation) (Some "Here There") "Acces value reservation Job check"
+            Expect.equal (myJob2 |> Job.tryGetSocketsPerNode) (Some 69) "Acces value socketsPerNode Job check"
+            Expect.equal (myJob2 |> Job.tryGetTestOnly) (Some true) "Acces value testOnly Job check"
+            Expect.equal (myJob2 |> Job.tryGetThreadSpec) (Some 42) "Acces value threadSpec Job check"
+            Expect.equal (myJob2 |> Job.tryGetThreadsPerCore) (Some 2323) "Acces value threadSpec Job check"
+            Expect.equal (myJob2 |> Job.tryGetMinTime) (Some (1,2,3,4) ) "Acces value minTime Job check"
+            Expect.equal (myJob2 |> Job.tryGetUserID) (Some "MyUserID") "Acces value userID Job check"
+            Expect.equal (myJob2 |> Job.tryGetUseMinNodes) (Some true) "Acces value useMinNodes Job check"
+            Expect.equal (myJob2 |> Job.tryGetVerbose) (Some true) "Acces value verbose Job check"
+            Expect.equal (myJob2 |> Job.tryGetWait) (Some true) "Acces value wait Job check"
+            Expect.equal (myJob2 |> Job.tryGetWaitAllNodes) (Some true) "Acces value waitAllNodes Job check"
+            Expect.equal (myJob2 |> Job.tryGetWrap) (Some "Wrap Burrito Taco") "Acces value wrap Job check"
+
             //Expect.equal jobscript 
             //    [|"#!/bin/bash"; "#SBATCH -J MyJob2"; "#SBATCH -N MyNode";
             //      "#SBATCH -o MyOutput.out"; "#SBATCH -e MyError.err";
