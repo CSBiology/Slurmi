@@ -4,6 +4,33 @@
     <TargetFramework>net6.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Slurmi</RootNamespace>
+    <AssemblyName>Slurmi</AssemblyName>
+    <Name>Slurmi</Name>
+    <OutputType>Library</OutputType>
+    <!-- Optional: Declare that the Repository URL can be published to NuSpec -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <!-- Optional: Embed source files that are not tracked by the source control manager to the PDB -->
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <!-- Optional: Include PDB in the built .nupkg -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SignAssembly>true</SignAssembly>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <Configurations>Debug;Release;Dotnet</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Selina Ziegler, Timo Mühlhaus</Authors>
+    <Description>Tool for the creation of slurm jobscripts & workflows with F#. </Description>
+    <Summary>Tool for the creation of slurm jobscripts & workflows with F#.</Summary>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://csbiology.github.io/Slurmi/</PackageProjectUrl>
+    <PackageTags>slurm workflows hpc batchscript jobscript fsharp</PackageTags>
+    <RepositoryUrl>https://github.com/CSBiology/Slurmi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
 
   <ItemGroup>
     <Compile Include="Process.fs" />
@@ -16,7 +43,7 @@
 
   <ItemGroup>
     <PackageReference Include="DynamicObj" Version="2.0.0" />
-	<PackageReference Include="Fli" Version="1.10.0" />
+	  <PackageReference Include="Fli" Version="1.10.0" />
 
   </ItemGroup>	
 
