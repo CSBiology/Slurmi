@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Introduction Tut </title>
+      <title>Writing a jobscript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Introduction Tut ">
+      <meta name="title" content="Writing a jobscript ">
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -83,10 +83,74 @@
         </div>
 
         <article data-uid="">
-<h1 id="introduction-tut">Introduction Tut</h1>
+<h1 id="writing-a-jobscript">Writing a jobscript</h1>
 
-<p>TesttestWhoDis</p>
-<p>new test now pls work</p>
+<p>Jobscripts consist of three components: sbatch commands, optional environment settings, and the actual process.</p>
+<p>Firstly, let's create a job. In this tool, jobs require a name and a process. The process is composed of a command (such as the tool name), and its respective arguments.</p>
+<pre><code class="lang-fsharp">let myJob =
+    Job(&quot;MyJob&quot;,[(&quot;MyProgram&quot;,[&quot;MyArgument1&quot;;&quot;MyArgument2&quot;]);(&quot;MyProgram2&quot;,[&quot;MyArgument1&quot;;&quot;MyArgument2&quot;])])
+</code></pre>
+<p>When displaying the job, the following information is included:</p>
+<pre><code class="lang-fsharp">myJob |&gt; DynObj.format
+
+//?Name: MyJob
+//?Processes: [(MyProgram, [MyArgument1; MyArgument2]); (MyProgram2, [MyArgument1; MyArgument2])]
+</code></pre>
+<p>The following step is to add information to the job. This information will later be converted into Slurm commands.</p>
+<pre><code class="lang-fsharp">myJob |&gt; Job.SetNode &quot;MyNode&quot;
+myJob |&gt; Job.SetOutput &quot;MyOutput&quot;
+myJob |&gt; Job.SetTime ((1,2,3,4))
+myJob |&gt; Job.SetNTasks 5
+myJob |&gt; Job.SetCPUsPerTask 5
+myJob |&gt; Job.SetMemory &quot;30 gb&quot;
+myJob |&gt; Job.SetPartition &quot;MyPartition&quot;
+myJob |&gt; Job.SetError &quot;MyError&quot;
+</code></pre>
+<p>Plenty of Slurm commands are available. For instance, the user's input at <code>Job.SetTime((1,2,3,4))</code> reflects the command <code>#SBATCH --time=01-02:03:04</code> , which displays a duration of 1 day, 2 hours, 3 minutes, and 4 seconds. More specific formats are also encoded and applied automatically.</p>
+<p>Once these values have been set, the job will be displayed accordingly.</p>
+<pre><code class="lang-fsharp">myJob |&gt; DynObj.format
+
+// ?Name: MyJob
+// ?Processes: [(MyProgram, [MyArgument1; MyArgument2]); (MyProgram2, [MyArgument1; MyArgument2])]
+// ?node: MyNode
+// ?output: MyOutput
+// ?time: (1, 2, 3, 4)
+// ?nTasks: 5
+// ?cpusPerTask: 5
+// ?memory: 30 gb
+// ?partition: MyPartition
+// ?error: MyError
+</code></pre>
+<p>If an environment is necessary, such as loading a module, it can be included in the task in the following manner:</p>
+<pre><code class="lang-fsharp">let newenv = new EnvironmentSLURM()
+newenv.AddCommandAndArgument &quot;module load&quot; &quot;proteomiqon&quot;
+newenv.AddCommandAndArgument &quot;module load&quot; &quot;testtool&quot;
+myJob |&gt; Job.SetEnvironment newenv 
+</code></pre>
+<p>The environment is initialized first, followed by the addition of commands and arguments, and setting it to the job.
+To display the set environment, the following command is used:</p>
+<pre><code class="lang-fsharp">let getEnv  = [(myJob |&gt; Job.tryGetEnvironment)] |&gt; List.choose id |&gt; List.map (fun value -&gt; ((value:?&gt;EnvironmentSLURM).GetEnvironment()))
+
+// val it: (string * string) list list = [[(&quot;module load&quot;, &quot;testtool&quot;); (&quot;module load&quot;, &quot;proteomiqon&quot;)]]
+</code></pre>
+<p>To generate the jobscript, the following command is used:</p>
+<pre><code class="lang-fsharp">let myJobscript = myJob |&gt; Job.createJobscript
+
+// #!/bin/bash
+// #SBATCH -J MyJob
+// #SBATCH -N MyNode
+// #SBATCH -o MyOutput.out
+// #SBATCH -e MyError.err
+// #SBATCH --time=01-02:03:04
+// #SBATCH --ntasks=5
+// #SBATCH --cpus-per-task=5
+// #SBATCH --mem=30 gb
+// #SBATCH -p MyPartition
+// module load testtool
+// module load proteomiqon
+// MyProgram MyArgument1 MyArgument2
+// MyProgram2 MyArgument1 MyArgument2
+</code></pre>
 </article>
 
         <div class="contribution d-print-none">

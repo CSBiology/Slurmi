@@ -445,370 +445,1290 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Environment.EnvironmentSLURM.yml",
+      "source_relative_path": "api/Slurmi.EnvironmentSLURM.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Environment.EnvironmentSLURM.-ctor.html"
+          "relative_path": "api/Slurmi.EnvironmentSLURM.-ctor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Environment.EnvironmentSLURM.yml",
+      "source_relative_path": "api/Slurmi.EnvironmentSLURM.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument.html"
+          "relative_path": "api/Slurmi.EnvironmentSLURM.AddCommandAndArgument.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Environment.EnvironmentSLURM.yml",
+      "source_relative_path": "api/Slurmi.EnvironmentSLURM.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Environment.EnvironmentSLURM.GetEnvironment.html"
+          "relative_path": "api/Slurmi.EnvironmentSLURM.GetEnvironment.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Environment.EnvironmentSLURM.yml",
+      "source_relative_path": "api/Slurmi.EnvironmentSLURM.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Environment.EnvironmentSLURM.html"
+          "relative_path": "api/Slurmi.EnvironmentSLURM.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Environment.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Environment.html"
+          "relative_path": "api/Slurmi.Job.-ctor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetMemory.html"
+          "relative_path": "api/Slurmi.Job.SetJobID.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetMemory.html"
+          "relative_path": "api/Slurmi.Job.tryGetJobID.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetPartition.html"
+          "relative_path": "api/Slurmi.Job.SetNode.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.-ctor.html"
+          "relative_path": "api/Slurmi.Job.tryGetNode.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetJobID.html"
+          "relative_path": "api/Slurmi.Job.SetOutput.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetJobID.html"
+          "relative_path": "api/Slurmi.Job.tryGetOutput.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetNode.html"
+          "relative_path": "api/Slurmi.Job.SetError.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetNode.html"
+          "relative_path": "api/Slurmi.Job.tryGetError.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetOutput.html"
+          "relative_path": "api/Slurmi.Job.SetTime.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetOutput.html"
+          "relative_path": "api/Slurmi.Job.tryGetTime.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetError.html"
+          "relative_path": "api/Slurmi.Job.SetNTasks.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetError.html"
+          "relative_path": "api/Slurmi.Job.tryGetNTasks.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetTime.html"
+          "relative_path": "api/Slurmi.Job.SetCPUsPerTask.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetTime.html"
+          "relative_path": "api/Slurmi.Job.tryGetCPUsPerTask.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetNTasks.html"
+          "relative_path": "api/Slurmi.Job.SetMemory.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetNTasks.html"
+          "relative_path": "api/Slurmi.Job.tryGetMemory.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetCPUsPerTask.html"
+          "relative_path": "api/Slurmi.Job.SetPartition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetCPUsPerTask.html"
+          "relative_path": "api/Slurmi.Job.tryGetPartition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetPartition.html"
+          "relative_path": "api/Slurmi.Job.SetEnvironment.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetFileName.html"
+          "relative_path": "api/Slurmi.Job.tryGetEnvironment.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetFileName.html"
+          "relative_path": "api/Slurmi.Job.SetParsable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetOutputFile.html"
+          "relative_path": "api/Slurmi.Job.tryGetParsable.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetOutputFile.html"
+          "relative_path": "api/Slurmi.Job.SetDependency.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetEnvironment.html"
+          "relative_path": "api/Slurmi.Job.tryGetDependency.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetEnvironment.html"
+          "relative_path": "api/Slurmi.Job.SetAccount.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetParsable.html"
+          "relative_path": "api/Slurmi.Job.tryGetAccount.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetParsable.html"
+          "relative_path": "api/Slurmi.Job.SetBatch.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.SetDependency.html"
+          "relative_path": "api/Slurmi.Job.tryGetBatch.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.tryGetDependency.html"
+          "relative_path": "api/Slurmi.Job.SetBurstBufferSpecification.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.Name.html"
+          "relative_path": "api/Slurmi.Job.tryGetBurstBufferSpecification.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.Processes.html"
+          "relative_path": "api/Slurmi.Job.SetBurstBufferSpecificationFilePath.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.Job.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.Job.html"
+          "relative_path": "api/Slurmi.Job.tryGetBurstBufferSpecificationFilePath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetWorkingDirectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetWorkingDirectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetClusters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetClusters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetExclude.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetExclude.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetExtra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetExtra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetGroupID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetGroupID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetHold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetHold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetIgnorePBS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetIgnorePBS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetKillOnInvalidDep.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetKillOnInvalidDep.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetMailUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetMailUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetMemoryPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetMemoryPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetMemoryPerCPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetMemoryPerCPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetMinCPUs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetMinCPUs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNoRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNoRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNodeFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNodeFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNTasksPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNTasksPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNTasksPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNTasksPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNTasksPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetContainerID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetContainerID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetContiguous.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetContiguous.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetSpezializedCores.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetSpezializedCores.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetCoresPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetCoresPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetCPUsPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetCPUsPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetDelayBoot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetDelayBoot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNTasksPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetNTasksPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetNTasksPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetOvercommit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetOvercommit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetOversubscribe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetOversubscribe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetPrefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetPrefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetQuiet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetQuiet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetReboot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetReboot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetReservation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetReservation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetSocketsPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetSocketsPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetSpreadJob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetSpreadJob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetTestOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetTestOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetThreadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetThreadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetThreadsPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetThreadsPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetMinTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetMinTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetUserID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetUserID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetUseMinNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetUseMinNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetVerbose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetVerbose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetWait.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetWait.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetWaitAllNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetWaitAllNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.SetWrap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.tryGetWrap.html"
         }
       },
       "version": ""
@@ -838,16 +1758,6 @@
       "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.commands.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Job.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.Job.createJobscript.html"
         }
       },
@@ -858,17 +1768,27 @@
       "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Job.html"
+          "relative_path": "api/Slurmi.Job.Name.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Process.yml",
+      "source_relative_path": "api/Slurmi.Job.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Process.createProcess.html"
+          "relative_path": "api/Slurmi.Job.Processes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Job.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Job.html"
         }
       },
       "version": ""
@@ -895,90 +1815,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Say.yml",
+      "source_relative_path": "api/Slurmi.Process.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Say.hello.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Say.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Say.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.findDependencyName.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.getDependency.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.createNamesForWF.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.formatWF.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.createWorkflowFromJobArray.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.createWorkflowFromWFType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Slurmi.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Slurmi.html"
+          "relative_path": "api/Slurmi.Process.createProcess.html"
         }
       },
       "version": ""
@@ -1009,16 +1849,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.TypeOfDep.Tags.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.TypeOfDep.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.TypeOfDep.html"
         }
       },
       "version": ""
@@ -1125,70 +1955,70 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.TypeOfDep.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.-ctor.html"
+          "relative_path": "api/Slurmi.TypeOfDep.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.SetTime.html"
+          "relative_path": "api/Slurmi.Workflow.-ctor.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.tryGetTime.html"
+          "relative_path": "api/Slurmi.Workflow.SetTime.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.SetPartition.html"
+          "relative_path": "api/Slurmi.Workflow.tryGetTime.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.tryGetPartition.html"
+          "relative_path": "api/Slurmi.Workflow.SetPartition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.Jobs.html"
+          "relative_path": "api/Slurmi.Workflow.tryGetPartition.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "source_relative_path": "api/Slurmi.Workflow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.html"
+          "relative_path": "api/Slurmi.Workflow.Jobs.html"
         }
       },
       "version": ""
@@ -1199,6 +2029,76 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.findDependencyName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.getDependency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.createNamesForWF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.formatWF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.createWorkflowFromJobArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.createWorkflowFromWFType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.helperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.helperFunctions.html"
         }
       },
       "version": ""
@@ -1265,6 +2165,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/tut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tutwf.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tutwf.html"
         }
       },
       "version": ""

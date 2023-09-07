@@ -505,528 +505,1056 @@ references:
   commentId: Overload:Slurmi.DependencyType.toString
   fullName: Slurmi.DependencyType.toString
   nameWithType: DependencyType.toString
-- uid: Slurmi.Environment
-  name: Environment
-  href: api/Slurmi.Environment.html
-  commentId: T:Slurmi.Environment
-  fullName: Slurmi.Environment
-  nameWithType: Environment
-- uid: Slurmi.Environment.EnvironmentSLURM
-  name: Environment.EnvironmentSLURM
-  href: api/Slurmi.Environment.EnvironmentSLURM.html
-  commentId: T:Slurmi.Environment.EnvironmentSLURM
-  fullName: Slurmi.Environment.EnvironmentSLURM
-  nameWithType: Environment.EnvironmentSLURM
-- uid: Slurmi.Environment.EnvironmentSLURM.#ctor
-  name: EnvironmentSLURM()
-  href: api/Slurmi.Environment.EnvironmentSLURM.-ctor.html#Slurmi_Environment_EnvironmentSLURM__ctor
-  commentId: M:Slurmi.Environment.EnvironmentSLURM.#ctor
-  name.vb: New()
-  fullName: Slurmi.Environment.EnvironmentSLURM.EnvironmentSLURM()
-  fullName.vb: Slurmi.Environment.EnvironmentSLURM.New()
-  nameWithType: Environment.EnvironmentSLURM.EnvironmentSLURM()
-  nameWithType.vb: Environment.EnvironmentSLURM.New()
-- uid: Slurmi.Environment.EnvironmentSLURM.#ctor*
+- uid: Slurmi.EnvironmentSLURM
   name: EnvironmentSLURM
-  href: api/Slurmi.Environment.EnvironmentSLURM.-ctor.html
-  commentId: Overload:Slurmi.Environment.EnvironmentSLURM.#ctor
+  href: api/Slurmi.EnvironmentSLURM.html
+  commentId: T:Slurmi.EnvironmentSLURM
+  fullName: Slurmi.EnvironmentSLURM
+  nameWithType: EnvironmentSLURM
+- uid: Slurmi.EnvironmentSLURM.#ctor
+  name: EnvironmentSLURM()
+  href: api/Slurmi.EnvironmentSLURM.-ctor.html#Slurmi_EnvironmentSLURM__ctor
+  commentId: M:Slurmi.EnvironmentSLURM.#ctor
+  name.vb: New()
+  fullName: Slurmi.EnvironmentSLURM.EnvironmentSLURM()
+  fullName.vb: Slurmi.EnvironmentSLURM.New()
+  nameWithType: EnvironmentSLURM.EnvironmentSLURM()
+  nameWithType.vb: EnvironmentSLURM.New()
+- uid: Slurmi.EnvironmentSLURM.#ctor*
+  name: EnvironmentSLURM
+  href: api/Slurmi.EnvironmentSLURM.-ctor.html
+  commentId: Overload:Slurmi.EnvironmentSLURM.#ctor
   name.vb: New
-  fullName: Slurmi.Environment.EnvironmentSLURM.EnvironmentSLURM
-  fullName.vb: Slurmi.Environment.EnvironmentSLURM.New
-  nameWithType: Environment.EnvironmentSLURM.EnvironmentSLURM
-  nameWithType.vb: Environment.EnvironmentSLURM.New
-- uid: Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument(System.String,System.String)
+  fullName: Slurmi.EnvironmentSLURM.EnvironmentSLURM
+  fullName.vb: Slurmi.EnvironmentSLURM.New
+  nameWithType: EnvironmentSLURM.EnvironmentSLURM
+  nameWithType.vb: EnvironmentSLURM.New
+- uid: Slurmi.EnvironmentSLURM.AddCommandAndArgument(System.String,System.String)
   name: AddCommandAndArgument(string, string)
-  href: api/Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument.html#Slurmi_Environment_EnvironmentSLURM_AddCommandAndArgument_System_String_System_String_
-  commentId: M:Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument(System.String,System.String)
+  href: api/Slurmi.EnvironmentSLURM.AddCommandAndArgument.html#Slurmi_EnvironmentSLURM_AddCommandAndArgument_System_String_System_String_
+  commentId: M:Slurmi.EnvironmentSLURM.AddCommandAndArgument(System.String,System.String)
   name.vb: AddCommandAndArgument(String, String)
-  fullName: Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument(string, string)
-  fullName.vb: Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument(String, String)
-  nameWithType: Environment.EnvironmentSLURM.AddCommandAndArgument(string, string)
-  nameWithType.vb: Environment.EnvironmentSLURM.AddCommandAndArgument(String, String)
-- uid: Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument*
+  fullName: Slurmi.EnvironmentSLURM.AddCommandAndArgument(string, string)
+  fullName.vb: Slurmi.EnvironmentSLURM.AddCommandAndArgument(String, String)
+  nameWithType: EnvironmentSLURM.AddCommandAndArgument(string, string)
+  nameWithType.vb: EnvironmentSLURM.AddCommandAndArgument(String, String)
+- uid: Slurmi.EnvironmentSLURM.AddCommandAndArgument*
   name: AddCommandAndArgument
-  href: api/Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument.html
-  commentId: Overload:Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument
-  fullName: Slurmi.Environment.EnvironmentSLURM.AddCommandAndArgument
-  nameWithType: Environment.EnvironmentSLURM.AddCommandAndArgument
-- uid: Slurmi.Environment.EnvironmentSLURM.GetEnvironment
+  href: api/Slurmi.EnvironmentSLURM.AddCommandAndArgument.html
+  commentId: Overload:Slurmi.EnvironmentSLURM.AddCommandAndArgument
+  fullName: Slurmi.EnvironmentSLURM.AddCommandAndArgument
+  nameWithType: EnvironmentSLURM.AddCommandAndArgument
+- uid: Slurmi.EnvironmentSLURM.GetEnvironment
   name: GetEnvironment()
-  href: api/Slurmi.Environment.EnvironmentSLURM.GetEnvironment.html#Slurmi_Environment_EnvironmentSLURM_GetEnvironment
-  commentId: M:Slurmi.Environment.EnvironmentSLURM.GetEnvironment
-  fullName: Slurmi.Environment.EnvironmentSLURM.GetEnvironment()
-  nameWithType: Environment.EnvironmentSLURM.GetEnvironment()
-- uid: Slurmi.Environment.EnvironmentSLURM.GetEnvironment*
+  href: api/Slurmi.EnvironmentSLURM.GetEnvironment.html#Slurmi_EnvironmentSLURM_GetEnvironment
+  commentId: M:Slurmi.EnvironmentSLURM.GetEnvironment
+  fullName: Slurmi.EnvironmentSLURM.GetEnvironment()
+  nameWithType: EnvironmentSLURM.GetEnvironment()
+- uid: Slurmi.EnvironmentSLURM.GetEnvironment*
   name: GetEnvironment
-  href: api/Slurmi.Environment.EnvironmentSLURM.GetEnvironment.html
-  commentId: Overload:Slurmi.Environment.EnvironmentSLURM.GetEnvironment
-  fullName: Slurmi.Environment.EnvironmentSLURM.GetEnvironment
-  nameWithType: Environment.EnvironmentSLURM.GetEnvironment
+  href: api/Slurmi.EnvironmentSLURM.GetEnvironment.html
+  commentId: Overload:Slurmi.EnvironmentSLURM.GetEnvironment
+  fullName: Slurmi.EnvironmentSLURM.GetEnvironment
+  nameWithType: EnvironmentSLURM.GetEnvironment
 - uid: Slurmi.Job
   name: Job
   href: api/Slurmi.Job.html
   commentId: T:Slurmi.Job
   fullName: Slurmi.Job
   nameWithType: Job
-- uid: Slurmi.Job.Job
-  name: Job.Job
-  href: api/Slurmi.Job.Job.html
-  commentId: T:Slurmi.Job.Job
-  fullName: Slurmi.Job.Job
-  nameWithType: Job.Job
-- uid: Slurmi.Job.Job.#ctor(System.String,Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,Microsoft.FSharp.Collections.FSharpList{System.String}}})
+- uid: Slurmi.Job.#ctor(System.String,Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,Microsoft.FSharp.Collections.FSharpList{System.String}}})
   name: Job(string, FSharpList<Tuple<string, FSharpList<string>>>)
-  href: api/Slurmi.Job.Job.-ctor.html#Slurmi_Job_Job__ctor_System_String_Microsoft_FSharp_Collections_FSharpList_System_Tuple_System_String_Microsoft_FSharp_Collections_FSharpList_System_String____
-  commentId: M:Slurmi.Job.Job.#ctor(System.String,Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,Microsoft.FSharp.Collections.FSharpList{System.String}}})
+  href: api/Slurmi.Job.-ctor.html#Slurmi_Job__ctor_System_String_Microsoft_FSharp_Collections_FSharpList_System_Tuple_System_String_Microsoft_FSharp_Collections_FSharpList_System_String____
+  commentId: M:Slurmi.Job.#ctor(System.String,Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,Microsoft.FSharp.Collections.FSharpList{System.String}}})
   name.vb: New(String, FSharpList(Of Tuple(Of String, FSharpList(Of String))))
-  fullName: Slurmi.Job.Job.Job(string, Microsoft.FSharp.Collections.FSharpList<System.Tuple<string, Microsoft.FSharp.Collections.FSharpList<string>>>)
-  fullName.vb: Slurmi.Job.Job.New(String, Microsoft.FSharp.Collections.FSharpList(Of System.Tuple(Of String, Microsoft.FSharp.Collections.FSharpList(Of String))))
-  nameWithType: Job.Job.Job(string, FSharpList<Tuple<string, FSharpList<string>>>)
-  nameWithType.vb: Job.Job.New(String, FSharpList(Of Tuple(Of String, FSharpList(Of String))))
-- uid: Slurmi.Job.Job.#ctor*
+  fullName: Slurmi.Job.Job(string, Microsoft.FSharp.Collections.FSharpList<System.Tuple<string, Microsoft.FSharp.Collections.FSharpList<string>>>)
+  fullName.vb: Slurmi.Job.New(String, Microsoft.FSharp.Collections.FSharpList(Of System.Tuple(Of String, Microsoft.FSharp.Collections.FSharpList(Of String))))
+  nameWithType: Job.Job(string, FSharpList<Tuple<string, FSharpList<string>>>)
+  nameWithType.vb: Job.New(String, FSharpList(Of Tuple(Of String, FSharpList(Of String))))
+- uid: Slurmi.Job.#ctor*
   name: Job
-  href: api/Slurmi.Job.Job.-ctor.html
-  commentId: Overload:Slurmi.Job.Job.#ctor
+  href: api/Slurmi.Job.-ctor.html
+  commentId: Overload:Slurmi.Job.#ctor
   name.vb: New
-  fullName: Slurmi.Job.Job.Job
-  fullName.vb: Slurmi.Job.Job.New
-  nameWithType: Job.Job.Job
-  nameWithType.vb: Job.Job.New
-- uid: Slurmi.Job.Job.Name
+  fullName: Slurmi.Job.Job
+  fullName.vb: Slurmi.Job.New
+  nameWithType: Job.Job
+  nameWithType.vb: Job.New
+- uid: Slurmi.Job.Name
   name: Name
-  href: api/Slurmi.Job.Job.Name.html#Slurmi_Job_Job_Name
-  commentId: P:Slurmi.Job.Job.Name
-  fullName: Slurmi.Job.Job.Name
-  nameWithType: Job.Job.Name
-- uid: Slurmi.Job.Job.Name*
+  href: api/Slurmi.Job.Name.html#Slurmi_Job_Name
+  commentId: P:Slurmi.Job.Name
+  fullName: Slurmi.Job.Name
+  nameWithType: Job.Name
+- uid: Slurmi.Job.Name*
   name: Name
-  href: api/Slurmi.Job.Job.Name.html
-  commentId: Overload:Slurmi.Job.Job.Name
-  fullName: Slurmi.Job.Job.Name
-  nameWithType: Job.Job.Name
-- uid: Slurmi.Job.Job.Processes
+  href: api/Slurmi.Job.Name.html
+  commentId: Overload:Slurmi.Job.Name
+  fullName: Slurmi.Job.Name
+  nameWithType: Job.Name
+- uid: Slurmi.Job.Processes
   name: Processes
-  href: api/Slurmi.Job.Job.Processes.html#Slurmi_Job_Job_Processes
-  commentId: P:Slurmi.Job.Job.Processes
-  fullName: Slurmi.Job.Job.Processes
-  nameWithType: Job.Job.Processes
-- uid: Slurmi.Job.Job.Processes*
+  href: api/Slurmi.Job.Processes.html#Slurmi_Job_Processes
+  commentId: P:Slurmi.Job.Processes
+  fullName: Slurmi.Job.Processes
+  nameWithType: Job.Processes
+- uid: Slurmi.Job.Processes*
   name: Processes
-  href: api/Slurmi.Job.Job.Processes.html
-  commentId: Overload:Slurmi.Job.Job.Processes
-  fullName: Slurmi.Job.Job.Processes
-  nameWithType: Job.Job.Processes
-- uid: Slurmi.Job.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.Processes.html
+  commentId: Overload:Slurmi.Job.Processes
+  fullName: Slurmi.Job.Processes
+  nameWithType: Job.Processes
+- uid: Slurmi.Job.SetAccount(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetAccount(FSharpOption<string>)
+  href: api/Slurmi.Job.SetAccount.html#Slurmi_Job_SetAccount_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetAccount(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetAccount(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetAccount(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetAccount(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetAccount(FSharpOption<string>)
+  nameWithType.vb: Job.SetAccount(FSharpOption(Of String))
+- uid: Slurmi.Job.SetAccount*
+  name: SetAccount
+  href: api/Slurmi.Job.SetAccount.html
+  commentId: Overload:Slurmi.Job.SetAccount
+  fullName: Slurmi.Job.SetAccount
+  nameWithType: Job.SetAccount
+- uid: Slurmi.Job.SetBatch(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetBatch(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetBatch.html#Slurmi_Job_SetBatch_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetBatch(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetBatch(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetBatch(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetBatch(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetBatch(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetBatch(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetBatch*
+  name: SetBatch
+  href: api/Slurmi.Job.SetBatch.html
+  commentId: Overload:Slurmi.Job.SetBatch
+  fullName: Slurmi.Job.SetBatch
+  nameWithType: Job.SetBatch
+- uid: Slurmi.Job.SetBurstBufferSpecification(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetBurstBufferSpecification(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetBurstBufferSpecification.html#Slurmi_Job_SetBurstBufferSpecification_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetBurstBufferSpecification(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetBurstBufferSpecification(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetBurstBufferSpecification(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetBurstBufferSpecification(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetBurstBufferSpecification(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetBurstBufferSpecification(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetBurstBufferSpecification*
+  name: SetBurstBufferSpecification
+  href: api/Slurmi.Job.SetBurstBufferSpecification.html
+  commentId: Overload:Slurmi.Job.SetBurstBufferSpecification
+  fullName: Slurmi.Job.SetBurstBufferSpecification
+  nameWithType: Job.SetBurstBufferSpecification
+- uid: Slurmi.Job.SetBurstBufferSpecificationFilePath(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetBurstBufferSpecificationFilePath(FSharpOption<string>)
+  href: api/Slurmi.Job.SetBurstBufferSpecificationFilePath.html#Slurmi_Job_SetBurstBufferSpecificationFilePath_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetBurstBufferSpecificationFilePath(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetBurstBufferSpecificationFilePath(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetBurstBufferSpecificationFilePath(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetBurstBufferSpecificationFilePath(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetBurstBufferSpecificationFilePath(FSharpOption<string>)
+  nameWithType.vb: Job.SetBurstBufferSpecificationFilePath(FSharpOption(Of String))
+- uid: Slurmi.Job.SetBurstBufferSpecificationFilePath*
+  name: SetBurstBufferSpecificationFilePath
+  href: api/Slurmi.Job.SetBurstBufferSpecificationFilePath.html
+  commentId: Overload:Slurmi.Job.SetBurstBufferSpecificationFilePath
+  fullName: Slurmi.Job.SetBurstBufferSpecificationFilePath
+  nameWithType: Job.SetBurstBufferSpecificationFilePath
+- uid: Slurmi.Job.SetCPUsPerGPU(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetCPUsPerGPU(FSharpOption<int>)
+  href: api/Slurmi.Job.SetCPUsPerGPU.html#Slurmi_Job_SetCPUsPerGPU_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetCPUsPerGPU(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetCPUsPerGPU(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetCPUsPerGPU(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetCPUsPerGPU(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetCPUsPerGPU(FSharpOption<int>)
+  nameWithType.vb: Job.SetCPUsPerGPU(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetCPUsPerGPU*
+  name: SetCPUsPerGPU
+  href: api/Slurmi.Job.SetCPUsPerGPU.html
+  commentId: Overload:Slurmi.Job.SetCPUsPerGPU
+  fullName: Slurmi.Job.SetCPUsPerGPU
+  nameWithType: Job.SetCPUsPerGPU
+- uid: Slurmi.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name: SetCPUsPerTask(FSharpOption<int>)
-  href: api/Slurmi.Job.Job.SetCPUsPerTask.html#Slurmi_Job_Job_SetCPUsPerTask_Microsoft_FSharp_Core_FSharpOption_System_Int32__
-  commentId: M:Slurmi.Job.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.SetCPUsPerTask.html#Slurmi_Job_SetCPUsPerTask_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name.vb: SetCPUsPerTask(FSharpOption(Of Integer))
-  fullName: Slurmi.Job.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption<int>)
-  fullName.vb: Slurmi.Job.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption(Of Integer))
-  nameWithType: Job.Job.SetCPUsPerTask(FSharpOption<int>)
-  nameWithType.vb: Job.Job.SetCPUsPerTask(FSharpOption(Of Integer))
-- uid: Slurmi.Job.Job.SetCPUsPerTask*
+  fullName: Slurmi.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetCPUsPerTask(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetCPUsPerTask(FSharpOption<int>)
+  nameWithType.vb: Job.SetCPUsPerTask(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetCPUsPerTask*
   name: SetCPUsPerTask
-  href: api/Slurmi.Job.Job.SetCPUsPerTask.html
-  commentId: Overload:Slurmi.Job.Job.SetCPUsPerTask
-  fullName: Slurmi.Job.Job.SetCPUsPerTask
-  nameWithType: Job.Job.SetCPUsPerTask
-- uid: Slurmi.Job.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption{System.Tuple{Slurmi.TypeOfDep,Slurmi.DependencyType[]}})
+  href: api/Slurmi.Job.SetCPUsPerTask.html
+  commentId: Overload:Slurmi.Job.SetCPUsPerTask
+  fullName: Slurmi.Job.SetCPUsPerTask
+  nameWithType: Job.SetCPUsPerTask
+- uid: Slurmi.Job.SetClusters(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetClusters(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetClusters.html#Slurmi_Job_SetClusters_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetClusters(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetClusters(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetClusters(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetClusters(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetClusters(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetClusters(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetClusters*
+  name: SetClusters
+  href: api/Slurmi.Job.SetClusters.html
+  commentId: Overload:Slurmi.Job.SetClusters
+  fullName: Slurmi.Job.SetClusters
+  nameWithType: Job.SetClusters
+- uid: Slurmi.Job.SetComment(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetComment(FSharpOption<string>)
+  href: api/Slurmi.Job.SetComment.html#Slurmi_Job_SetComment_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetComment(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetComment(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetComment(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetComment(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetComment(FSharpOption<string>)
+  nameWithType.vb: Job.SetComment(FSharpOption(Of String))
+- uid: Slurmi.Job.SetComment*
+  name: SetComment
+  href: api/Slurmi.Job.SetComment.html
+  commentId: Overload:Slurmi.Job.SetComment
+  fullName: Slurmi.Job.SetComment
+  nameWithType: Job.SetComment
+- uid: Slurmi.Job.SetContainer(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetContainer(FSharpOption<string>)
+  href: api/Slurmi.Job.SetContainer.html#Slurmi_Job_SetContainer_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetContainer(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetContainer(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetContainer(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetContainer(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetContainer(FSharpOption<string>)
+  nameWithType.vb: Job.SetContainer(FSharpOption(Of String))
+- uid: Slurmi.Job.SetContainer*
+  name: SetContainer
+  href: api/Slurmi.Job.SetContainer.html
+  commentId: Overload:Slurmi.Job.SetContainer
+  fullName: Slurmi.Job.SetContainer
+  nameWithType: Job.SetContainer
+- uid: Slurmi.Job.SetContainerID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetContainerID(FSharpOption<string>)
+  href: api/Slurmi.Job.SetContainerID.html#Slurmi_Job_SetContainerID_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetContainerID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetContainerID(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetContainerID(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetContainerID(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetContainerID(FSharpOption<string>)
+  nameWithType.vb: Job.SetContainerID(FSharpOption(Of String))
+- uid: Slurmi.Job.SetContainerID*
+  name: SetContainerID
+  href: api/Slurmi.Job.SetContainerID.html
+  commentId: Overload:Slurmi.Job.SetContainerID
+  fullName: Slurmi.Job.SetContainerID
+  nameWithType: Job.SetContainerID
+- uid: Slurmi.Job.SetContiguous(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetContiguous(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetContiguous.html#Slurmi_Job_SetContiguous_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetContiguous(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetContiguous(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetContiguous(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetContiguous(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetContiguous(FSharpOption<bool>)
+  nameWithType.vb: Job.SetContiguous(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetContiguous*
+  name: SetContiguous
+  href: api/Slurmi.Job.SetContiguous.html
+  commentId: Overload:Slurmi.Job.SetContiguous
+  fullName: Slurmi.Job.SetContiguous
+  nameWithType: Job.SetContiguous
+- uid: Slurmi.Job.SetCoresPerSocket(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetCoresPerSocket(FSharpOption<int>)
+  href: api/Slurmi.Job.SetCoresPerSocket.html#Slurmi_Job_SetCoresPerSocket_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetCoresPerSocket(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetCoresPerSocket(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetCoresPerSocket(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetCoresPerSocket(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetCoresPerSocket(FSharpOption<int>)
+  nameWithType.vb: Job.SetCoresPerSocket(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetCoresPerSocket*
+  name: SetCoresPerSocket
+  href: api/Slurmi.Job.SetCoresPerSocket.html
+  commentId: Overload:Slurmi.Job.SetCoresPerSocket
+  fullName: Slurmi.Job.SetCoresPerSocket
+  nameWithType: Job.SetCoresPerSocket
+- uid: Slurmi.Job.SetDelayBoot(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetDelayBoot(FSharpOption<int>)
+  href: api/Slurmi.Job.SetDelayBoot.html#Slurmi_Job_SetDelayBoot_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetDelayBoot(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetDelayBoot(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetDelayBoot(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetDelayBoot(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetDelayBoot(FSharpOption<int>)
+  nameWithType.vb: Job.SetDelayBoot(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetDelayBoot*
+  name: SetDelayBoot
+  href: api/Slurmi.Job.SetDelayBoot.html
+  commentId: Overload:Slurmi.Job.SetDelayBoot
+  fullName: Slurmi.Job.SetDelayBoot
+  nameWithType: Job.SetDelayBoot
+- uid: Slurmi.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption{System.Tuple{Slurmi.TypeOfDep,Slurmi.DependencyType[]}})
   name: SetDependency(FSharpOption<Tuple<TypeOfDep, DependencyType[]>>)
-  href: api/Slurmi.Job.Job.SetDependency.html#Slurmi_Job_Job_SetDependency_Microsoft_FSharp_Core_FSharpOption_System_Tuple_Slurmi_TypeOfDep_Slurmi_DependencyType_____
-  commentId: M:Slurmi.Job.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption{System.Tuple{Slurmi.TypeOfDep,Slurmi.DependencyType[]}})
+  href: api/Slurmi.Job.SetDependency.html#Slurmi_Job_SetDependency_Microsoft_FSharp_Core_FSharpOption_System_Tuple_Slurmi_TypeOfDep_Slurmi_DependencyType_____
+  commentId: M:Slurmi.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption{System.Tuple{Slurmi.TypeOfDep,Slurmi.DependencyType[]}})
   name.vb: SetDependency(FSharpOption(Of Tuple(Of TypeOfDep, DependencyType())))
-  fullName: Slurmi.Job.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption<System.Tuple<Slurmi.TypeOfDep, Slurmi.DependencyType[]>>)
-  fullName.vb: Slurmi.Job.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Slurmi.TypeOfDep, Slurmi.DependencyType())))
-  nameWithType: Job.Job.SetDependency(FSharpOption<Tuple<TypeOfDep, DependencyType[]>>)
-  nameWithType.vb: Job.Job.SetDependency(FSharpOption(Of Tuple(Of TypeOfDep, DependencyType())))
-- uid: Slurmi.Job.Job.SetDependency*
+  fullName: Slurmi.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption<System.Tuple<Slurmi.TypeOfDep, Slurmi.DependencyType[]>>)
+  fullName.vb: Slurmi.Job.SetDependency(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Slurmi.TypeOfDep, Slurmi.DependencyType())))
+  nameWithType: Job.SetDependency(FSharpOption<Tuple<TypeOfDep, DependencyType[]>>)
+  nameWithType.vb: Job.SetDependency(FSharpOption(Of Tuple(Of TypeOfDep, DependencyType())))
+- uid: Slurmi.Job.SetDependency*
   name: SetDependency
-  href: api/Slurmi.Job.Job.SetDependency.html
-  commentId: Overload:Slurmi.Job.Job.SetDependency
-  fullName: Slurmi.Job.Job.SetDependency
-  nameWithType: Job.Job.SetDependency
-- uid: Slurmi.Job.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption{Slurmi.Environment.EnvironmentSLURM})
+  href: api/Slurmi.Job.SetDependency.html
+  commentId: Overload:Slurmi.Job.SetDependency
+  fullName: Slurmi.Job.SetDependency
+  nameWithType: Job.SetDependency
+- uid: Slurmi.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption{Slurmi.EnvironmentSLURM})
   name: SetEnvironment(FSharpOption<EnvironmentSLURM>)
-  href: api/Slurmi.Job.Job.SetEnvironment.html#Slurmi_Job_Job_SetEnvironment_Microsoft_FSharp_Core_FSharpOption_Slurmi_Environment_EnvironmentSLURM__
-  commentId: M:Slurmi.Job.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption{Slurmi.Environment.EnvironmentSLURM})
+  href: api/Slurmi.Job.SetEnvironment.html#Slurmi_Job_SetEnvironment_Microsoft_FSharp_Core_FSharpOption_Slurmi_EnvironmentSLURM__
+  commentId: M:Slurmi.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption{Slurmi.EnvironmentSLURM})
   name.vb: SetEnvironment(FSharpOption(Of EnvironmentSLURM))
-  fullName: Slurmi.Job.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption<Slurmi.Environment.EnvironmentSLURM>)
-  fullName.vb: Slurmi.Job.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption(Of Slurmi.Environment.EnvironmentSLURM))
-  nameWithType: Job.Job.SetEnvironment(FSharpOption<Environment.EnvironmentSLURM>)
-  nameWithType.vb: Job.Job.SetEnvironment(FSharpOption(Of Environment.EnvironmentSLURM))
-- uid: Slurmi.Job.Job.SetEnvironment*
+  fullName: Slurmi.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption<Slurmi.EnvironmentSLURM>)
+  fullName.vb: Slurmi.Job.SetEnvironment(Microsoft.FSharp.Core.FSharpOption(Of Slurmi.EnvironmentSLURM))
+  nameWithType: Job.SetEnvironment(FSharpOption<EnvironmentSLURM>)
+  nameWithType.vb: Job.SetEnvironment(FSharpOption(Of EnvironmentSLURM))
+- uid: Slurmi.Job.SetEnvironment*
   name: SetEnvironment
-  href: api/Slurmi.Job.Job.SetEnvironment.html
-  commentId: Overload:Slurmi.Job.Job.SetEnvironment
-  fullName: Slurmi.Job.Job.SetEnvironment
-  nameWithType: Job.Job.SetEnvironment
-- uid: Slurmi.Job.Job.SetError(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetEnvironment.html
+  commentId: Overload:Slurmi.Job.SetEnvironment
+  fullName: Slurmi.Job.SetEnvironment
+  nameWithType: Job.SetEnvironment
+- uid: Slurmi.Job.SetError(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetError(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetError.html#Slurmi_Job_Job_SetError_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetError(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetError.html#Slurmi_Job_SetError_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetError(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetError(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetError(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetError(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetError(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetError(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetError*
+  fullName: Slurmi.Job.SetError(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetError(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetError(FSharpOption<string>)
+  nameWithType.vb: Job.SetError(FSharpOption(Of String))
+- uid: Slurmi.Job.SetError*
   name: SetError
-  href: api/Slurmi.Job.Job.SetError.html
-  commentId: Overload:Slurmi.Job.Job.SetError
-  fullName: Slurmi.Job.Job.SetError
-  nameWithType: Job.Job.SetError
-- uid: Slurmi.Job.Job.SetFileName(Microsoft.FSharp.Core.FSharpOption{System.String})
-  name: SetFileName(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetFileName.html#Slurmi_Job_Job_SetFileName_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetFileName(Microsoft.FSharp.Core.FSharpOption{System.String})
-  name.vb: SetFileName(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetFileName(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetFileName(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetFileName(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetFileName(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetFileName*
-  name: SetFileName
-  href: api/Slurmi.Job.Job.SetFileName.html
-  commentId: Overload:Slurmi.Job.Job.SetFileName
-  fullName: Slurmi.Job.Job.SetFileName
-  nameWithType: Job.Job.SetFileName
-- uid: Slurmi.Job.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.SetError.html
+  commentId: Overload:Slurmi.Job.SetError
+  fullName: Slurmi.Job.SetError
+  nameWithType: Job.SetError
+- uid: Slurmi.Job.SetExclude(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetExclude(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetExclude.html#Slurmi_Job_SetExclude_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetExclude(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetExclude(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetExclude(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetExclude(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetExclude(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetExclude(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetExclude*
+  name: SetExclude
+  href: api/Slurmi.Job.SetExclude.html
+  commentId: Overload:Slurmi.Job.SetExclude
+  fullName: Slurmi.Job.SetExclude
+  nameWithType: Job.SetExclude
+- uid: Slurmi.Job.SetExtra(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetExtra(FSharpOption<string>)
+  href: api/Slurmi.Job.SetExtra.html#Slurmi_Job_SetExtra_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetExtra(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetExtra(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetExtra(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetExtra(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetExtra(FSharpOption<string>)
+  nameWithType.vb: Job.SetExtra(FSharpOption(Of String))
+- uid: Slurmi.Job.SetExtra*
+  name: SetExtra
+  href: api/Slurmi.Job.SetExtra.html
+  commentId: Overload:Slurmi.Job.SetExtra
+  fullName: Slurmi.Job.SetExtra
+  nameWithType: Job.SetExtra
+- uid: Slurmi.Job.SetGroupID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetGroupID(FSharpOption<string>)
+  href: api/Slurmi.Job.SetGroupID.html#Slurmi_Job_SetGroupID_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetGroupID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetGroupID(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetGroupID(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetGroupID(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetGroupID(FSharpOption<string>)
+  nameWithType.vb: Job.SetGroupID(FSharpOption(Of String))
+- uid: Slurmi.Job.SetGroupID*
+  name: SetGroupID
+  href: api/Slurmi.Job.SetGroupID.html
+  commentId: Overload:Slurmi.Job.SetGroupID
+  fullName: Slurmi.Job.SetGroupID
+  nameWithType: Job.SetGroupID
+- uid: Slurmi.Job.SetHold(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetHold(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetHold.html#Slurmi_Job_SetHold_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetHold(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetHold(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetHold(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetHold(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetHold(FSharpOption<bool>)
+  nameWithType.vb: Job.SetHold(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetHold*
+  name: SetHold
+  href: api/Slurmi.Job.SetHold.html
+  commentId: Overload:Slurmi.Job.SetHold
+  fullName: Slurmi.Job.SetHold
+  nameWithType: Job.SetHold
+- uid: Slurmi.Job.SetIgnorePBS(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetIgnorePBS(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetIgnorePBS.html#Slurmi_Job_SetIgnorePBS_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetIgnorePBS(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetIgnorePBS(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetIgnorePBS(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetIgnorePBS(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetIgnorePBS(FSharpOption<bool>)
+  nameWithType.vb: Job.SetIgnorePBS(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetIgnorePBS*
+  name: SetIgnorePBS
+  href: api/Slurmi.Job.SetIgnorePBS.html
+  commentId: Overload:Slurmi.Job.SetIgnorePBS
+  fullName: Slurmi.Job.SetIgnorePBS
+  nameWithType: Job.SetIgnorePBS
+- uid: Slurmi.Job.SetInput(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetInput(FSharpOption<string>)
+  href: api/Slurmi.Job.SetInput.html#Slurmi_Job_SetInput_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetInput(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetInput(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetInput(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetInput(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetInput(FSharpOption<string>)
+  nameWithType.vb: Job.SetInput(FSharpOption(Of String))
+- uid: Slurmi.Job.SetInput*
+  name: SetInput
+  href: api/Slurmi.Job.SetInput.html
+  commentId: Overload:Slurmi.Job.SetInput
+  fullName: Slurmi.Job.SetInput
+  nameWithType: Job.SetInput
+- uid: Slurmi.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name: SetJobID(FSharpOption<int>)
-  href: api/Slurmi.Job.Job.SetJobID.html#Slurmi_Job_Job_SetJobID_Microsoft_FSharp_Core_FSharpOption_System_Int32__
-  commentId: M:Slurmi.Job.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.SetJobID.html#Slurmi_Job_SetJobID_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name.vb: SetJobID(FSharpOption(Of Integer))
-  fullName: Slurmi.Job.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption<int>)
-  fullName.vb: Slurmi.Job.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption(Of Integer))
-  nameWithType: Job.Job.SetJobID(FSharpOption<int>)
-  nameWithType.vb: Job.Job.SetJobID(FSharpOption(Of Integer))
-- uid: Slurmi.Job.Job.SetJobID*
+  fullName: Slurmi.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetJobID(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetJobID(FSharpOption<int>)
+  nameWithType.vb: Job.SetJobID(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetJobID*
   name: SetJobID
-  href: api/Slurmi.Job.Job.SetJobID.html
-  commentId: Overload:Slurmi.Job.Job.SetJobID
-  fullName: Slurmi.Job.Job.SetJobID
-  nameWithType: Job.Job.SetJobID
-- uid: Slurmi.Job.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetJobID.html
+  commentId: Overload:Slurmi.Job.SetJobID
+  fullName: Slurmi.Job.SetJobID
+  nameWithType: Job.SetJobID
+- uid: Slurmi.Job.SetKillOnInvalidDep(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetKillOnInvalidDep(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetKillOnInvalidDep.html#Slurmi_Job_SetKillOnInvalidDep_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetKillOnInvalidDep(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetKillOnInvalidDep(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetKillOnInvalidDep(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetKillOnInvalidDep(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetKillOnInvalidDep(FSharpOption<bool>)
+  nameWithType.vb: Job.SetKillOnInvalidDep(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetKillOnInvalidDep*
+  name: SetKillOnInvalidDep
+  href: api/Slurmi.Job.SetKillOnInvalidDep.html
+  commentId: Overload:Slurmi.Job.SetKillOnInvalidDep
+  fullName: Slurmi.Job.SetKillOnInvalidDep
+  nameWithType: Job.SetKillOnInvalidDep
+- uid: Slurmi.Job.SetMailUser(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetMailUser(FSharpOption<string>)
+  href: api/Slurmi.Job.SetMailUser.html#Slurmi_Job_SetMailUser_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetMailUser(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetMailUser(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetMailUser(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetMailUser(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetMailUser(FSharpOption<string>)
+  nameWithType.vb: Job.SetMailUser(FSharpOption(Of String))
+- uid: Slurmi.Job.SetMailUser*
+  name: SetMailUser
+  href: api/Slurmi.Job.SetMailUser.html
+  commentId: Overload:Slurmi.Job.SetMailUser
+  fullName: Slurmi.Job.SetMailUser
+  nameWithType: Job.SetMailUser
+- uid: Slurmi.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetMemory(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetMemory.html#Slurmi_Job_Job_SetMemory_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetMemory.html#Slurmi_Job_SetMemory_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetMemory(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetMemory(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetMemory(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetMemory*
+  fullName: Slurmi.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetMemory(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetMemory(FSharpOption<string>)
+  nameWithType.vb: Job.SetMemory(FSharpOption(Of String))
+- uid: Slurmi.Job.SetMemory*
   name: SetMemory
-  href: api/Slurmi.Job.Job.SetMemory.html
-  commentId: Overload:Slurmi.Job.Job.SetMemory
-  fullName: Slurmi.Job.Job.SetMemory
-  nameWithType: Job.Job.SetMemory
-- uid: Slurmi.Job.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.SetMemory.html
+  commentId: Overload:Slurmi.Job.SetMemory
+  fullName: Slurmi.Job.SetMemory
+  nameWithType: Job.SetMemory
+- uid: Slurmi.Job.SetMemoryPerCPU(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetMemoryPerCPU(FSharpOption<string>)
+  href: api/Slurmi.Job.SetMemoryPerCPU.html#Slurmi_Job_SetMemoryPerCPU_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetMemoryPerCPU(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetMemoryPerCPU(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetMemoryPerCPU(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetMemoryPerCPU(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetMemoryPerCPU(FSharpOption<string>)
+  nameWithType.vb: Job.SetMemoryPerCPU(FSharpOption(Of String))
+- uid: Slurmi.Job.SetMemoryPerCPU*
+  name: SetMemoryPerCPU
+  href: api/Slurmi.Job.SetMemoryPerCPU.html
+  commentId: Overload:Slurmi.Job.SetMemoryPerCPU
+  fullName: Slurmi.Job.SetMemoryPerCPU
+  nameWithType: Job.SetMemoryPerCPU
+- uid: Slurmi.Job.SetMemoryPerGPU(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetMemoryPerGPU(FSharpOption<string>)
+  href: api/Slurmi.Job.SetMemoryPerGPU.html#Slurmi_Job_SetMemoryPerGPU_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetMemoryPerGPU(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetMemoryPerGPU(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetMemoryPerGPU(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetMemoryPerGPU(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetMemoryPerGPU(FSharpOption<string>)
+  nameWithType.vb: Job.SetMemoryPerGPU(FSharpOption(Of String))
+- uid: Slurmi.Job.SetMemoryPerGPU*
+  name: SetMemoryPerGPU
+  href: api/Slurmi.Job.SetMemoryPerGPU.html
+  commentId: Overload:Slurmi.Job.SetMemoryPerGPU
+  fullName: Slurmi.Job.SetMemoryPerGPU
+  nameWithType: Job.SetMemoryPerGPU
+- uid: Slurmi.Job.SetMinCPUs(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetMinCPUs(FSharpOption<int>)
+  href: api/Slurmi.Job.SetMinCPUs.html#Slurmi_Job_SetMinCPUs_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetMinCPUs(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetMinCPUs(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetMinCPUs(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetMinCPUs(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetMinCPUs(FSharpOption<int>)
+  nameWithType.vb: Job.SetMinCPUs(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetMinCPUs*
+  name: SetMinCPUs
+  href: api/Slurmi.Job.SetMinCPUs.html
+  commentId: Overload:Slurmi.Job.SetMinCPUs
+  fullName: Slurmi.Job.SetMinCPUs
+  nameWithType: Job.SetMinCPUs
+- uid: Slurmi.Job.SetMinTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  name: SetMinTime(FSharpOption<Tuple<int, int, int, int>>)
+  href: api/Slurmi.Job.SetMinTime.html#Slurmi_Job_SetMinTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___
+  commentId: M:Slurmi.Job.SetMinTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  name.vb: SetMinTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
+  fullName: Slurmi.Job.SetMinTime(Microsoft.FSharp.Core.FSharpOption<System.Tuple<int, int, int, int>>)
+  fullName.vb: Slurmi.Job.SetMinTime(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Integer, Integer, Integer, Integer)))
+  nameWithType: Job.SetMinTime(FSharpOption<Tuple<int, int, int, int>>)
+  nameWithType.vb: Job.SetMinTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
+- uid: Slurmi.Job.SetMinTime*
+  name: SetMinTime
+  href: api/Slurmi.Job.SetMinTime.html
+  commentId: Overload:Slurmi.Job.SetMinTime
+  fullName: Slurmi.Job.SetMinTime
+  nameWithType: Job.SetMinTime
+- uid: Slurmi.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name: SetNTasks(FSharpOption<int>)
-  href: api/Slurmi.Job.Job.SetNTasks.html#Slurmi_Job_Job_SetNTasks_Microsoft_FSharp_Core_FSharpOption_System_Int32__
-  commentId: M:Slurmi.Job.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  href: api/Slurmi.Job.SetNTasks.html#Slurmi_Job_SetNTasks_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption{System.Int32})
   name.vb: SetNTasks(FSharpOption(Of Integer))
-  fullName: Slurmi.Job.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption<int>)
-  fullName.vb: Slurmi.Job.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption(Of Integer))
-  nameWithType: Job.Job.SetNTasks(FSharpOption<int>)
-  nameWithType.vb: Job.Job.SetNTasks(FSharpOption(Of Integer))
-- uid: Slurmi.Job.Job.SetNTasks*
+  fullName: Slurmi.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetNTasks(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetNTasks(FSharpOption<int>)
+  nameWithType.vb: Job.SetNTasks(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetNTasks*
   name: SetNTasks
-  href: api/Slurmi.Job.Job.SetNTasks.html
-  commentId: Overload:Slurmi.Job.Job.SetNTasks
-  fullName: Slurmi.Job.Job.SetNTasks
-  nameWithType: Job.Job.SetNTasks
-- uid: Slurmi.Job.Job.SetNode(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetNTasks.html
+  commentId: Overload:Slurmi.Job.SetNTasks
+  fullName: Slurmi.Job.SetNTasks
+  nameWithType: Job.SetNTasks
+- uid: Slurmi.Job.SetNTasksPerCore(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetNTasksPerCore(FSharpOption<int>)
+  href: api/Slurmi.Job.SetNTasksPerCore.html#Slurmi_Job_SetNTasksPerCore_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetNTasksPerCore(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetNTasksPerCore(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetNTasksPerCore(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetNTasksPerCore(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetNTasksPerCore(FSharpOption<int>)
+  nameWithType.vb: Job.SetNTasksPerCore(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetNTasksPerCore*
+  name: SetNTasksPerCore
+  href: api/Slurmi.Job.SetNTasksPerCore.html
+  commentId: Overload:Slurmi.Job.SetNTasksPerCore
+  fullName: Slurmi.Job.SetNTasksPerCore
+  nameWithType: Job.SetNTasksPerCore
+- uid: Slurmi.Job.SetNTasksPerGPU(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetNTasksPerGPU(FSharpOption<int>)
+  href: api/Slurmi.Job.SetNTasksPerGPU.html#Slurmi_Job_SetNTasksPerGPU_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetNTasksPerGPU(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetNTasksPerGPU(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetNTasksPerGPU(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetNTasksPerGPU(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetNTasksPerGPU(FSharpOption<int>)
+  nameWithType.vb: Job.SetNTasksPerGPU(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetNTasksPerGPU*
+  name: SetNTasksPerGPU
+  href: api/Slurmi.Job.SetNTasksPerGPU.html
+  commentId: Overload:Slurmi.Job.SetNTasksPerGPU
+  fullName: Slurmi.Job.SetNTasksPerGPU
+  nameWithType: Job.SetNTasksPerGPU
+- uid: Slurmi.Job.SetNTasksPerNode(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetNTasksPerNode(FSharpOption<int>)
+  href: api/Slurmi.Job.SetNTasksPerNode.html#Slurmi_Job_SetNTasksPerNode_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetNTasksPerNode(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetNTasksPerNode(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetNTasksPerNode(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetNTasksPerNode(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetNTasksPerNode(FSharpOption<int>)
+  nameWithType.vb: Job.SetNTasksPerNode(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetNTasksPerNode*
+  name: SetNTasksPerNode
+  href: api/Slurmi.Job.SetNTasksPerNode.html
+  commentId: Overload:Slurmi.Job.SetNTasksPerNode
+  fullName: Slurmi.Job.SetNTasksPerNode
+  nameWithType: Job.SetNTasksPerNode
+- uid: Slurmi.Job.SetNTasksPerSocket(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetNTasksPerSocket(FSharpOption<int>)
+  href: api/Slurmi.Job.SetNTasksPerSocket.html#Slurmi_Job_SetNTasksPerSocket_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetNTasksPerSocket(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetNTasksPerSocket(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetNTasksPerSocket(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetNTasksPerSocket(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetNTasksPerSocket(FSharpOption<int>)
+  nameWithType.vb: Job.SetNTasksPerSocket(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetNTasksPerSocket*
+  name: SetNTasksPerSocket
+  href: api/Slurmi.Job.SetNTasksPerSocket.html
+  commentId: Overload:Slurmi.Job.SetNTasksPerSocket
+  fullName: Slurmi.Job.SetNTasksPerSocket
+  nameWithType: Job.SetNTasksPerSocket
+- uid: Slurmi.Job.SetNoRequeue(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetNoRequeue(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetNoRequeue.html#Slurmi_Job_SetNoRequeue_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetNoRequeue(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetNoRequeue(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetNoRequeue(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetNoRequeue(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetNoRequeue(FSharpOption<bool>)
+  nameWithType.vb: Job.SetNoRequeue(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetNoRequeue*
+  name: SetNoRequeue
+  href: api/Slurmi.Job.SetNoRequeue.html
+  commentId: Overload:Slurmi.Job.SetNoRequeue
+  fullName: Slurmi.Job.SetNoRequeue
+  nameWithType: Job.SetNoRequeue
+- uid: Slurmi.Job.SetNode(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetNode(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetNode.html#Slurmi_Job_Job_SetNode_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetNode(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetNode.html#Slurmi_Job_SetNode_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetNode(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetNode(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetNode(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetNode(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetNode(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetNode(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetNode*
+  fullName: Slurmi.Job.SetNode(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetNode(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetNode(FSharpOption<string>)
+  nameWithType.vb: Job.SetNode(FSharpOption(Of String))
+- uid: Slurmi.Job.SetNode*
   name: SetNode
-  href: api/Slurmi.Job.Job.SetNode.html
-  commentId: Overload:Slurmi.Job.Job.SetNode
-  fullName: Slurmi.Job.Job.SetNode
-  nameWithType: Job.Job.SetNode
-- uid: Slurmi.Job.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetNode.html
+  commentId: Overload:Slurmi.Job.SetNode
+  fullName: Slurmi.Job.SetNode
+  nameWithType: Job.SetNode
+- uid: Slurmi.Job.SetNodeFile(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetNodeFile(FSharpOption<string>)
+  href: api/Slurmi.Job.SetNodeFile.html#Slurmi_Job_SetNodeFile_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetNodeFile(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetNodeFile(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetNodeFile(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetNodeFile(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetNodeFile(FSharpOption<string>)
+  nameWithType.vb: Job.SetNodeFile(FSharpOption(Of String))
+- uid: Slurmi.Job.SetNodeFile*
+  name: SetNodeFile
+  href: api/Slurmi.Job.SetNodeFile.html
+  commentId: Overload:Slurmi.Job.SetNodeFile
+  fullName: Slurmi.Job.SetNodeFile
+  nameWithType: Job.SetNodeFile
+- uid: Slurmi.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetOutput(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetOutput.html#Slurmi_Job_Job_SetOutput_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetOutput.html#Slurmi_Job_SetOutput_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetOutput(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetOutput(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetOutput(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetOutput*
+  fullName: Slurmi.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetOutput(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetOutput(FSharpOption<string>)
+  nameWithType.vb: Job.SetOutput(FSharpOption(Of String))
+- uid: Slurmi.Job.SetOutput*
   name: SetOutput
-  href: api/Slurmi.Job.Job.SetOutput.html
-  commentId: Overload:Slurmi.Job.Job.SetOutput
-  fullName: Slurmi.Job.Job.SetOutput
-  nameWithType: Job.Job.SetOutput
-- uid: Slurmi.Job.Job.SetOutputFile(Microsoft.FSharp.Core.FSharpOption{System.String})
-  name: SetOutputFile(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetOutputFile.html#Slurmi_Job_Job_SetOutputFile_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetOutputFile(Microsoft.FSharp.Core.FSharpOption{System.String})
-  name.vb: SetOutputFile(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetOutputFile(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetOutputFile(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetOutputFile(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetOutputFile(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetOutputFile*
-  name: SetOutputFile
-  href: api/Slurmi.Job.Job.SetOutputFile.html
-  commentId: Overload:Slurmi.Job.Job.SetOutputFile
-  fullName: Slurmi.Job.Job.SetOutputFile
-  nameWithType: Job.Job.SetOutputFile
-- uid: Slurmi.Job.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  href: api/Slurmi.Job.SetOutput.html
+  commentId: Overload:Slurmi.Job.SetOutput
+  fullName: Slurmi.Job.SetOutput
+  nameWithType: Job.SetOutput
+- uid: Slurmi.Job.SetOvercommit(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetOvercommit(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetOvercommit.html#Slurmi_Job_SetOvercommit_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetOvercommit(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetOvercommit(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetOvercommit(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetOvercommit(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetOvercommit(FSharpOption<bool>)
+  nameWithType.vb: Job.SetOvercommit(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetOvercommit*
+  name: SetOvercommit
+  href: api/Slurmi.Job.SetOvercommit.html
+  commentId: Overload:Slurmi.Job.SetOvercommit
+  fullName: Slurmi.Job.SetOvercommit
+  nameWithType: Job.SetOvercommit
+- uid: Slurmi.Job.SetOversubscribe(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetOversubscribe(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetOversubscribe.html#Slurmi_Job_SetOversubscribe_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetOversubscribe(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetOversubscribe(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetOversubscribe(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetOversubscribe(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetOversubscribe(FSharpOption<bool>)
+  nameWithType.vb: Job.SetOversubscribe(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetOversubscribe*
+  name: SetOversubscribe
+  href: api/Slurmi.Job.SetOversubscribe.html
+  commentId: Overload:Slurmi.Job.SetOversubscribe
+  fullName: Slurmi.Job.SetOversubscribe
+  nameWithType: Job.SetOversubscribe
+- uid: Slurmi.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
   name: SetParsable(FSharpOption<bool>)
-  href: api/Slurmi.Job.Job.SetParsable.html#Slurmi_Job_Job_SetParsable_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
-  commentId: M:Slurmi.Job.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  href: api/Slurmi.Job.SetParsable.html#Slurmi_Job_SetParsable_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
   name.vb: SetParsable(FSharpOption(Of Boolean))
-  fullName: Slurmi.Job.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption<bool>)
-  fullName.vb: Slurmi.Job.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
-  nameWithType: Job.Job.SetParsable(FSharpOption<bool>)
-  nameWithType.vb: Job.Job.SetParsable(FSharpOption(Of Boolean))
-- uid: Slurmi.Job.Job.SetParsable*
+  fullName: Slurmi.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetParsable(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetParsable(FSharpOption<bool>)
+  nameWithType.vb: Job.SetParsable(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetParsable*
   name: SetParsable
-  href: api/Slurmi.Job.Job.SetParsable.html
-  commentId: Overload:Slurmi.Job.Job.SetParsable
-  fullName: Slurmi.Job.Job.SetParsable
-  nameWithType: Job.Job.SetParsable
-- uid: Slurmi.Job.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetParsable.html
+  commentId: Overload:Slurmi.Job.SetParsable
+  fullName: Slurmi.Job.SetParsable
+  nameWithType: Job.SetParsable
+- uid: Slurmi.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetPartition(FSharpOption<string>)
-  href: api/Slurmi.Job.Job.SetPartition.html#Slurmi_Job_Job_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Job.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Job.SetPartition.html#Slurmi_Job_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetPartition(FSharpOption(Of String))
-  fullName: Slurmi.Job.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Job.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Job.Job.SetPartition(FSharpOption<string>)
-  nameWithType.vb: Job.Job.SetPartition(FSharpOption(Of String))
-- uid: Slurmi.Job.Job.SetPartition*
+  fullName: Slurmi.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetPartition(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetPartition(FSharpOption<string>)
+  nameWithType.vb: Job.SetPartition(FSharpOption(Of String))
+- uid: Slurmi.Job.SetPartition*
   name: SetPartition
-  href: api/Slurmi.Job.Job.SetPartition.html
-  commentId: Overload:Slurmi.Job.Job.SetPartition
-  fullName: Slurmi.Job.Job.SetPartition
-  nameWithType: Job.Job.SetPartition
-- uid: Slurmi.Job.Job.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  href: api/Slurmi.Job.SetPartition.html
+  commentId: Overload:Slurmi.Job.SetPartition
+  fullName: Slurmi.Job.SetPartition
+  nameWithType: Job.SetPartition
+- uid: Slurmi.Job.SetPrefer(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetPrefer(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetPrefer.html#Slurmi_Job_SetPrefer_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetPrefer(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetPrefer(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetPrefer(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetPrefer(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetPrefer(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetPrefer(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetPrefer*
+  name: SetPrefer
+  href: api/Slurmi.Job.SetPrefer.html
+  commentId: Overload:Slurmi.Job.SetPrefer
+  fullName: Slurmi.Job.SetPrefer
+  nameWithType: Job.SetPrefer
+- uid: Slurmi.Job.SetQuiet(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetQuiet(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetQuiet.html#Slurmi_Job_SetQuiet_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetQuiet(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetQuiet(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetQuiet(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetQuiet(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetQuiet(FSharpOption<bool>)
+  nameWithType.vb: Job.SetQuiet(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetQuiet*
+  name: SetQuiet
+  href: api/Slurmi.Job.SetQuiet.html
+  commentId: Overload:Slurmi.Job.SetQuiet
+  fullName: Slurmi.Job.SetQuiet
+  nameWithType: Job.SetQuiet
+- uid: Slurmi.Job.SetReboot(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetReboot(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetReboot.html#Slurmi_Job_SetReboot_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetReboot(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetReboot(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetReboot(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetReboot(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetReboot(FSharpOption<bool>)
+  nameWithType.vb: Job.SetReboot(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetReboot*
+  name: SetReboot
+  href: api/Slurmi.Job.SetReboot.html
+  commentId: Overload:Slurmi.Job.SetReboot
+  fullName: Slurmi.Job.SetReboot
+  nameWithType: Job.SetReboot
+- uid: Slurmi.Job.SetRequeue(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetRequeue(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetRequeue.html#Slurmi_Job_SetRequeue_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetRequeue(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetRequeue(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetRequeue(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetRequeue(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetRequeue(FSharpOption<bool>)
+  nameWithType.vb: Job.SetRequeue(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetRequeue*
+  name: SetRequeue
+  href: api/Slurmi.Job.SetRequeue.html
+  commentId: Overload:Slurmi.Job.SetRequeue
+  fullName: Slurmi.Job.SetRequeue
+  nameWithType: Job.SetRequeue
+- uid: Slurmi.Job.SetReservation(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetReservation(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetReservation.html#Slurmi_Job_SetReservation_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetReservation(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetReservation(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetReservation(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetReservation(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetReservation(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetReservation(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetReservation*
+  name: SetReservation
+  href: api/Slurmi.Job.SetReservation.html
+  commentId: Overload:Slurmi.Job.SetReservation
+  fullName: Slurmi.Job.SetReservation
+  nameWithType: Job.SetReservation
+- uid: Slurmi.Job.SetSocketsPerNode(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetSocketsPerNode(FSharpOption<int>)
+  href: api/Slurmi.Job.SetSocketsPerNode.html#Slurmi_Job_SetSocketsPerNode_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetSocketsPerNode(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetSocketsPerNode(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetSocketsPerNode(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetSocketsPerNode(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetSocketsPerNode(FSharpOption<int>)
+  nameWithType.vb: Job.SetSocketsPerNode(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetSocketsPerNode*
+  name: SetSocketsPerNode
+  href: api/Slurmi.Job.SetSocketsPerNode.html
+  commentId: Overload:Slurmi.Job.SetSocketsPerNode
+  fullName: Slurmi.Job.SetSocketsPerNode
+  nameWithType: Job.SetSocketsPerNode
+- uid: Slurmi.Job.SetSpezializedCores(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetSpezializedCores(FSharpOption<int>)
+  href: api/Slurmi.Job.SetSpezializedCores.html#Slurmi_Job_SetSpezializedCores_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetSpezializedCores(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetSpezializedCores(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetSpezializedCores(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetSpezializedCores(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetSpezializedCores(FSharpOption<int>)
+  nameWithType.vb: Job.SetSpezializedCores(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetSpezializedCores*
+  name: SetSpezializedCores
+  href: api/Slurmi.Job.SetSpezializedCores.html
+  commentId: Overload:Slurmi.Job.SetSpezializedCores
+  fullName: Slurmi.Job.SetSpezializedCores
+  nameWithType: Job.SetSpezializedCores
+- uid: Slurmi.Job.SetSpreadJob(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetSpreadJob(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetSpreadJob.html#Slurmi_Job_SetSpreadJob_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetSpreadJob(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetSpreadJob(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetSpreadJob(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetSpreadJob(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetSpreadJob(FSharpOption<bool>)
+  nameWithType.vb: Job.SetSpreadJob(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetSpreadJob*
+  name: SetSpreadJob
+  href: api/Slurmi.Job.SetSpreadJob.html
+  commentId: Overload:Slurmi.Job.SetSpreadJob
+  fullName: Slurmi.Job.SetSpreadJob
+  nameWithType: Job.SetSpreadJob
+- uid: Slurmi.Job.SetTestOnly(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetTestOnly(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetTestOnly.html#Slurmi_Job_SetTestOnly_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetTestOnly(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetTestOnly(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetTestOnly(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetTestOnly(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetTestOnly(FSharpOption<bool>)
+  nameWithType.vb: Job.SetTestOnly(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetTestOnly*
+  name: SetTestOnly
+  href: api/Slurmi.Job.SetTestOnly.html
+  commentId: Overload:Slurmi.Job.SetTestOnly
+  fullName: Slurmi.Job.SetTestOnly
+  nameWithType: Job.SetTestOnly
+- uid: Slurmi.Job.SetThreadSpec(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetThreadSpec(FSharpOption<int>)
+  href: api/Slurmi.Job.SetThreadSpec.html#Slurmi_Job_SetThreadSpec_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetThreadSpec(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetThreadSpec(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetThreadSpec(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetThreadSpec(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetThreadSpec(FSharpOption<int>)
+  nameWithType.vb: Job.SetThreadSpec(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetThreadSpec*
+  name: SetThreadSpec
+  href: api/Slurmi.Job.SetThreadSpec.html
+  commentId: Overload:Slurmi.Job.SetThreadSpec
+  fullName: Slurmi.Job.SetThreadSpec
+  nameWithType: Job.SetThreadSpec
+- uid: Slurmi.Job.SetThreadsPerCore(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name: SetThreadsPerCore(FSharpOption<int>)
+  href: api/Slurmi.Job.SetThreadsPerCore.html#Slurmi_Job_SetThreadsPerCore_Microsoft_FSharp_Core_FSharpOption_System_Int32__
+  commentId: M:Slurmi.Job.SetThreadsPerCore(Microsoft.FSharp.Core.FSharpOption{System.Int32})
+  name.vb: SetThreadsPerCore(FSharpOption(Of Integer))
+  fullName: Slurmi.Job.SetThreadsPerCore(Microsoft.FSharp.Core.FSharpOption<int>)
+  fullName.vb: Slurmi.Job.SetThreadsPerCore(Microsoft.FSharp.Core.FSharpOption(Of Integer))
+  nameWithType: Job.SetThreadsPerCore(FSharpOption<int>)
+  nameWithType.vb: Job.SetThreadsPerCore(FSharpOption(Of Integer))
+- uid: Slurmi.Job.SetThreadsPerCore*
+  name: SetThreadsPerCore
+  href: api/Slurmi.Job.SetThreadsPerCore.html
+  commentId: Overload:Slurmi.Job.SetThreadsPerCore
+  fullName: Slurmi.Job.SetThreadsPerCore
+  nameWithType: Job.SetThreadsPerCore
+- uid: Slurmi.Job.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
   name: SetTime(FSharpOption<Tuple<int, int, int, int>>)
-  href: api/Slurmi.Job.Job.SetTime.html#Slurmi_Job_Job_SetTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___
-  commentId: M:Slurmi.Job.Job.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  href: api/Slurmi.Job.SetTime.html#Slurmi_Job_SetTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___
+  commentId: M:Slurmi.Job.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
   name.vb: SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
-  fullName: Slurmi.Job.Job.SetTime(Microsoft.FSharp.Core.FSharpOption<System.Tuple<int, int, int, int>>)
-  fullName.vb: Slurmi.Job.Job.SetTime(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Integer, Integer, Integer, Integer)))
-  nameWithType: Job.Job.SetTime(FSharpOption<Tuple<int, int, int, int>>)
-  nameWithType.vb: Job.Job.SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
-- uid: Slurmi.Job.Job.SetTime*
+  fullName: Slurmi.Job.SetTime(Microsoft.FSharp.Core.FSharpOption<System.Tuple<int, int, int, int>>)
+  fullName.vb: Slurmi.Job.SetTime(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Integer, Integer, Integer, Integer)))
+  nameWithType: Job.SetTime(FSharpOption<Tuple<int, int, int, int>>)
+  nameWithType.vb: Job.SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
+- uid: Slurmi.Job.SetTime*
   name: SetTime
-  href: api/Slurmi.Job.Job.SetTime.html
-  commentId: Overload:Slurmi.Job.Job.SetTime
-  fullName: Slurmi.Job.Job.SetTime
-  nameWithType: Job.Job.SetTime
-- uid: Slurmi.Job.Job.tryGetCPUsPerTask(Slurmi.Job.Job)
-  name: tryGetCPUsPerTask(Job)
-  href: api/Slurmi.Job.Job.tryGetCPUsPerTask.html#Slurmi_Job_Job_tryGetCPUsPerTask_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetCPUsPerTask(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetCPUsPerTask(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetCPUsPerTask(Job.Job)
-- uid: Slurmi.Job.Job.tryGetCPUsPerTask*
-  name: tryGetCPUsPerTask
-  href: api/Slurmi.Job.Job.tryGetCPUsPerTask.html
-  commentId: Overload:Slurmi.Job.Job.tryGetCPUsPerTask
-  fullName: Slurmi.Job.Job.tryGetCPUsPerTask
-  nameWithType: Job.Job.tryGetCPUsPerTask
-- uid: Slurmi.Job.Job.tryGetDependency(Slurmi.Job.Job)
-  name: tryGetDependency(Job)
-  href: api/Slurmi.Job.Job.tryGetDependency.html#Slurmi_Job_Job_tryGetDependency_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetDependency(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetDependency(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetDependency(Job.Job)
-- uid: Slurmi.Job.Job.tryGetDependency*
-  name: tryGetDependency
-  href: api/Slurmi.Job.Job.tryGetDependency.html
-  commentId: Overload:Slurmi.Job.Job.tryGetDependency
-  fullName: Slurmi.Job.Job.tryGetDependency
-  nameWithType: Job.Job.tryGetDependency
-- uid: Slurmi.Job.Job.tryGetEnvironment(Slurmi.Job.Job)
-  name: tryGetEnvironment(Job)
-  href: api/Slurmi.Job.Job.tryGetEnvironment.html#Slurmi_Job_Job_tryGetEnvironment_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetEnvironment(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetEnvironment(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetEnvironment(Job.Job)
-- uid: Slurmi.Job.Job.tryGetEnvironment*
-  name: tryGetEnvironment
-  href: api/Slurmi.Job.Job.tryGetEnvironment.html
-  commentId: Overload:Slurmi.Job.Job.tryGetEnvironment
-  fullName: Slurmi.Job.Job.tryGetEnvironment
-  nameWithType: Job.Job.tryGetEnvironment
-- uid: Slurmi.Job.Job.tryGetError(Slurmi.Job.Job)
-  name: tryGetError(Job)
-  href: api/Slurmi.Job.Job.tryGetError.html#Slurmi_Job_Job_tryGetError_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetError(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetError(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetError(Job.Job)
-- uid: Slurmi.Job.Job.tryGetError*
-  name: tryGetError
-  href: api/Slurmi.Job.Job.tryGetError.html
-  commentId: Overload:Slurmi.Job.Job.tryGetError
-  fullName: Slurmi.Job.Job.tryGetError
-  nameWithType: Job.Job.tryGetError
-- uid: Slurmi.Job.Job.tryGetFileName(Slurmi.Job.Job)
-  name: tryGetFileName(Job)
-  href: api/Slurmi.Job.Job.tryGetFileName.html#Slurmi_Job_Job_tryGetFileName_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetFileName(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetFileName(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetFileName(Job.Job)
-- uid: Slurmi.Job.Job.tryGetFileName*
-  name: tryGetFileName
-  href: api/Slurmi.Job.Job.tryGetFileName.html
-  commentId: Overload:Slurmi.Job.Job.tryGetFileName
-  fullName: Slurmi.Job.Job.tryGetFileName
-  nameWithType: Job.Job.tryGetFileName
-- uid: Slurmi.Job.Job.tryGetJobID(Slurmi.Job.Job)
-  name: tryGetJobID(Job)
-  href: api/Slurmi.Job.Job.tryGetJobID.html#Slurmi_Job_Job_tryGetJobID_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetJobID(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetJobID(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetJobID(Job.Job)
-- uid: Slurmi.Job.Job.tryGetJobID*
-  name: tryGetJobID
-  href: api/Slurmi.Job.Job.tryGetJobID.html
-  commentId: Overload:Slurmi.Job.Job.tryGetJobID
-  fullName: Slurmi.Job.Job.tryGetJobID
-  nameWithType: Job.Job.tryGetJobID
-- uid: Slurmi.Job.Job.tryGetMemory(Slurmi.Job.Job)
-  name: tryGetMemory(Job)
-  href: api/Slurmi.Job.Job.tryGetMemory.html#Slurmi_Job_Job_tryGetMemory_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetMemory(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetMemory(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetMemory(Job.Job)
-- uid: Slurmi.Job.Job.tryGetMemory*
-  name: tryGetMemory
-  href: api/Slurmi.Job.Job.tryGetMemory.html
-  commentId: Overload:Slurmi.Job.Job.tryGetMemory
-  fullName: Slurmi.Job.Job.tryGetMemory
-  nameWithType: Job.Job.tryGetMemory
-- uid: Slurmi.Job.Job.tryGetNTasks(Slurmi.Job.Job)
-  name: tryGetNTasks(Job)
-  href: api/Slurmi.Job.Job.tryGetNTasks.html#Slurmi_Job_Job_tryGetNTasks_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetNTasks(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetNTasks(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetNTasks(Job.Job)
-- uid: Slurmi.Job.Job.tryGetNTasks*
-  name: tryGetNTasks
-  href: api/Slurmi.Job.Job.tryGetNTasks.html
-  commentId: Overload:Slurmi.Job.Job.tryGetNTasks
-  fullName: Slurmi.Job.Job.tryGetNTasks
-  nameWithType: Job.Job.tryGetNTasks
-- uid: Slurmi.Job.Job.tryGetNode(Slurmi.Job.Job)
-  name: tryGetNode(Job)
-  href: api/Slurmi.Job.Job.tryGetNode.html#Slurmi_Job_Job_tryGetNode_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetNode(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetNode(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetNode(Job.Job)
-- uid: Slurmi.Job.Job.tryGetNode*
-  name: tryGetNode
-  href: api/Slurmi.Job.Job.tryGetNode.html
-  commentId: Overload:Slurmi.Job.Job.tryGetNode
-  fullName: Slurmi.Job.Job.tryGetNode
-  nameWithType: Job.Job.tryGetNode
-- uid: Slurmi.Job.Job.tryGetOutput(Slurmi.Job.Job)
-  name: tryGetOutput(Job)
-  href: api/Slurmi.Job.Job.tryGetOutput.html#Slurmi_Job_Job_tryGetOutput_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetOutput(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetOutput(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetOutput(Job.Job)
-- uid: Slurmi.Job.Job.tryGetOutput*
-  name: tryGetOutput
-  href: api/Slurmi.Job.Job.tryGetOutput.html
-  commentId: Overload:Slurmi.Job.Job.tryGetOutput
-  fullName: Slurmi.Job.Job.tryGetOutput
-  nameWithType: Job.Job.tryGetOutput
-- uid: Slurmi.Job.Job.tryGetOutputFile(Slurmi.Job.Job)
-  name: tryGetOutputFile(Job)
-  href: api/Slurmi.Job.Job.tryGetOutputFile.html#Slurmi_Job_Job_tryGetOutputFile_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetOutputFile(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetOutputFile(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetOutputFile(Job.Job)
-- uid: Slurmi.Job.Job.tryGetOutputFile*
-  name: tryGetOutputFile
-  href: api/Slurmi.Job.Job.tryGetOutputFile.html
-  commentId: Overload:Slurmi.Job.Job.tryGetOutputFile
-  fullName: Slurmi.Job.Job.tryGetOutputFile
-  nameWithType: Job.Job.tryGetOutputFile
-- uid: Slurmi.Job.Job.tryGetParsable(Slurmi.Job.Job)
-  name: tryGetParsable(Job)
-  href: api/Slurmi.Job.Job.tryGetParsable.html#Slurmi_Job_Job_tryGetParsable_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetParsable(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetParsable(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetParsable(Job.Job)
-- uid: Slurmi.Job.Job.tryGetParsable*
-  name: tryGetParsable
-  href: api/Slurmi.Job.Job.tryGetParsable.html
-  commentId: Overload:Slurmi.Job.Job.tryGetParsable
-  fullName: Slurmi.Job.Job.tryGetParsable
-  nameWithType: Job.Job.tryGetParsable
-- uid: Slurmi.Job.Job.tryGetPartition(Slurmi.Job.Job)
-  name: tryGetPartition(Job)
-  href: api/Slurmi.Job.Job.tryGetPartition.html#Slurmi_Job_Job_tryGetPartition_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetPartition(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetPartition(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetPartition(Job.Job)
-- uid: Slurmi.Job.Job.tryGetPartition*
-  name: tryGetPartition
-  href: api/Slurmi.Job.Job.tryGetPartition.html
-  commentId: Overload:Slurmi.Job.Job.tryGetPartition
-  fullName: Slurmi.Job.Job.tryGetPartition
-  nameWithType: Job.Job.tryGetPartition
-- uid: Slurmi.Job.Job.tryGetTime(Slurmi.Job.Job)
-  name: tryGetTime(Job)
-  href: api/Slurmi.Job.Job.tryGetTime.html#Slurmi_Job_Job_tryGetTime_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.Job.tryGetTime(Slurmi.Job.Job)
-  fullName: Slurmi.Job.Job.tryGetTime(Slurmi.Job.Job)
-  nameWithType: Job.Job.tryGetTime(Job.Job)
-- uid: Slurmi.Job.Job.tryGetTime*
-  name: tryGetTime
-  href: api/Slurmi.Job.Job.tryGetTime.html
-  commentId: Overload:Slurmi.Job.Job.tryGetTime
-  fullName: Slurmi.Job.Job.tryGetTime
-  nameWithType: Job.Job.tryGetTime
-- uid: Slurmi.Job.commands(Slurmi.Job.Job)
-  name: commands(Job)
-  href: api/Slurmi.Job.commands.html#Slurmi_Job_commands_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.commands(Slurmi.Job.Job)
-  fullName: Slurmi.Job.commands(Slurmi.Job.Job)
-  nameWithType: Job.commands(Job.Job)
-- uid: Slurmi.Job.commands*
-  name: commands
-  href: api/Slurmi.Job.commands.html
-  commentId: Overload:Slurmi.Job.commands
-  fullName: Slurmi.Job.commands
-  nameWithType: Job.commands
-- uid: Slurmi.Job.createJobscript(Slurmi.Job.Job)
+  href: api/Slurmi.Job.SetTime.html
+  commentId: Overload:Slurmi.Job.SetTime
+  fullName: Slurmi.Job.SetTime
+  nameWithType: Job.SetTime
+- uid: Slurmi.Job.SetUseMinNodes(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetUseMinNodes(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetUseMinNodes.html#Slurmi_Job_SetUseMinNodes_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetUseMinNodes(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetUseMinNodes(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetUseMinNodes(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetUseMinNodes(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetUseMinNodes(FSharpOption<bool>)
+  nameWithType.vb: Job.SetUseMinNodes(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetUseMinNodes*
+  name: SetUseMinNodes
+  href: api/Slurmi.Job.SetUseMinNodes.html
+  commentId: Overload:Slurmi.Job.SetUseMinNodes
+  fullName: Slurmi.Job.SetUseMinNodes
+  nameWithType: Job.SetUseMinNodes
+- uid: Slurmi.Job.SetUserID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetUserID(FSharpOption<string>)
+  href: api/Slurmi.Job.SetUserID.html#Slurmi_Job_SetUserID_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetUserID(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetUserID(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetUserID(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetUserID(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetUserID(FSharpOption<string>)
+  nameWithType.vb: Job.SetUserID(FSharpOption(Of String))
+- uid: Slurmi.Job.SetUserID*
+  name: SetUserID
+  href: api/Slurmi.Job.SetUserID.html
+  commentId: Overload:Slurmi.Job.SetUserID
+  fullName: Slurmi.Job.SetUserID
+  nameWithType: Job.SetUserID
+- uid: Slurmi.Job.SetVerbose(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetVerbose(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetVerbose.html#Slurmi_Job_SetVerbose_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetVerbose(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetVerbose(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetVerbose(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetVerbose(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetVerbose(FSharpOption<bool>)
+  nameWithType.vb: Job.SetVerbose(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetVerbose*
+  name: SetVerbose
+  href: api/Slurmi.Job.SetVerbose.html
+  commentId: Overload:Slurmi.Job.SetVerbose
+  fullName: Slurmi.Job.SetVerbose
+  nameWithType: Job.SetVerbose
+- uid: Slurmi.Job.SetWait(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetWait(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetWait.html#Slurmi_Job_SetWait_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetWait(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetWait(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetWait(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetWait(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetWait(FSharpOption<bool>)
+  nameWithType.vb: Job.SetWait(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetWait*
+  name: SetWait
+  href: api/Slurmi.Job.SetWait.html
+  commentId: Overload:Slurmi.Job.SetWait
+  fullName: Slurmi.Job.SetWait
+  nameWithType: Job.SetWait
+- uid: Slurmi.Job.SetWaitAllNodes(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name: SetWaitAllNodes(FSharpOption<bool>)
+  href: api/Slurmi.Job.SetWaitAllNodes.html#Slurmi_Job_SetWaitAllNodes_Microsoft_FSharp_Core_FSharpOption_System_Boolean__
+  commentId: M:Slurmi.Job.SetWaitAllNodes(Microsoft.FSharp.Core.FSharpOption{System.Boolean})
+  name.vb: SetWaitAllNodes(FSharpOption(Of Boolean))
+  fullName: Slurmi.Job.SetWaitAllNodes(Microsoft.FSharp.Core.FSharpOption<bool>)
+  fullName.vb: Slurmi.Job.SetWaitAllNodes(Microsoft.FSharp.Core.FSharpOption(Of Boolean))
+  nameWithType: Job.SetWaitAllNodes(FSharpOption<bool>)
+  nameWithType.vb: Job.SetWaitAllNodes(FSharpOption(Of Boolean))
+- uid: Slurmi.Job.SetWaitAllNodes*
+  name: SetWaitAllNodes
+  href: api/Slurmi.Job.SetWaitAllNodes.html
+  commentId: Overload:Slurmi.Job.SetWaitAllNodes
+  fullName: Slurmi.Job.SetWaitAllNodes
+  nameWithType: Job.SetWaitAllNodes
+- uid: Slurmi.Job.SetWorkingDirectory(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name: SetWorkingDirectory(FSharpOption<string>)
+  href: api/Slurmi.Job.SetWorkingDirectory.html#Slurmi_Job_SetWorkingDirectory_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Job.SetWorkingDirectory(Microsoft.FSharp.Core.FSharpOption{System.String})
+  name.vb: SetWorkingDirectory(FSharpOption(Of String))
+  fullName: Slurmi.Job.SetWorkingDirectory(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Job.SetWorkingDirectory(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Job.SetWorkingDirectory(FSharpOption<string>)
+  nameWithType.vb: Job.SetWorkingDirectory(FSharpOption(Of String))
+- uid: Slurmi.Job.SetWorkingDirectory*
+  name: SetWorkingDirectory
+  href: api/Slurmi.Job.SetWorkingDirectory.html
+  commentId: Overload:Slurmi.Job.SetWorkingDirectory
+  fullName: Slurmi.Job.SetWorkingDirectory
+  nameWithType: Job.SetWorkingDirectory
+- uid: Slurmi.Job.SetWrap(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name: SetWrap(FSharpOption<FSharpList<string>>)
+  href: api/Slurmi.Job.SetWrap.html#Slurmi_Job_SetWrap_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___
+  commentId: M:Slurmi.Job.SetWrap(Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{System.String}})
+  name.vb: SetWrap(FSharpOption(Of FSharpList(Of String)))
+  fullName: Slurmi.Job.SetWrap(Microsoft.FSharp.Core.FSharpOption<Microsoft.FSharp.Collections.FSharpList<string>>)
+  fullName.vb: Slurmi.Job.SetWrap(Microsoft.FSharp.Core.FSharpOption(Of Microsoft.FSharp.Collections.FSharpList(Of String)))
+  nameWithType: Job.SetWrap(FSharpOption<FSharpList<string>>)
+  nameWithType.vb: Job.SetWrap(FSharpOption(Of FSharpList(Of String)))
+- uid: Slurmi.Job.SetWrap*
+  name: SetWrap
+  href: api/Slurmi.Job.SetWrap.html
+  commentId: Overload:Slurmi.Job.SetWrap
+  fullName: Slurmi.Job.SetWrap
+  nameWithType: Job.SetWrap
+- uid: Slurmi.Job.createJobscript(Slurmi.Job)
   name: createJobscript(Job)
-  href: api/Slurmi.Job.createJobscript.html#Slurmi_Job_createJobscript_Slurmi_Job_Job_
-  commentId: M:Slurmi.Job.createJobscript(Slurmi.Job.Job)
-  fullName: Slurmi.Job.createJobscript(Slurmi.Job.Job)
-  nameWithType: Job.createJobscript(Job.Job)
+  href: api/Slurmi.Job.createJobscript.html#Slurmi_Job_createJobscript_Slurmi_Job_
+  commentId: M:Slurmi.Job.createJobscript(Slurmi.Job)
+  fullName: Slurmi.Job.createJobscript(Slurmi.Job)
+  nameWithType: Job.createJobscript(Job)
 - uid: Slurmi.Job.createJobscript*
   name: createJobscript
   href: api/Slurmi.Job.createJobscript.html
   commentId: Overload:Slurmi.Job.createJobscript
   fullName: Slurmi.Job.createJobscript
   nameWithType: Job.createJobscript
-- uid: Slurmi.Job.formatTime(System.Int32,System.Int32,System.Int32,System.Int32)
-  name: formatTime(int, int, int, int)
-  href: api/Slurmi.Job.formatTime.html#Slurmi_Job_formatTime_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:Slurmi.Job.formatTime(System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: formatTime(Integer, Integer, Integer, Integer)
-  fullName: Slurmi.Job.formatTime(int, int, int, int)
-  fullName.vb: Slurmi.Job.formatTime(Integer, Integer, Integer, Integer)
-  nameWithType: Job.formatTime(int, int, int, int)
-  nameWithType.vb: Job.formatTime(Integer, Integer, Integer, Integer)
+- uid: Slurmi.Job.formatTime(System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32})
+  name: formatTime(Tuple<int, int, int, int>)
+  href: api/Slurmi.Job.formatTime.html#Slurmi_Job_formatTime_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32__
+  commentId: M:Slurmi.Job.formatTime(System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32})
+  name.vb: formatTime(Tuple(Of Integer, Integer, Integer, Integer))
+  fullName: Slurmi.Job.formatTime(System.Tuple<int, int, int, int>)
+  fullName.vb: Slurmi.Job.formatTime(System.Tuple(Of Integer, Integer, Integer, Integer))
+  nameWithType: Job.formatTime(Tuple<int, int, int, int>)
+  nameWithType.vb: Job.formatTime(Tuple(Of Integer, Integer, Integer, Integer))
 - uid: Slurmi.Job.formatTime*
   name: formatTime
   href: api/Slurmi.Job.formatTime.html
@@ -1048,6 +1576,750 @@ references:
   commentId: Overload:Slurmi.Job.ifOnlyOneDigit
   fullName: Slurmi.Job.ifOnlyOneDigit
   nameWithType: Job.ifOnlyOneDigit
+- uid: Slurmi.Job.tryGetAccount(Slurmi.Job)
+  name: tryGetAccount(Job)
+  href: api/Slurmi.Job.tryGetAccount.html#Slurmi_Job_tryGetAccount_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetAccount(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetAccount(Slurmi.Job)
+  nameWithType: Job.tryGetAccount(Job)
+- uid: Slurmi.Job.tryGetAccount*
+  name: tryGetAccount
+  href: api/Slurmi.Job.tryGetAccount.html
+  commentId: Overload:Slurmi.Job.tryGetAccount
+  fullName: Slurmi.Job.tryGetAccount
+  nameWithType: Job.tryGetAccount
+- uid: Slurmi.Job.tryGetBatch(Slurmi.Job)
+  name: tryGetBatch(Job)
+  href: api/Slurmi.Job.tryGetBatch.html#Slurmi_Job_tryGetBatch_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetBatch(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetBatch(Slurmi.Job)
+  nameWithType: Job.tryGetBatch(Job)
+- uid: Slurmi.Job.tryGetBatch*
+  name: tryGetBatch
+  href: api/Slurmi.Job.tryGetBatch.html
+  commentId: Overload:Slurmi.Job.tryGetBatch
+  fullName: Slurmi.Job.tryGetBatch
+  nameWithType: Job.tryGetBatch
+- uid: Slurmi.Job.tryGetBurstBufferSpecification(Slurmi.Job)
+  name: tryGetBurstBufferSpecification(Job)
+  href: api/Slurmi.Job.tryGetBurstBufferSpecification.html#Slurmi_Job_tryGetBurstBufferSpecification_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetBurstBufferSpecification(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetBurstBufferSpecification(Slurmi.Job)
+  nameWithType: Job.tryGetBurstBufferSpecification(Job)
+- uid: Slurmi.Job.tryGetBurstBufferSpecification*
+  name: tryGetBurstBufferSpecification
+  href: api/Slurmi.Job.tryGetBurstBufferSpecification.html
+  commentId: Overload:Slurmi.Job.tryGetBurstBufferSpecification
+  fullName: Slurmi.Job.tryGetBurstBufferSpecification
+  nameWithType: Job.tryGetBurstBufferSpecification
+- uid: Slurmi.Job.tryGetBurstBufferSpecificationFilePath(Slurmi.Job)
+  name: tryGetBurstBufferSpecificationFilePath(Job)
+  href: api/Slurmi.Job.tryGetBurstBufferSpecificationFilePath.html#Slurmi_Job_tryGetBurstBufferSpecificationFilePath_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetBurstBufferSpecificationFilePath(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetBurstBufferSpecificationFilePath(Slurmi.Job)
+  nameWithType: Job.tryGetBurstBufferSpecificationFilePath(Job)
+- uid: Slurmi.Job.tryGetBurstBufferSpecificationFilePath*
+  name: tryGetBurstBufferSpecificationFilePath
+  href: api/Slurmi.Job.tryGetBurstBufferSpecificationFilePath.html
+  commentId: Overload:Slurmi.Job.tryGetBurstBufferSpecificationFilePath
+  fullName: Slurmi.Job.tryGetBurstBufferSpecificationFilePath
+  nameWithType: Job.tryGetBurstBufferSpecificationFilePath
+- uid: Slurmi.Job.tryGetCPUsPerGPU(Slurmi.Job)
+  name: tryGetCPUsPerGPU(Job)
+  href: api/Slurmi.Job.tryGetCPUsPerGPU.html#Slurmi_Job_tryGetCPUsPerGPU_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetCPUsPerGPU(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetCPUsPerGPU(Slurmi.Job)
+  nameWithType: Job.tryGetCPUsPerGPU(Job)
+- uid: Slurmi.Job.tryGetCPUsPerGPU*
+  name: tryGetCPUsPerGPU
+  href: api/Slurmi.Job.tryGetCPUsPerGPU.html
+  commentId: Overload:Slurmi.Job.tryGetCPUsPerGPU
+  fullName: Slurmi.Job.tryGetCPUsPerGPU
+  nameWithType: Job.tryGetCPUsPerGPU
+- uid: Slurmi.Job.tryGetCPUsPerTask(Slurmi.Job)
+  name: tryGetCPUsPerTask(Job)
+  href: api/Slurmi.Job.tryGetCPUsPerTask.html#Slurmi_Job_tryGetCPUsPerTask_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetCPUsPerTask(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetCPUsPerTask(Slurmi.Job)
+  nameWithType: Job.tryGetCPUsPerTask(Job)
+- uid: Slurmi.Job.tryGetCPUsPerTask*
+  name: tryGetCPUsPerTask
+  href: api/Slurmi.Job.tryGetCPUsPerTask.html
+  commentId: Overload:Slurmi.Job.tryGetCPUsPerTask
+  fullName: Slurmi.Job.tryGetCPUsPerTask
+  nameWithType: Job.tryGetCPUsPerTask
+- uid: Slurmi.Job.tryGetClusters(Slurmi.Job)
+  name: tryGetClusters(Job)
+  href: api/Slurmi.Job.tryGetClusters.html#Slurmi_Job_tryGetClusters_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetClusters(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetClusters(Slurmi.Job)
+  nameWithType: Job.tryGetClusters(Job)
+- uid: Slurmi.Job.tryGetClusters*
+  name: tryGetClusters
+  href: api/Slurmi.Job.tryGetClusters.html
+  commentId: Overload:Slurmi.Job.tryGetClusters
+  fullName: Slurmi.Job.tryGetClusters
+  nameWithType: Job.tryGetClusters
+- uid: Slurmi.Job.tryGetComment(Slurmi.Job)
+  name: tryGetComment(Job)
+  href: api/Slurmi.Job.tryGetComment.html#Slurmi_Job_tryGetComment_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetComment(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetComment(Slurmi.Job)
+  nameWithType: Job.tryGetComment(Job)
+- uid: Slurmi.Job.tryGetComment*
+  name: tryGetComment
+  href: api/Slurmi.Job.tryGetComment.html
+  commentId: Overload:Slurmi.Job.tryGetComment
+  fullName: Slurmi.Job.tryGetComment
+  nameWithType: Job.tryGetComment
+- uid: Slurmi.Job.tryGetContainer(Slurmi.Job)
+  name: tryGetContainer(Job)
+  href: api/Slurmi.Job.tryGetContainer.html#Slurmi_Job_tryGetContainer_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetContainer(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetContainer(Slurmi.Job)
+  nameWithType: Job.tryGetContainer(Job)
+- uid: Slurmi.Job.tryGetContainer*
+  name: tryGetContainer
+  href: api/Slurmi.Job.tryGetContainer.html
+  commentId: Overload:Slurmi.Job.tryGetContainer
+  fullName: Slurmi.Job.tryGetContainer
+  nameWithType: Job.tryGetContainer
+- uid: Slurmi.Job.tryGetContainerID(Slurmi.Job)
+  name: tryGetContainerID(Job)
+  href: api/Slurmi.Job.tryGetContainerID.html#Slurmi_Job_tryGetContainerID_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetContainerID(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetContainerID(Slurmi.Job)
+  nameWithType: Job.tryGetContainerID(Job)
+- uid: Slurmi.Job.tryGetContainerID*
+  name: tryGetContainerID
+  href: api/Slurmi.Job.tryGetContainerID.html
+  commentId: Overload:Slurmi.Job.tryGetContainerID
+  fullName: Slurmi.Job.tryGetContainerID
+  nameWithType: Job.tryGetContainerID
+- uid: Slurmi.Job.tryGetContiguous(Slurmi.Job)
+  name: tryGetContiguous(Job)
+  href: api/Slurmi.Job.tryGetContiguous.html#Slurmi_Job_tryGetContiguous_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetContiguous(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetContiguous(Slurmi.Job)
+  nameWithType: Job.tryGetContiguous(Job)
+- uid: Slurmi.Job.tryGetContiguous*
+  name: tryGetContiguous
+  href: api/Slurmi.Job.tryGetContiguous.html
+  commentId: Overload:Slurmi.Job.tryGetContiguous
+  fullName: Slurmi.Job.tryGetContiguous
+  nameWithType: Job.tryGetContiguous
+- uid: Slurmi.Job.tryGetCoresPerSocket(Slurmi.Job)
+  name: tryGetCoresPerSocket(Job)
+  href: api/Slurmi.Job.tryGetCoresPerSocket.html#Slurmi_Job_tryGetCoresPerSocket_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetCoresPerSocket(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetCoresPerSocket(Slurmi.Job)
+  nameWithType: Job.tryGetCoresPerSocket(Job)
+- uid: Slurmi.Job.tryGetCoresPerSocket*
+  name: tryGetCoresPerSocket
+  href: api/Slurmi.Job.tryGetCoresPerSocket.html
+  commentId: Overload:Slurmi.Job.tryGetCoresPerSocket
+  fullName: Slurmi.Job.tryGetCoresPerSocket
+  nameWithType: Job.tryGetCoresPerSocket
+- uid: Slurmi.Job.tryGetDelayBoot(Slurmi.Job)
+  name: tryGetDelayBoot(Job)
+  href: api/Slurmi.Job.tryGetDelayBoot.html#Slurmi_Job_tryGetDelayBoot_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetDelayBoot(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetDelayBoot(Slurmi.Job)
+  nameWithType: Job.tryGetDelayBoot(Job)
+- uid: Slurmi.Job.tryGetDelayBoot*
+  name: tryGetDelayBoot
+  href: api/Slurmi.Job.tryGetDelayBoot.html
+  commentId: Overload:Slurmi.Job.tryGetDelayBoot
+  fullName: Slurmi.Job.tryGetDelayBoot
+  nameWithType: Job.tryGetDelayBoot
+- uid: Slurmi.Job.tryGetDependency(Slurmi.Job)
+  name: tryGetDependency(Job)
+  href: api/Slurmi.Job.tryGetDependency.html#Slurmi_Job_tryGetDependency_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetDependency(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetDependency(Slurmi.Job)
+  nameWithType: Job.tryGetDependency(Job)
+- uid: Slurmi.Job.tryGetDependency*
+  name: tryGetDependency
+  href: api/Slurmi.Job.tryGetDependency.html
+  commentId: Overload:Slurmi.Job.tryGetDependency
+  fullName: Slurmi.Job.tryGetDependency
+  nameWithType: Job.tryGetDependency
+- uid: Slurmi.Job.tryGetEnvironment(Slurmi.Job)
+  name: tryGetEnvironment(Job)
+  href: api/Slurmi.Job.tryGetEnvironment.html#Slurmi_Job_tryGetEnvironment_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetEnvironment(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetEnvironment(Slurmi.Job)
+  nameWithType: Job.tryGetEnvironment(Job)
+- uid: Slurmi.Job.tryGetEnvironment*
+  name: tryGetEnvironment
+  href: api/Slurmi.Job.tryGetEnvironment.html
+  commentId: Overload:Slurmi.Job.tryGetEnvironment
+  fullName: Slurmi.Job.tryGetEnvironment
+  nameWithType: Job.tryGetEnvironment
+- uid: Slurmi.Job.tryGetError(Slurmi.Job)
+  name: tryGetError(Job)
+  href: api/Slurmi.Job.tryGetError.html#Slurmi_Job_tryGetError_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetError(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetError(Slurmi.Job)
+  nameWithType: Job.tryGetError(Job)
+- uid: Slurmi.Job.tryGetError*
+  name: tryGetError
+  href: api/Slurmi.Job.tryGetError.html
+  commentId: Overload:Slurmi.Job.tryGetError
+  fullName: Slurmi.Job.tryGetError
+  nameWithType: Job.tryGetError
+- uid: Slurmi.Job.tryGetExclude(Slurmi.Job)
+  name: tryGetExclude(Job)
+  href: api/Slurmi.Job.tryGetExclude.html#Slurmi_Job_tryGetExclude_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetExclude(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetExclude(Slurmi.Job)
+  nameWithType: Job.tryGetExclude(Job)
+- uid: Slurmi.Job.tryGetExclude*
+  name: tryGetExclude
+  href: api/Slurmi.Job.tryGetExclude.html
+  commentId: Overload:Slurmi.Job.tryGetExclude
+  fullName: Slurmi.Job.tryGetExclude
+  nameWithType: Job.tryGetExclude
+- uid: Slurmi.Job.tryGetExtra(Slurmi.Job)
+  name: tryGetExtra(Job)
+  href: api/Slurmi.Job.tryGetExtra.html#Slurmi_Job_tryGetExtra_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetExtra(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetExtra(Slurmi.Job)
+  nameWithType: Job.tryGetExtra(Job)
+- uid: Slurmi.Job.tryGetExtra*
+  name: tryGetExtra
+  href: api/Slurmi.Job.tryGetExtra.html
+  commentId: Overload:Slurmi.Job.tryGetExtra
+  fullName: Slurmi.Job.tryGetExtra
+  nameWithType: Job.tryGetExtra
+- uid: Slurmi.Job.tryGetGroupID(Slurmi.Job)
+  name: tryGetGroupID(Job)
+  href: api/Slurmi.Job.tryGetGroupID.html#Slurmi_Job_tryGetGroupID_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetGroupID(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetGroupID(Slurmi.Job)
+  nameWithType: Job.tryGetGroupID(Job)
+- uid: Slurmi.Job.tryGetGroupID*
+  name: tryGetGroupID
+  href: api/Slurmi.Job.tryGetGroupID.html
+  commentId: Overload:Slurmi.Job.tryGetGroupID
+  fullName: Slurmi.Job.tryGetGroupID
+  nameWithType: Job.tryGetGroupID
+- uid: Slurmi.Job.tryGetHold(Slurmi.Job)
+  name: tryGetHold(Job)
+  href: api/Slurmi.Job.tryGetHold.html#Slurmi_Job_tryGetHold_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetHold(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetHold(Slurmi.Job)
+  nameWithType: Job.tryGetHold(Job)
+- uid: Slurmi.Job.tryGetHold*
+  name: tryGetHold
+  href: api/Slurmi.Job.tryGetHold.html
+  commentId: Overload:Slurmi.Job.tryGetHold
+  fullName: Slurmi.Job.tryGetHold
+  nameWithType: Job.tryGetHold
+- uid: Slurmi.Job.tryGetIgnorePBS(Slurmi.Job)
+  name: tryGetIgnorePBS(Job)
+  href: api/Slurmi.Job.tryGetIgnorePBS.html#Slurmi_Job_tryGetIgnorePBS_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetIgnorePBS(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetIgnorePBS(Slurmi.Job)
+  nameWithType: Job.tryGetIgnorePBS(Job)
+- uid: Slurmi.Job.tryGetIgnorePBS*
+  name: tryGetIgnorePBS
+  href: api/Slurmi.Job.tryGetIgnorePBS.html
+  commentId: Overload:Slurmi.Job.tryGetIgnorePBS
+  fullName: Slurmi.Job.tryGetIgnorePBS
+  nameWithType: Job.tryGetIgnorePBS
+- uid: Slurmi.Job.tryGetInput(Slurmi.Job)
+  name: tryGetInput(Job)
+  href: api/Slurmi.Job.tryGetInput.html#Slurmi_Job_tryGetInput_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetInput(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetInput(Slurmi.Job)
+  nameWithType: Job.tryGetInput(Job)
+- uid: Slurmi.Job.tryGetInput*
+  name: tryGetInput
+  href: api/Slurmi.Job.tryGetInput.html
+  commentId: Overload:Slurmi.Job.tryGetInput
+  fullName: Slurmi.Job.tryGetInput
+  nameWithType: Job.tryGetInput
+- uid: Slurmi.Job.tryGetJobID(Slurmi.Job)
+  name: tryGetJobID(Job)
+  href: api/Slurmi.Job.tryGetJobID.html#Slurmi_Job_tryGetJobID_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetJobID(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetJobID(Slurmi.Job)
+  nameWithType: Job.tryGetJobID(Job)
+- uid: Slurmi.Job.tryGetJobID*
+  name: tryGetJobID
+  href: api/Slurmi.Job.tryGetJobID.html
+  commentId: Overload:Slurmi.Job.tryGetJobID
+  fullName: Slurmi.Job.tryGetJobID
+  nameWithType: Job.tryGetJobID
+- uid: Slurmi.Job.tryGetKillOnInvalidDep(Slurmi.Job)
+  name: tryGetKillOnInvalidDep(Job)
+  href: api/Slurmi.Job.tryGetKillOnInvalidDep.html#Slurmi_Job_tryGetKillOnInvalidDep_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetKillOnInvalidDep(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetKillOnInvalidDep(Slurmi.Job)
+  nameWithType: Job.tryGetKillOnInvalidDep(Job)
+- uid: Slurmi.Job.tryGetKillOnInvalidDep*
+  name: tryGetKillOnInvalidDep
+  href: api/Slurmi.Job.tryGetKillOnInvalidDep.html
+  commentId: Overload:Slurmi.Job.tryGetKillOnInvalidDep
+  fullName: Slurmi.Job.tryGetKillOnInvalidDep
+  nameWithType: Job.tryGetKillOnInvalidDep
+- uid: Slurmi.Job.tryGetMailUser(Slurmi.Job)
+  name: tryGetMailUser(Job)
+  href: api/Slurmi.Job.tryGetMailUser.html#Slurmi_Job_tryGetMailUser_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMailUser(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMailUser(Slurmi.Job)
+  nameWithType: Job.tryGetMailUser(Job)
+- uid: Slurmi.Job.tryGetMailUser*
+  name: tryGetMailUser
+  href: api/Slurmi.Job.tryGetMailUser.html
+  commentId: Overload:Slurmi.Job.tryGetMailUser
+  fullName: Slurmi.Job.tryGetMailUser
+  nameWithType: Job.tryGetMailUser
+- uid: Slurmi.Job.tryGetMemory(Slurmi.Job)
+  name: tryGetMemory(Job)
+  href: api/Slurmi.Job.tryGetMemory.html#Slurmi_Job_tryGetMemory_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMemory(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMemory(Slurmi.Job)
+  nameWithType: Job.tryGetMemory(Job)
+- uid: Slurmi.Job.tryGetMemory*
+  name: tryGetMemory
+  href: api/Slurmi.Job.tryGetMemory.html
+  commentId: Overload:Slurmi.Job.tryGetMemory
+  fullName: Slurmi.Job.tryGetMemory
+  nameWithType: Job.tryGetMemory
+- uid: Slurmi.Job.tryGetMemoryPerCPU(Slurmi.Job)
+  name: tryGetMemoryPerCPU(Job)
+  href: api/Slurmi.Job.tryGetMemoryPerCPU.html#Slurmi_Job_tryGetMemoryPerCPU_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMemoryPerCPU(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMemoryPerCPU(Slurmi.Job)
+  nameWithType: Job.tryGetMemoryPerCPU(Job)
+- uid: Slurmi.Job.tryGetMemoryPerCPU*
+  name: tryGetMemoryPerCPU
+  href: api/Slurmi.Job.tryGetMemoryPerCPU.html
+  commentId: Overload:Slurmi.Job.tryGetMemoryPerCPU
+  fullName: Slurmi.Job.tryGetMemoryPerCPU
+  nameWithType: Job.tryGetMemoryPerCPU
+- uid: Slurmi.Job.tryGetMemoryPerGPU(Slurmi.Job)
+  name: tryGetMemoryPerGPU(Job)
+  href: api/Slurmi.Job.tryGetMemoryPerGPU.html#Slurmi_Job_tryGetMemoryPerGPU_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMemoryPerGPU(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMemoryPerGPU(Slurmi.Job)
+  nameWithType: Job.tryGetMemoryPerGPU(Job)
+- uid: Slurmi.Job.tryGetMemoryPerGPU*
+  name: tryGetMemoryPerGPU
+  href: api/Slurmi.Job.tryGetMemoryPerGPU.html
+  commentId: Overload:Slurmi.Job.tryGetMemoryPerGPU
+  fullName: Slurmi.Job.tryGetMemoryPerGPU
+  nameWithType: Job.tryGetMemoryPerGPU
+- uid: Slurmi.Job.tryGetMinCPUs(Slurmi.Job)
+  name: tryGetMinCPUs(Job)
+  href: api/Slurmi.Job.tryGetMinCPUs.html#Slurmi_Job_tryGetMinCPUs_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMinCPUs(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMinCPUs(Slurmi.Job)
+  nameWithType: Job.tryGetMinCPUs(Job)
+- uid: Slurmi.Job.tryGetMinCPUs*
+  name: tryGetMinCPUs
+  href: api/Slurmi.Job.tryGetMinCPUs.html
+  commentId: Overload:Slurmi.Job.tryGetMinCPUs
+  fullName: Slurmi.Job.tryGetMinCPUs
+  nameWithType: Job.tryGetMinCPUs
+- uid: Slurmi.Job.tryGetMinTime(Slurmi.Job)
+  name: tryGetMinTime(Job)
+  href: api/Slurmi.Job.tryGetMinTime.html#Slurmi_Job_tryGetMinTime_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetMinTime(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetMinTime(Slurmi.Job)
+  nameWithType: Job.tryGetMinTime(Job)
+- uid: Slurmi.Job.tryGetMinTime*
+  name: tryGetMinTime
+  href: api/Slurmi.Job.tryGetMinTime.html
+  commentId: Overload:Slurmi.Job.tryGetMinTime
+  fullName: Slurmi.Job.tryGetMinTime
+  nameWithType: Job.tryGetMinTime
+- uid: Slurmi.Job.tryGetNTasks(Slurmi.Job)
+  name: tryGetNTasks(Job)
+  href: api/Slurmi.Job.tryGetNTasks.html#Slurmi_Job_tryGetNTasks_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNTasks(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNTasks(Slurmi.Job)
+  nameWithType: Job.tryGetNTasks(Job)
+- uid: Slurmi.Job.tryGetNTasks*
+  name: tryGetNTasks
+  href: api/Slurmi.Job.tryGetNTasks.html
+  commentId: Overload:Slurmi.Job.tryGetNTasks
+  fullName: Slurmi.Job.tryGetNTasks
+  nameWithType: Job.tryGetNTasks
+- uid: Slurmi.Job.tryGetNTasksPerCore(Slurmi.Job)
+  name: tryGetNTasksPerCore(Job)
+  href: api/Slurmi.Job.tryGetNTasksPerCore.html#Slurmi_Job_tryGetNTasksPerCore_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNTasksPerCore(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNTasksPerCore(Slurmi.Job)
+  nameWithType: Job.tryGetNTasksPerCore(Job)
+- uid: Slurmi.Job.tryGetNTasksPerCore*
+  name: tryGetNTasksPerCore
+  href: api/Slurmi.Job.tryGetNTasksPerCore.html
+  commentId: Overload:Slurmi.Job.tryGetNTasksPerCore
+  fullName: Slurmi.Job.tryGetNTasksPerCore
+  nameWithType: Job.tryGetNTasksPerCore
+- uid: Slurmi.Job.tryGetNTasksPerGPU(Slurmi.Job)
+  name: tryGetNTasksPerGPU(Job)
+  href: api/Slurmi.Job.tryGetNTasksPerGPU.html#Slurmi_Job_tryGetNTasksPerGPU_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNTasksPerGPU(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNTasksPerGPU(Slurmi.Job)
+  nameWithType: Job.tryGetNTasksPerGPU(Job)
+- uid: Slurmi.Job.tryGetNTasksPerGPU*
+  name: tryGetNTasksPerGPU
+  href: api/Slurmi.Job.tryGetNTasksPerGPU.html
+  commentId: Overload:Slurmi.Job.tryGetNTasksPerGPU
+  fullName: Slurmi.Job.tryGetNTasksPerGPU
+  nameWithType: Job.tryGetNTasksPerGPU
+- uid: Slurmi.Job.tryGetNTasksPerNode(Slurmi.Job)
+  name: tryGetNTasksPerNode(Job)
+  href: api/Slurmi.Job.tryGetNTasksPerNode.html#Slurmi_Job_tryGetNTasksPerNode_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNTasksPerNode(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNTasksPerNode(Slurmi.Job)
+  nameWithType: Job.tryGetNTasksPerNode(Job)
+- uid: Slurmi.Job.tryGetNTasksPerNode*
+  name: tryGetNTasksPerNode
+  href: api/Slurmi.Job.tryGetNTasksPerNode.html
+  commentId: Overload:Slurmi.Job.tryGetNTasksPerNode
+  fullName: Slurmi.Job.tryGetNTasksPerNode
+  nameWithType: Job.tryGetNTasksPerNode
+- uid: Slurmi.Job.tryGetNTasksPerSocket(Slurmi.Job)
+  name: tryGetNTasksPerSocket(Job)
+  href: api/Slurmi.Job.tryGetNTasksPerSocket.html#Slurmi_Job_tryGetNTasksPerSocket_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNTasksPerSocket(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNTasksPerSocket(Slurmi.Job)
+  nameWithType: Job.tryGetNTasksPerSocket(Job)
+- uid: Slurmi.Job.tryGetNTasksPerSocket*
+  name: tryGetNTasksPerSocket
+  href: api/Slurmi.Job.tryGetNTasksPerSocket.html
+  commentId: Overload:Slurmi.Job.tryGetNTasksPerSocket
+  fullName: Slurmi.Job.tryGetNTasksPerSocket
+  nameWithType: Job.tryGetNTasksPerSocket
+- uid: Slurmi.Job.tryGetNoRequeue(Slurmi.Job)
+  name: tryGetNoRequeue(Job)
+  href: api/Slurmi.Job.tryGetNoRequeue.html#Slurmi_Job_tryGetNoRequeue_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNoRequeue(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNoRequeue(Slurmi.Job)
+  nameWithType: Job.tryGetNoRequeue(Job)
+- uid: Slurmi.Job.tryGetNoRequeue*
+  name: tryGetNoRequeue
+  href: api/Slurmi.Job.tryGetNoRequeue.html
+  commentId: Overload:Slurmi.Job.tryGetNoRequeue
+  fullName: Slurmi.Job.tryGetNoRequeue
+  nameWithType: Job.tryGetNoRequeue
+- uid: Slurmi.Job.tryGetNode(Slurmi.Job)
+  name: tryGetNode(Job)
+  href: api/Slurmi.Job.tryGetNode.html#Slurmi_Job_tryGetNode_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNode(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNode(Slurmi.Job)
+  nameWithType: Job.tryGetNode(Job)
+- uid: Slurmi.Job.tryGetNode*
+  name: tryGetNode
+  href: api/Slurmi.Job.tryGetNode.html
+  commentId: Overload:Slurmi.Job.tryGetNode
+  fullName: Slurmi.Job.tryGetNode
+  nameWithType: Job.tryGetNode
+- uid: Slurmi.Job.tryGetNodeFile(Slurmi.Job)
+  name: tryGetNodeFile(Job)
+  href: api/Slurmi.Job.tryGetNodeFile.html#Slurmi_Job_tryGetNodeFile_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetNodeFile(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetNodeFile(Slurmi.Job)
+  nameWithType: Job.tryGetNodeFile(Job)
+- uid: Slurmi.Job.tryGetNodeFile*
+  name: tryGetNodeFile
+  href: api/Slurmi.Job.tryGetNodeFile.html
+  commentId: Overload:Slurmi.Job.tryGetNodeFile
+  fullName: Slurmi.Job.tryGetNodeFile
+  nameWithType: Job.tryGetNodeFile
+- uid: Slurmi.Job.tryGetOutput(Slurmi.Job)
+  name: tryGetOutput(Job)
+  href: api/Slurmi.Job.tryGetOutput.html#Slurmi_Job_tryGetOutput_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetOutput(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetOutput(Slurmi.Job)
+  nameWithType: Job.tryGetOutput(Job)
+- uid: Slurmi.Job.tryGetOutput*
+  name: tryGetOutput
+  href: api/Slurmi.Job.tryGetOutput.html
+  commentId: Overload:Slurmi.Job.tryGetOutput
+  fullName: Slurmi.Job.tryGetOutput
+  nameWithType: Job.tryGetOutput
+- uid: Slurmi.Job.tryGetOvercommit(Slurmi.Job)
+  name: tryGetOvercommit(Job)
+  href: api/Slurmi.Job.tryGetOvercommit.html#Slurmi_Job_tryGetOvercommit_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetOvercommit(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetOvercommit(Slurmi.Job)
+  nameWithType: Job.tryGetOvercommit(Job)
+- uid: Slurmi.Job.tryGetOvercommit*
+  name: tryGetOvercommit
+  href: api/Slurmi.Job.tryGetOvercommit.html
+  commentId: Overload:Slurmi.Job.tryGetOvercommit
+  fullName: Slurmi.Job.tryGetOvercommit
+  nameWithType: Job.tryGetOvercommit
+- uid: Slurmi.Job.tryGetOversubscribe(Slurmi.Job)
+  name: tryGetOversubscribe(Job)
+  href: api/Slurmi.Job.tryGetOversubscribe.html#Slurmi_Job_tryGetOversubscribe_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetOversubscribe(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetOversubscribe(Slurmi.Job)
+  nameWithType: Job.tryGetOversubscribe(Job)
+- uid: Slurmi.Job.tryGetOversubscribe*
+  name: tryGetOversubscribe
+  href: api/Slurmi.Job.tryGetOversubscribe.html
+  commentId: Overload:Slurmi.Job.tryGetOversubscribe
+  fullName: Slurmi.Job.tryGetOversubscribe
+  nameWithType: Job.tryGetOversubscribe
+- uid: Slurmi.Job.tryGetParsable(Slurmi.Job)
+  name: tryGetParsable(Job)
+  href: api/Slurmi.Job.tryGetParsable.html#Slurmi_Job_tryGetParsable_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetParsable(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetParsable(Slurmi.Job)
+  nameWithType: Job.tryGetParsable(Job)
+- uid: Slurmi.Job.tryGetParsable*
+  name: tryGetParsable
+  href: api/Slurmi.Job.tryGetParsable.html
+  commentId: Overload:Slurmi.Job.tryGetParsable
+  fullName: Slurmi.Job.tryGetParsable
+  nameWithType: Job.tryGetParsable
+- uid: Slurmi.Job.tryGetPartition(Slurmi.Job)
+  name: tryGetPartition(Job)
+  href: api/Slurmi.Job.tryGetPartition.html#Slurmi_Job_tryGetPartition_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetPartition(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetPartition(Slurmi.Job)
+  nameWithType: Job.tryGetPartition(Job)
+- uid: Slurmi.Job.tryGetPartition*
+  name: tryGetPartition
+  href: api/Slurmi.Job.tryGetPartition.html
+  commentId: Overload:Slurmi.Job.tryGetPartition
+  fullName: Slurmi.Job.tryGetPartition
+  nameWithType: Job.tryGetPartition
+- uid: Slurmi.Job.tryGetPrefer(Slurmi.Job)
+  name: tryGetPrefer(Job)
+  href: api/Slurmi.Job.tryGetPrefer.html#Slurmi_Job_tryGetPrefer_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetPrefer(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetPrefer(Slurmi.Job)
+  nameWithType: Job.tryGetPrefer(Job)
+- uid: Slurmi.Job.tryGetPrefer*
+  name: tryGetPrefer
+  href: api/Slurmi.Job.tryGetPrefer.html
+  commentId: Overload:Slurmi.Job.tryGetPrefer
+  fullName: Slurmi.Job.tryGetPrefer
+  nameWithType: Job.tryGetPrefer
+- uid: Slurmi.Job.tryGetQuiet(Slurmi.Job)
+  name: tryGetQuiet(Job)
+  href: api/Slurmi.Job.tryGetQuiet.html#Slurmi_Job_tryGetQuiet_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetQuiet(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetQuiet(Slurmi.Job)
+  nameWithType: Job.tryGetQuiet(Job)
+- uid: Slurmi.Job.tryGetQuiet*
+  name: tryGetQuiet
+  href: api/Slurmi.Job.tryGetQuiet.html
+  commentId: Overload:Slurmi.Job.tryGetQuiet
+  fullName: Slurmi.Job.tryGetQuiet
+  nameWithType: Job.tryGetQuiet
+- uid: Slurmi.Job.tryGetReboot(Slurmi.Job)
+  name: tryGetReboot(Job)
+  href: api/Slurmi.Job.tryGetReboot.html#Slurmi_Job_tryGetReboot_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetReboot(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetReboot(Slurmi.Job)
+  nameWithType: Job.tryGetReboot(Job)
+- uid: Slurmi.Job.tryGetReboot*
+  name: tryGetReboot
+  href: api/Slurmi.Job.tryGetReboot.html
+  commentId: Overload:Slurmi.Job.tryGetReboot
+  fullName: Slurmi.Job.tryGetReboot
+  nameWithType: Job.tryGetReboot
+- uid: Slurmi.Job.tryGetRequeue(Slurmi.Job)
+  name: tryGetRequeue(Job)
+  href: api/Slurmi.Job.tryGetRequeue.html#Slurmi_Job_tryGetRequeue_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetRequeue(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetRequeue(Slurmi.Job)
+  nameWithType: Job.tryGetRequeue(Job)
+- uid: Slurmi.Job.tryGetRequeue*
+  name: tryGetRequeue
+  href: api/Slurmi.Job.tryGetRequeue.html
+  commentId: Overload:Slurmi.Job.tryGetRequeue
+  fullName: Slurmi.Job.tryGetRequeue
+  nameWithType: Job.tryGetRequeue
+- uid: Slurmi.Job.tryGetReservation(Slurmi.Job)
+  name: tryGetReservation(Job)
+  href: api/Slurmi.Job.tryGetReservation.html#Slurmi_Job_tryGetReservation_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetReservation(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetReservation(Slurmi.Job)
+  nameWithType: Job.tryGetReservation(Job)
+- uid: Slurmi.Job.tryGetReservation*
+  name: tryGetReservation
+  href: api/Slurmi.Job.tryGetReservation.html
+  commentId: Overload:Slurmi.Job.tryGetReservation
+  fullName: Slurmi.Job.tryGetReservation
+  nameWithType: Job.tryGetReservation
+- uid: Slurmi.Job.tryGetSocketsPerNode(Slurmi.Job)
+  name: tryGetSocketsPerNode(Job)
+  href: api/Slurmi.Job.tryGetSocketsPerNode.html#Slurmi_Job_tryGetSocketsPerNode_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetSocketsPerNode(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetSocketsPerNode(Slurmi.Job)
+  nameWithType: Job.tryGetSocketsPerNode(Job)
+- uid: Slurmi.Job.tryGetSocketsPerNode*
+  name: tryGetSocketsPerNode
+  href: api/Slurmi.Job.tryGetSocketsPerNode.html
+  commentId: Overload:Slurmi.Job.tryGetSocketsPerNode
+  fullName: Slurmi.Job.tryGetSocketsPerNode
+  nameWithType: Job.tryGetSocketsPerNode
+- uid: Slurmi.Job.tryGetSpezializedCores(Slurmi.Job)
+  name: tryGetSpezializedCores(Job)
+  href: api/Slurmi.Job.tryGetSpezializedCores.html#Slurmi_Job_tryGetSpezializedCores_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetSpezializedCores(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetSpezializedCores(Slurmi.Job)
+  nameWithType: Job.tryGetSpezializedCores(Job)
+- uid: Slurmi.Job.tryGetSpezializedCores*
+  name: tryGetSpezializedCores
+  href: api/Slurmi.Job.tryGetSpezializedCores.html
+  commentId: Overload:Slurmi.Job.tryGetSpezializedCores
+  fullName: Slurmi.Job.tryGetSpezializedCores
+  nameWithType: Job.tryGetSpezializedCores
+- uid: Slurmi.Job.tryGetSpreadJob(Slurmi.Job)
+  name: tryGetSpreadJob(Job)
+  href: api/Slurmi.Job.tryGetSpreadJob.html#Slurmi_Job_tryGetSpreadJob_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetSpreadJob(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetSpreadJob(Slurmi.Job)
+  nameWithType: Job.tryGetSpreadJob(Job)
+- uid: Slurmi.Job.tryGetSpreadJob*
+  name: tryGetSpreadJob
+  href: api/Slurmi.Job.tryGetSpreadJob.html
+  commentId: Overload:Slurmi.Job.tryGetSpreadJob
+  fullName: Slurmi.Job.tryGetSpreadJob
+  nameWithType: Job.tryGetSpreadJob
+- uid: Slurmi.Job.tryGetTestOnly(Slurmi.Job)
+  name: tryGetTestOnly(Job)
+  href: api/Slurmi.Job.tryGetTestOnly.html#Slurmi_Job_tryGetTestOnly_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetTestOnly(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetTestOnly(Slurmi.Job)
+  nameWithType: Job.tryGetTestOnly(Job)
+- uid: Slurmi.Job.tryGetTestOnly*
+  name: tryGetTestOnly
+  href: api/Slurmi.Job.tryGetTestOnly.html
+  commentId: Overload:Slurmi.Job.tryGetTestOnly
+  fullName: Slurmi.Job.tryGetTestOnly
+  nameWithType: Job.tryGetTestOnly
+- uid: Slurmi.Job.tryGetThreadSpec(Slurmi.Job)
+  name: tryGetThreadSpec(Job)
+  href: api/Slurmi.Job.tryGetThreadSpec.html#Slurmi_Job_tryGetThreadSpec_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetThreadSpec(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetThreadSpec(Slurmi.Job)
+  nameWithType: Job.tryGetThreadSpec(Job)
+- uid: Slurmi.Job.tryGetThreadSpec*
+  name: tryGetThreadSpec
+  href: api/Slurmi.Job.tryGetThreadSpec.html
+  commentId: Overload:Slurmi.Job.tryGetThreadSpec
+  fullName: Slurmi.Job.tryGetThreadSpec
+  nameWithType: Job.tryGetThreadSpec
+- uid: Slurmi.Job.tryGetThreadsPerCore(Slurmi.Job)
+  name: tryGetThreadsPerCore(Job)
+  href: api/Slurmi.Job.tryGetThreadsPerCore.html#Slurmi_Job_tryGetThreadsPerCore_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetThreadsPerCore(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetThreadsPerCore(Slurmi.Job)
+  nameWithType: Job.tryGetThreadsPerCore(Job)
+- uid: Slurmi.Job.tryGetThreadsPerCore*
+  name: tryGetThreadsPerCore
+  href: api/Slurmi.Job.tryGetThreadsPerCore.html
+  commentId: Overload:Slurmi.Job.tryGetThreadsPerCore
+  fullName: Slurmi.Job.tryGetThreadsPerCore
+  nameWithType: Job.tryGetThreadsPerCore
+- uid: Slurmi.Job.tryGetTime(Slurmi.Job)
+  name: tryGetTime(Job)
+  href: api/Slurmi.Job.tryGetTime.html#Slurmi_Job_tryGetTime_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetTime(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetTime(Slurmi.Job)
+  nameWithType: Job.tryGetTime(Job)
+- uid: Slurmi.Job.tryGetTime*
+  name: tryGetTime
+  href: api/Slurmi.Job.tryGetTime.html
+  commentId: Overload:Slurmi.Job.tryGetTime
+  fullName: Slurmi.Job.tryGetTime
+  nameWithType: Job.tryGetTime
+- uid: Slurmi.Job.tryGetUseMinNodes(Slurmi.Job)
+  name: tryGetUseMinNodes(Job)
+  href: api/Slurmi.Job.tryGetUseMinNodes.html#Slurmi_Job_tryGetUseMinNodes_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetUseMinNodes(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetUseMinNodes(Slurmi.Job)
+  nameWithType: Job.tryGetUseMinNodes(Job)
+- uid: Slurmi.Job.tryGetUseMinNodes*
+  name: tryGetUseMinNodes
+  href: api/Slurmi.Job.tryGetUseMinNodes.html
+  commentId: Overload:Slurmi.Job.tryGetUseMinNodes
+  fullName: Slurmi.Job.tryGetUseMinNodes
+  nameWithType: Job.tryGetUseMinNodes
+- uid: Slurmi.Job.tryGetUserID(Slurmi.Job)
+  name: tryGetUserID(Job)
+  href: api/Slurmi.Job.tryGetUserID.html#Slurmi_Job_tryGetUserID_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetUserID(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetUserID(Slurmi.Job)
+  nameWithType: Job.tryGetUserID(Job)
+- uid: Slurmi.Job.tryGetUserID*
+  name: tryGetUserID
+  href: api/Slurmi.Job.tryGetUserID.html
+  commentId: Overload:Slurmi.Job.tryGetUserID
+  fullName: Slurmi.Job.tryGetUserID
+  nameWithType: Job.tryGetUserID
+- uid: Slurmi.Job.tryGetVerbose(Slurmi.Job)
+  name: tryGetVerbose(Job)
+  href: api/Slurmi.Job.tryGetVerbose.html#Slurmi_Job_tryGetVerbose_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetVerbose(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetVerbose(Slurmi.Job)
+  nameWithType: Job.tryGetVerbose(Job)
+- uid: Slurmi.Job.tryGetVerbose*
+  name: tryGetVerbose
+  href: api/Slurmi.Job.tryGetVerbose.html
+  commentId: Overload:Slurmi.Job.tryGetVerbose
+  fullName: Slurmi.Job.tryGetVerbose
+  nameWithType: Job.tryGetVerbose
+- uid: Slurmi.Job.tryGetWait(Slurmi.Job)
+  name: tryGetWait(Job)
+  href: api/Slurmi.Job.tryGetWait.html#Slurmi_Job_tryGetWait_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetWait(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetWait(Slurmi.Job)
+  nameWithType: Job.tryGetWait(Job)
+- uid: Slurmi.Job.tryGetWait*
+  name: tryGetWait
+  href: api/Slurmi.Job.tryGetWait.html
+  commentId: Overload:Slurmi.Job.tryGetWait
+  fullName: Slurmi.Job.tryGetWait
+  nameWithType: Job.tryGetWait
+- uid: Slurmi.Job.tryGetWaitAllNodes(Slurmi.Job)
+  name: tryGetWaitAllNodes(Job)
+  href: api/Slurmi.Job.tryGetWaitAllNodes.html#Slurmi_Job_tryGetWaitAllNodes_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetWaitAllNodes(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetWaitAllNodes(Slurmi.Job)
+  nameWithType: Job.tryGetWaitAllNodes(Job)
+- uid: Slurmi.Job.tryGetWaitAllNodes*
+  name: tryGetWaitAllNodes
+  href: api/Slurmi.Job.tryGetWaitAllNodes.html
+  commentId: Overload:Slurmi.Job.tryGetWaitAllNodes
+  fullName: Slurmi.Job.tryGetWaitAllNodes
+  nameWithType: Job.tryGetWaitAllNodes
+- uid: Slurmi.Job.tryGetWorkingDirectory(Slurmi.Job)
+  name: tryGetWorkingDirectory(Job)
+  href: api/Slurmi.Job.tryGetWorkingDirectory.html#Slurmi_Job_tryGetWorkingDirectory_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetWorkingDirectory(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetWorkingDirectory(Slurmi.Job)
+  nameWithType: Job.tryGetWorkingDirectory(Job)
+- uid: Slurmi.Job.tryGetWorkingDirectory*
+  name: tryGetWorkingDirectory
+  href: api/Slurmi.Job.tryGetWorkingDirectory.html
+  commentId: Overload:Slurmi.Job.tryGetWorkingDirectory
+  fullName: Slurmi.Job.tryGetWorkingDirectory
+  nameWithType: Job.tryGetWorkingDirectory
+- uid: Slurmi.Job.tryGetWrap(Slurmi.Job)
+  name: tryGetWrap(Job)
+  href: api/Slurmi.Job.tryGetWrap.html#Slurmi_Job_tryGetWrap_Slurmi_Job_
+  commentId: M:Slurmi.Job.tryGetWrap(Slurmi.Job)
+  fullName: Slurmi.Job.tryGetWrap(Slurmi.Job)
+  nameWithType: Job.tryGetWrap(Job)
+- uid: Slurmi.Job.tryGetWrap*
+  name: tryGetWrap
+  href: api/Slurmi.Job.tryGetWrap.html
+  commentId: Overload:Slurmi.Job.tryGetWrap
+  fullName: Slurmi.Job.tryGetWrap
+  nameWithType: Job.tryGetWrap
 - uid: Slurmi.Process
   name: Process
   href: api/Slurmi.Process.html
@@ -1084,117 +2356,6 @@ references:
   commentId: Overload:Slurmi.Process.createProcessCall
   fullName: Slurmi.Process.createProcessCall
   nameWithType: Process.createProcessCall
-- uid: Slurmi.Say
-  name: Say
-  href: api/Slurmi.Say.html
-  commentId: T:Slurmi.Say
-  fullName: Slurmi.Say
-  nameWithType: Say
-- uid: Slurmi.Say.hello(System.String)
-  name: hello(string)
-  href: api/Slurmi.Say.hello.html#Slurmi_Say_hello_System_String_
-  commentId: M:Slurmi.Say.hello(System.String)
-  name.vb: hello(String)
-  fullName: Slurmi.Say.hello(string)
-  fullName.vb: Slurmi.Say.hello(String)
-  nameWithType: Say.hello(string)
-  nameWithType.vb: Say.hello(String)
-- uid: Slurmi.Say.hello*
-  name: hello
-  href: api/Slurmi.Say.hello.html
-  commentId: Overload:Slurmi.Say.hello
-  fullName: Slurmi.Say.hello
-  nameWithType: Say.hello
-- uid: Slurmi.Slurmi
-  name: Slurmi
-  href: api/Slurmi.Slurmi.html
-  commentId: T:Slurmi.Slurmi
-  fullName: Slurmi.Slurmi
-  nameWithType: Slurmi
-- uid: Slurmi.Slurmi.createNamesForWF(Slurmi.Job.Job[])
-  name: createNamesForWF(Job[])
-  href: api/Slurmi.Slurmi.createNamesForWF.html#Slurmi_Slurmi_createNamesForWF_Slurmi_Job_Job___
-  commentId: M:Slurmi.Slurmi.createNamesForWF(Slurmi.Job.Job[])
-  name.vb: createNamesForWF(Job())
-  fullName: Slurmi.Slurmi.createNamesForWF(Slurmi.Job.Job[])
-  fullName.vb: Slurmi.Slurmi.createNamesForWF(Slurmi.Job.Job())
-  nameWithType: Slurmi.createNamesForWF(Job.Job[])
-  nameWithType.vb: Slurmi.createNamesForWF(Job.Job())
-- uid: Slurmi.Slurmi.createNamesForWF*
-  name: createNamesForWF
-  href: api/Slurmi.Slurmi.createNamesForWF.html
-  commentId: Overload:Slurmi.Slurmi.createNamesForWF
-  fullName: Slurmi.Slurmi.createNamesForWF
-  nameWithType: Slurmi.createNamesForWF
-- uid: Slurmi.Slurmi.createWorkflowFromJobArray(Slurmi.Job.Job[])
-  name: createWorkflowFromJobArray(Job[])
-  href: api/Slurmi.Slurmi.createWorkflowFromJobArray.html#Slurmi_Slurmi_createWorkflowFromJobArray_Slurmi_Job_Job___
-  commentId: M:Slurmi.Slurmi.createWorkflowFromJobArray(Slurmi.Job.Job[])
-  name.vb: createWorkflowFromJobArray(Job())
-  fullName: Slurmi.Slurmi.createWorkflowFromJobArray(Slurmi.Job.Job[])
-  fullName.vb: Slurmi.Slurmi.createWorkflowFromJobArray(Slurmi.Job.Job())
-  nameWithType: Slurmi.createWorkflowFromJobArray(Job.Job[])
-  nameWithType.vb: Slurmi.createWorkflowFromJobArray(Job.Job())
-- uid: Slurmi.Slurmi.createWorkflowFromJobArray*
-  name: createWorkflowFromJobArray
-  href: api/Slurmi.Slurmi.createWorkflowFromJobArray.html
-  commentId: Overload:Slurmi.Slurmi.createWorkflowFromJobArray
-  fullName: Slurmi.Slurmi.createWorkflowFromJobArray
-  nameWithType: Slurmi.createWorkflowFromJobArray
-- uid: Slurmi.Slurmi.createWorkflowFromWFType(Slurmi.Workflow.Workflow)
-  name: createWorkflowFromWFType(Workflow)
-  href: api/Slurmi.Slurmi.createWorkflowFromWFType.html#Slurmi_Slurmi_createWorkflowFromWFType_Slurmi_Workflow_Workflow_
-  commentId: M:Slurmi.Slurmi.createWorkflowFromWFType(Slurmi.Workflow.Workflow)
-  fullName: Slurmi.Slurmi.createWorkflowFromWFType(Slurmi.Workflow.Workflow)
-  nameWithType: Slurmi.createWorkflowFromWFType(Workflow.Workflow)
-- uid: Slurmi.Slurmi.createWorkflowFromWFType*
-  name: createWorkflowFromWFType
-  href: api/Slurmi.Slurmi.createWorkflowFromWFType.html
-  commentId: Overload:Slurmi.Slurmi.createWorkflowFromWFType
-  fullName: Slurmi.Slurmi.createWorkflowFromWFType
-  nameWithType: Slurmi.createWorkflowFromWFType
-- uid: Slurmi.Slurmi.findDependencyName(System.String,Slurmi.Job.Job[])
-  name: findDependencyName(string, Job[])
-  href: api/Slurmi.Slurmi.findDependencyName.html#Slurmi_Slurmi_findDependencyName_System_String_Slurmi_Job_Job___
-  commentId: M:Slurmi.Slurmi.findDependencyName(System.String,Slurmi.Job.Job[])
-  name.vb: findDependencyName(String, Job())
-  fullName: Slurmi.Slurmi.findDependencyName(string, Slurmi.Job.Job[])
-  fullName.vb: Slurmi.Slurmi.findDependencyName(String, Slurmi.Job.Job())
-  nameWithType: Slurmi.findDependencyName(string, Job.Job[])
-  nameWithType.vb: Slurmi.findDependencyName(String, Job.Job())
-- uid: Slurmi.Slurmi.findDependencyName*
-  name: findDependencyName
-  href: api/Slurmi.Slurmi.findDependencyName.html
-  commentId: Overload:Slurmi.Slurmi.findDependencyName
-  fullName: Slurmi.Slurmi.findDependencyName
-  nameWithType: Slurmi.findDependencyName
-- uid: Slurmi.Slurmi.formatWF(System.String,Slurmi.Job.Job)
-  name: formatWF(string, Job)
-  href: api/Slurmi.Slurmi.formatWF.html#Slurmi_Slurmi_formatWF_System_String_Slurmi_Job_Job_
-  commentId: M:Slurmi.Slurmi.formatWF(System.String,Slurmi.Job.Job)
-  name.vb: formatWF(String, Job)
-  fullName: Slurmi.Slurmi.formatWF(string, Slurmi.Job.Job)
-  fullName.vb: Slurmi.Slurmi.formatWF(String, Slurmi.Job.Job)
-  nameWithType: Slurmi.formatWF(string, Job.Job)
-  nameWithType.vb: Slurmi.formatWF(String, Job.Job)
-- uid: Slurmi.Slurmi.formatWF*
-  name: formatWF
-  href: api/Slurmi.Slurmi.formatWF.html
-  commentId: Overload:Slurmi.Slurmi.formatWF
-  fullName: Slurmi.Slurmi.formatWF
-  nameWithType: Slurmi.formatWF
-- uid: Slurmi.Slurmi.getDependency(Slurmi.Job.Job)
-  name: getDependency(Job)
-  href: api/Slurmi.Slurmi.getDependency.html#Slurmi_Slurmi_getDependency_Slurmi_Job_Job_
-  commentId: M:Slurmi.Slurmi.getDependency(Slurmi.Job.Job)
-  fullName: Slurmi.Slurmi.getDependency(Slurmi.Job.Job)
-  nameWithType: Slurmi.getDependency(Job.Job)
-- uid: Slurmi.Slurmi.getDependency*
-  name: getDependency
-  href: api/Slurmi.Slurmi.getDependency.html
-  commentId: Overload:Slurmi.Slurmi.getDependency
-  fullName: Slurmi.Slurmi.getDependency
-  nameWithType: Slurmi.getDependency
 - uid: Slurmi.TypeOfDep
   name: TypeOfDep
   href: api/Slurmi.TypeOfDep.html
@@ -1387,93 +2548,177 @@ references:
   commentId: T:Slurmi.Workflow
   fullName: Slurmi.Workflow
   nameWithType: Workflow
-- uid: Slurmi.Workflow.Workflow
-  name: Workflow.Workflow
-  href: api/Slurmi.Workflow.Workflow.html
-  commentId: T:Slurmi.Workflow.Workflow
-  fullName: Slurmi.Workflow.Workflow
-  nameWithType: Workflow.Workflow
-- uid: Slurmi.Workflow.Workflow.#ctor(Slurmi.Job.Job[])
+- uid: Slurmi.Workflow.#ctor(Slurmi.Job[])
   name: Workflow(Job[])
-  href: api/Slurmi.Workflow.Workflow.-ctor.html#Slurmi_Workflow_Workflow__ctor_Slurmi_Job_Job___
-  commentId: M:Slurmi.Workflow.Workflow.#ctor(Slurmi.Job.Job[])
+  href: api/Slurmi.Workflow.-ctor.html#Slurmi_Workflow__ctor_Slurmi_Job___
+  commentId: M:Slurmi.Workflow.#ctor(Slurmi.Job[])
   name.vb: New(Job())
-  fullName: Slurmi.Workflow.Workflow.Workflow(Slurmi.Job.Job[])
-  fullName.vb: Slurmi.Workflow.Workflow.New(Slurmi.Job.Job())
-  nameWithType: Workflow.Workflow.Workflow(Job.Job[])
-  nameWithType.vb: Workflow.Workflow.New(Job.Job())
-- uid: Slurmi.Workflow.Workflow.#ctor*
+  fullName: Slurmi.Workflow.Workflow(Slurmi.Job[])
+  fullName.vb: Slurmi.Workflow.New(Slurmi.Job())
+  nameWithType: Workflow.Workflow(Job[])
+  nameWithType.vb: Workflow.New(Job())
+- uid: Slurmi.Workflow.#ctor*
   name: Workflow
-  href: api/Slurmi.Workflow.Workflow.-ctor.html
-  commentId: Overload:Slurmi.Workflow.Workflow.#ctor
+  href: api/Slurmi.Workflow.-ctor.html
+  commentId: Overload:Slurmi.Workflow.#ctor
   name.vb: New
-  fullName: Slurmi.Workflow.Workflow.Workflow
-  fullName.vb: Slurmi.Workflow.Workflow.New
-  nameWithType: Workflow.Workflow.Workflow
-  nameWithType.vb: Workflow.Workflow.New
-- uid: Slurmi.Workflow.Workflow.Jobs
+  fullName: Slurmi.Workflow.Workflow
+  fullName.vb: Slurmi.Workflow.New
+  nameWithType: Workflow.Workflow
+  nameWithType.vb: Workflow.New
+- uid: Slurmi.Workflow.Jobs
   name: Jobs
-  href: api/Slurmi.Workflow.Workflow.Jobs.html#Slurmi_Workflow_Workflow_Jobs
-  commentId: P:Slurmi.Workflow.Workflow.Jobs
-  fullName: Slurmi.Workflow.Workflow.Jobs
-  nameWithType: Workflow.Workflow.Jobs
-- uid: Slurmi.Workflow.Workflow.Jobs*
+  href: api/Slurmi.Workflow.Jobs.html#Slurmi_Workflow_Jobs
+  commentId: P:Slurmi.Workflow.Jobs
+  fullName: Slurmi.Workflow.Jobs
+  nameWithType: Workflow.Jobs
+- uid: Slurmi.Workflow.Jobs*
   name: Jobs
-  href: api/Slurmi.Workflow.Workflow.Jobs.html
-  commentId: Overload:Slurmi.Workflow.Workflow.Jobs
-  fullName: Slurmi.Workflow.Workflow.Jobs
-  nameWithType: Workflow.Workflow.Jobs
-- uid: Slurmi.Workflow.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Workflow.Jobs.html
+  commentId: Overload:Slurmi.Workflow.Jobs
+  fullName: Slurmi.Workflow.Jobs
+  nameWithType: Workflow.Jobs
+- uid: Slurmi.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
   name: SetPartition(FSharpOption<string>)
-  href: api/Slurmi.Workflow.Workflow.SetPartition.html#Slurmi_Workflow_Workflow_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__
-  commentId: M:Slurmi.Workflow.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
+  href: api/Slurmi.Workflow.SetPartition.html#Slurmi_Workflow_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__
+  commentId: M:Slurmi.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption{System.String})
   name.vb: SetPartition(FSharpOption(Of String))
-  fullName: Slurmi.Workflow.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption<string>)
-  fullName.vb: Slurmi.Workflow.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption(Of String))
-  nameWithType: Workflow.Workflow.SetPartition(FSharpOption<string>)
-  nameWithType.vb: Workflow.Workflow.SetPartition(FSharpOption(Of String))
-- uid: Slurmi.Workflow.Workflow.SetPartition*
+  fullName: Slurmi.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption<string>)
+  fullName.vb: Slurmi.Workflow.SetPartition(Microsoft.FSharp.Core.FSharpOption(Of String))
+  nameWithType: Workflow.SetPartition(FSharpOption<string>)
+  nameWithType.vb: Workflow.SetPartition(FSharpOption(Of String))
+- uid: Slurmi.Workflow.SetPartition*
   name: SetPartition
-  href: api/Slurmi.Workflow.Workflow.SetPartition.html
-  commentId: Overload:Slurmi.Workflow.Workflow.SetPartition
-  fullName: Slurmi.Workflow.Workflow.SetPartition
-  nameWithType: Workflow.Workflow.SetPartition
-- uid: Slurmi.Workflow.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  href: api/Slurmi.Workflow.SetPartition.html
+  commentId: Overload:Slurmi.Workflow.SetPartition
+  fullName: Slurmi.Workflow.SetPartition
+  nameWithType: Workflow.SetPartition
+- uid: Slurmi.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
   name: SetTime(FSharpOption<Tuple<int, int, int, int>>)
-  href: api/Slurmi.Workflow.Workflow.SetTime.html#Slurmi_Workflow_Workflow_SetTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___
-  commentId: M:Slurmi.Workflow.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
+  href: api/Slurmi.Workflow.SetTime.html#Slurmi_Workflow_SetTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___
+  commentId: M:Slurmi.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption{System.Tuple{System.Int32,System.Int32,System.Int32,System.Int32}})
   name.vb: SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
-  fullName: Slurmi.Workflow.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption<System.Tuple<int, int, int, int>>)
-  fullName.vb: Slurmi.Workflow.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Integer, Integer, Integer, Integer)))
-  nameWithType: Workflow.Workflow.SetTime(FSharpOption<Tuple<int, int, int, int>>)
-  nameWithType.vb: Workflow.Workflow.SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
-- uid: Slurmi.Workflow.Workflow.SetTime*
+  fullName: Slurmi.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption<System.Tuple<int, int, int, int>>)
+  fullName.vb: Slurmi.Workflow.SetTime(Microsoft.FSharp.Core.FSharpOption(Of System.Tuple(Of Integer, Integer, Integer, Integer)))
+  nameWithType: Workflow.SetTime(FSharpOption<Tuple<int, int, int, int>>)
+  nameWithType.vb: Workflow.SetTime(FSharpOption(Of Tuple(Of Integer, Integer, Integer, Integer)))
+- uid: Slurmi.Workflow.SetTime*
   name: SetTime
-  href: api/Slurmi.Workflow.Workflow.SetTime.html
-  commentId: Overload:Slurmi.Workflow.Workflow.SetTime
-  fullName: Slurmi.Workflow.Workflow.SetTime
-  nameWithType: Workflow.Workflow.SetTime
-- uid: Slurmi.Workflow.Workflow.tryGetPartition(Slurmi.Workflow.Workflow)
+  href: api/Slurmi.Workflow.SetTime.html
+  commentId: Overload:Slurmi.Workflow.SetTime
+  fullName: Slurmi.Workflow.SetTime
+  nameWithType: Workflow.SetTime
+- uid: Slurmi.Workflow.tryGetPartition(Slurmi.Workflow)
   name: tryGetPartition(Workflow)
-  href: api/Slurmi.Workflow.Workflow.tryGetPartition.html#Slurmi_Workflow_Workflow_tryGetPartition_Slurmi_Workflow_Workflow_
-  commentId: M:Slurmi.Workflow.Workflow.tryGetPartition(Slurmi.Workflow.Workflow)
-  fullName: Slurmi.Workflow.Workflow.tryGetPartition(Slurmi.Workflow.Workflow)
-  nameWithType: Workflow.Workflow.tryGetPartition(Workflow.Workflow)
-- uid: Slurmi.Workflow.Workflow.tryGetPartition*
+  href: api/Slurmi.Workflow.tryGetPartition.html#Slurmi_Workflow_tryGetPartition_Slurmi_Workflow_
+  commentId: M:Slurmi.Workflow.tryGetPartition(Slurmi.Workflow)
+  fullName: Slurmi.Workflow.tryGetPartition(Slurmi.Workflow)
+  nameWithType: Workflow.tryGetPartition(Workflow)
+- uid: Slurmi.Workflow.tryGetPartition*
   name: tryGetPartition
-  href: api/Slurmi.Workflow.Workflow.tryGetPartition.html
-  commentId: Overload:Slurmi.Workflow.Workflow.tryGetPartition
-  fullName: Slurmi.Workflow.Workflow.tryGetPartition
-  nameWithType: Workflow.Workflow.tryGetPartition
-- uid: Slurmi.Workflow.Workflow.tryGetTime(Slurmi.Workflow.Workflow)
+  href: api/Slurmi.Workflow.tryGetPartition.html
+  commentId: Overload:Slurmi.Workflow.tryGetPartition
+  fullName: Slurmi.Workflow.tryGetPartition
+  nameWithType: Workflow.tryGetPartition
+- uid: Slurmi.Workflow.tryGetTime(Slurmi.Workflow)
   name: tryGetTime(Workflow)
-  href: api/Slurmi.Workflow.Workflow.tryGetTime.html#Slurmi_Workflow_Workflow_tryGetTime_Slurmi_Workflow_Workflow_
-  commentId: M:Slurmi.Workflow.Workflow.tryGetTime(Slurmi.Workflow.Workflow)
-  fullName: Slurmi.Workflow.Workflow.tryGetTime(Slurmi.Workflow.Workflow)
-  nameWithType: Workflow.Workflow.tryGetTime(Workflow.Workflow)
-- uid: Slurmi.Workflow.Workflow.tryGetTime*
+  href: api/Slurmi.Workflow.tryGetTime.html#Slurmi_Workflow_tryGetTime_Slurmi_Workflow_
+  commentId: M:Slurmi.Workflow.tryGetTime(Slurmi.Workflow)
+  fullName: Slurmi.Workflow.tryGetTime(Slurmi.Workflow)
+  nameWithType: Workflow.tryGetTime(Workflow)
+- uid: Slurmi.Workflow.tryGetTime*
   name: tryGetTime
-  href: api/Slurmi.Workflow.Workflow.tryGetTime.html
-  commentId: Overload:Slurmi.Workflow.Workflow.tryGetTime
-  fullName: Slurmi.Workflow.Workflow.tryGetTime
-  nameWithType: Workflow.Workflow.tryGetTime
+  href: api/Slurmi.Workflow.tryGetTime.html
+  commentId: Overload:Slurmi.Workflow.tryGetTime
+  fullName: Slurmi.Workflow.tryGetTime
+  nameWithType: Workflow.tryGetTime
+- uid: Slurmi.helperFunctions
+  name: helperFunctions
+  href: api/Slurmi.helperFunctions.html
+  commentId: T:Slurmi.helperFunctions
+  fullName: Slurmi.helperFunctions
+  nameWithType: helperFunctions
+- uid: Slurmi.helperFunctions.createNamesForWF(Slurmi.Job[])
+  name: createNamesForWF(Job[])
+  href: api/Slurmi.helperFunctions.createNamesForWF.html#Slurmi_helperFunctions_createNamesForWF_Slurmi_Job___
+  commentId: M:Slurmi.helperFunctions.createNamesForWF(Slurmi.Job[])
+  name.vb: createNamesForWF(Job())
+  fullName: Slurmi.helperFunctions.createNamesForWF(Slurmi.Job[])
+  fullName.vb: Slurmi.helperFunctions.createNamesForWF(Slurmi.Job())
+  nameWithType: helperFunctions.createNamesForWF(Job[])
+  nameWithType.vb: helperFunctions.createNamesForWF(Job())
+- uid: Slurmi.helperFunctions.createNamesForWF*
+  name: createNamesForWF
+  href: api/Slurmi.helperFunctions.createNamesForWF.html
+  commentId: Overload:Slurmi.helperFunctions.createNamesForWF
+  fullName: Slurmi.helperFunctions.createNamesForWF
+  nameWithType: helperFunctions.createNamesForWF
+- uid: Slurmi.helperFunctions.createWorkflowFromJobArray(Slurmi.Job[])
+  name: createWorkflowFromJobArray(Job[])
+  href: api/Slurmi.helperFunctions.createWorkflowFromJobArray.html#Slurmi_helperFunctions_createWorkflowFromJobArray_Slurmi_Job___
+  commentId: M:Slurmi.helperFunctions.createWorkflowFromJobArray(Slurmi.Job[])
+  name.vb: createWorkflowFromJobArray(Job())
+  fullName: Slurmi.helperFunctions.createWorkflowFromJobArray(Slurmi.Job[])
+  fullName.vb: Slurmi.helperFunctions.createWorkflowFromJobArray(Slurmi.Job())
+  nameWithType: helperFunctions.createWorkflowFromJobArray(Job[])
+  nameWithType.vb: helperFunctions.createWorkflowFromJobArray(Job())
+- uid: Slurmi.helperFunctions.createWorkflowFromJobArray*
+  name: createWorkflowFromJobArray
+  href: api/Slurmi.helperFunctions.createWorkflowFromJobArray.html
+  commentId: Overload:Slurmi.helperFunctions.createWorkflowFromJobArray
+  fullName: Slurmi.helperFunctions.createWorkflowFromJobArray
+  nameWithType: helperFunctions.createWorkflowFromJobArray
+- uid: Slurmi.helperFunctions.createWorkflowFromWFType(Slurmi.Workflow)
+  name: createWorkflowFromWFType(Workflow)
+  href: api/Slurmi.helperFunctions.createWorkflowFromWFType.html#Slurmi_helperFunctions_createWorkflowFromWFType_Slurmi_Workflow_
+  commentId: M:Slurmi.helperFunctions.createWorkflowFromWFType(Slurmi.Workflow)
+  fullName: Slurmi.helperFunctions.createWorkflowFromWFType(Slurmi.Workflow)
+  nameWithType: helperFunctions.createWorkflowFromWFType(Workflow)
+- uid: Slurmi.helperFunctions.createWorkflowFromWFType*
+  name: createWorkflowFromWFType
+  href: api/Slurmi.helperFunctions.createWorkflowFromWFType.html
+  commentId: Overload:Slurmi.helperFunctions.createWorkflowFromWFType
+  fullName: Slurmi.helperFunctions.createWorkflowFromWFType
+  nameWithType: helperFunctions.createWorkflowFromWFType
+- uid: Slurmi.helperFunctions.findDependencyName(System.String,Slurmi.Job[])
+  name: findDependencyName(string, Job[])
+  href: api/Slurmi.helperFunctions.findDependencyName.html#Slurmi_helperFunctions_findDependencyName_System_String_Slurmi_Job___
+  commentId: M:Slurmi.helperFunctions.findDependencyName(System.String,Slurmi.Job[])
+  name.vb: findDependencyName(String, Job())
+  fullName: Slurmi.helperFunctions.findDependencyName(string, Slurmi.Job[])
+  fullName.vb: Slurmi.helperFunctions.findDependencyName(String, Slurmi.Job())
+  nameWithType: helperFunctions.findDependencyName(string, Job[])
+  nameWithType.vb: helperFunctions.findDependencyName(String, Job())
+- uid: Slurmi.helperFunctions.findDependencyName*
+  name: findDependencyName
+  href: api/Slurmi.helperFunctions.findDependencyName.html
+  commentId: Overload:Slurmi.helperFunctions.findDependencyName
+  fullName: Slurmi.helperFunctions.findDependencyName
+  nameWithType: helperFunctions.findDependencyName
+- uid: Slurmi.helperFunctions.formatWF(System.String,Slurmi.Job)
+  name: formatWF(string, Job)
+  href: api/Slurmi.helperFunctions.formatWF.html#Slurmi_helperFunctions_formatWF_System_String_Slurmi_Job_
+  commentId: M:Slurmi.helperFunctions.formatWF(System.String,Slurmi.Job)
+  name.vb: formatWF(String, Job)
+  fullName: Slurmi.helperFunctions.formatWF(string, Slurmi.Job)
+  fullName.vb: Slurmi.helperFunctions.formatWF(String, Slurmi.Job)
+  nameWithType: helperFunctions.formatWF(string, Job)
+  nameWithType.vb: helperFunctions.formatWF(String, Job)
+- uid: Slurmi.helperFunctions.formatWF*
+  name: formatWF
+  href: api/Slurmi.helperFunctions.formatWF.html
+  commentId: Overload:Slurmi.helperFunctions.formatWF
+  fullName: Slurmi.helperFunctions.formatWF
+  nameWithType: helperFunctions.formatWF
+- uid: Slurmi.helperFunctions.getDependency(Slurmi.Job)
+  name: getDependency(Job)
+  href: api/Slurmi.helperFunctions.getDependency.html#Slurmi_helperFunctions_getDependency_Slurmi_Job_
+  commentId: M:Slurmi.helperFunctions.getDependency(Slurmi.Job)
+  fullName: Slurmi.helperFunctions.getDependency(Slurmi.Job)
+  nameWithType: helperFunctions.getDependency(Job)
+- uid: Slurmi.helperFunctions.getDependency*
+  name: getDependency
+  href: api/Slurmi.helperFunctions.getDependency.html
+  commentId: Overload:Slurmi.helperFunctions.getDependency
+  fullName: Slurmi.helperFunctions.getDependency
+  nameWithType: helperFunctions.getDependency

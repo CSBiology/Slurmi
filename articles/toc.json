@@ -1,2 +1,2 @@
 
-{"items":[{"name":"Tutorial","href":"intro.html","topicHref":"intro.html"},{"name":"WhoDis","href":"tut.html","topicHref":"tut.html"}]}
+{"items":[{"name":"Introduction","href":"intro.html","topicHref":"intro.html"},{"name":"Writing a jobscript","href":"tut.html","topicHref":"tut.html"},{"name":"Writing a workflow","href":"tutwf.html","topicHref":"tutwf.html"}]}
