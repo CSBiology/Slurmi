@@ -22,8 +22,8 @@
 
   <PropertyGroup>
     <Authors>Selina Ziegler, Timo Mühlhaus</Authors>
-    <Description>Tool for the creation of slurm jobscripts & workflows with F#. </Description>
-    <Summary>Tool for the creation of slurm jobscripts & workflows with F#.</Summary>
+    <Description>Tool for the creation of slurm jobscripts and workflows with F#. </Description>
+    <Summary>Tool for the creation of slurm jobscripts and workflows with F#.</Summary>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://csbiology.github.io/Slurmi/</PackageProjectUrl>
     <PackageTags>slurm workflows hpc batchscript jobscript fsharp</PackageTags>
