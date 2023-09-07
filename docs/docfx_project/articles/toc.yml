@@ -1,4 +1,6 @@
-- name: Tutorial
+- name: Introduction
   href: intro.md
-- name: WhoDis
+- name: Writing a jobscript
   href: tut.md
+- name: Writing a workflow
+  href: tutwf.md

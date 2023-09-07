@@ -12,7 +12,6 @@
     <Compile Include="Job.fs" />
     <Compile Include="Workflow.fs" />
     <Compile Include="HelperFunctions.fs" />
-    <Compile Include="Library.fs" />
   </ItemGroup>
 
   <ItemGroup>

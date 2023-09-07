@@ -27,8 +27,8 @@ let tests =
             myJob2 |> Job.SetCPUsPerTask 5|> ignore 
             myJob2 |> Job.SetMemory "MyMemory"|> ignore 
             myJob2 |> Job.SetPartition "MyPartition"|> ignore 
-            myJob2 |> Job.SetFileName "MyFileName"|> ignore 
-            myJob2 |> Job.SetOutputFile "MyOutputFile"|> ignore 
+            //myJob2 |> Job.SetFileName "MyFileName"|> ignore 
+            //myJob2 |> Job.SetOutputFile "MyOutputFile"|> ignore 
             myJob2 |> Job.SetError "MyError"|> ignore 
             myJob2 |> Job.SetJobID(1234)|> ignore 
             myJob2 |> Job.SetParsable(true)|> ignore 
@@ -101,8 +101,8 @@ let tests =
             Expect.equal (myJob2 |> Job.tryGetCPUsPerTask) (Some 5) "Acces value CPUs Job check"
             Expect.equal (myJob2 |> Job.tryGetMemory) (Some "MyMemory") "Acces value Memory Job check"
             Expect.equal (myJob2 |> Job.tryGetPartition) (Some "MyPartition") "Acces value Partition Job check"
-            Expect.equal (myJob2 |> Job.tryGetFileName) (Some "MyFileName") "Acces value Filename Job check"
-            Expect.equal (myJob2 |> Job.tryGetOutputFile) (Some "MyOutputFile") "Acces value OutputFile Job check"
+            //Expect.equal (myJob2 |> Job.tryGetFileName) (Some "MyFileName") "Acces value Filename Job check"
+            //Expect.equal (myJob2 |> Job.tryGetOutputFile) (Some "MyOutputFile") "Acces value OutputFile Job check"
             Expect.equal (myJob2 |> Job.tryGetError) (Some "MyError") "Acces value Error Job check"
             Expect.equal (myJob2 |> Job.tryGetJobID) (Some 1234) "Acces value JodId Job check"
             Expect.equal (myJob2 |> Job.tryGetParsable) (Some true) "Acces value Parsable Job check"

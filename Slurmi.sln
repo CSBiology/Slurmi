@@ -33,6 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{87
 		docs\docfx_project\articles\intro.md = docs\docfx_project\articles\intro.md
 		docs\docfx_project\articles\toc.yml = docs\docfx_project\articles\toc.yml
 		docs\docfx_project\articles\tut.md = docs\docfx_project\articles\tut.md
+		docs\docfx_project\articles\tutwf.md = docs\docfx_project\articles\tutwf.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{E74630EE-40C9-472E-A517-2BA8EB619D39}"
