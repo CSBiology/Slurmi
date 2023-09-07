@@ -30,7 +30,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3F1EFAF6-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{876BAFF8-7221-4E72-A08A-7C242856DAAA}"
 	ProjectSection(SolutionItems) = preProject
-		docs\docfx_project\articles\intro.md = docs\docfx_project\articles\intro.md
 		docs\docfx_project\articles\toc.yml = docs\docfx_project\articles\toc.yml
 		docs\docfx_project\articles\tut.md = docs\docfx_project\articles\tut.md
 		docs\docfx_project\articles\tutwf.md = docs\docfx_project\articles\tutwf.md

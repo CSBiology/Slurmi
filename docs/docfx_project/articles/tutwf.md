@@ -43,7 +43,6 @@ myJoblist.[1] |> Job.SetDependency((All,[|Afterany [(findDependencyName "MyJob3"
 myJoblist.[2] |> Job.SetDependency((Any,[|After [(findDependencyName "MyJob" myJoblist,Some 2);("alsoJustAnExample",None)]; Afternotok [findDependencyName "MyJob" myJoblist]|]))
 ```
 
-
 The workflow is initiated with the joblist as an argument. Here you can set the required time and partition.
 
 ```fsharp 
