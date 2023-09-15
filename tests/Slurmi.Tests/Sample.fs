@@ -42,7 +42,7 @@ let tests =
             myJob2 |> Job.SetBurstBufferSpecificationFilePath "BBF" |> ignore
             myJob2 |> Job.SetWorkingDirectory "wdir" |> ignore
             myJob2 |> Job.SetClusters ["cluster1";"cluster2"] |> ignore
-            myJob2 |> Job.SetComment "new comment $§" |> ignore
+            myJob2 |> Job.SetComment "new comment $" |> ignore
             myJob2 |> Job.SetContainer "MyContainer" |> ignore
             myJob2 |> Job.SetContainerID "MyContainerID" |> ignore
             myJob2 |> Job.SetContiguous true |> ignore
@@ -86,7 +86,10 @@ let tests =
             myJob2 |> Job.SetWait true |> ignore
             myJob2 |> Job.SetWaitAllNodes true |> ignore
             myJob2 |> Job.SetWrap ["Wrap";"Burrito";"Taco"] |> ignore
-
+            myJob2 |> Job.SetAccountingFrequency([|(Task,1);(Energy,70)|]) |> ignore 
+            myJob2 |> Job.SetArray({Seperators = Some [|1;2;3|];RangeOfValues = Some (Basic(10,20));SimultaniousJobs = Some 3}) |> ignore 
+            myJob2 |> Job.SetBegin(DateTimeString.DateTime(2023,05,24,16,30,10)) |> ignore 
+            myJob2 |> Job.SetDependency((All,[|Afternotok ["jobToDependOn"]|])) |> ignore
             
 
 
@@ -112,7 +115,7 @@ let tests =
             Expect.equal (myJob2 |> Job.tryGetBurstBufferSpecificationFilePath) (Some "BBF")  "Acces value BBS Job check"
             Expect.equal (myJob2 |> Job.tryGetWorkingDirectory) (Some "wdir") "Acces value workingdirectory Job check"
             Expect.equal (myJob2 |> Job.tryGetClusters) (Some ["cluster1";"cluster2"]) "Acces value clusters Job check"
-            Expect.equal (myJob2 |> Job.tryGetComment) (Some "new comment $§") "Acces value comment Job check"
+            Expect.equal (myJob2 |> Job.tryGetComment) (Some "new comment $") "Acces value comment Job check"
             Expect.equal (myJob2 |> Job.tryGetContainer) (Some "MyContainer") "Acces value container Job check"
             Expect.equal (myJob2 |> Job.tryGetContainerID) (Some "MyContainerID") "Acces value containerID Job check"
             Expect.equal (myJob2 |> Job.tryGetContiguous) (Some true) "Acces value contiguous Job check"
@@ -155,7 +158,11 @@ let tests =
             Expect.equal (myJob2 |> Job.tryGetWait) (Some true) "Acces value wait Job check"
             Expect.equal (myJob2 |> Job.tryGetWaitAllNodes) (Some true) "Acces value waitAllNodes Job check"
             Expect.equal (myJob2 |> Job.tryGetWrap) (Some ["Wrap"; "Burrito"; "Taco"]) "Acces value wrap Job check"
-
+            Expect.equal (myJob2 |> Job.tryGetAccountingFrequency) (Some ([|(Task,1);(Energy,70)|])) "Acces value accountingFrequency Job check"
+            Expect.equal (myJob2 |> Job.tryGetArray) (Some ({Seperators = Some [|1;2;3|];RangeOfValues = Some (Basic(10,20));SimultaniousJobs = Some 3})) "Acces value array Job check"
+            Expect.equal (myJob2 |> Job.tryGetBegin) (Some "24-05-2023T16:30:10") "Acces value begin Job check"
+            Expect.equal (myJob2 |> Job.tryGetDependency) (Some (All,[|Afternotok ["jobToDependOn"]|])) "Acces value dependency Job check"
+            Expect.equal (myJob2 |> Job.tryGetParsable) (Some true) "Acces value parsable Job check"
             //Expect.equal jobscript 
             //    [|"#!/bin/bash"; "#SBATCH -J MyJob2"; "#SBATCH -N MyNode";
             //      "#SBATCH -o MyOutput.out"; "#SBATCH -e MyError.err";
@@ -164,6 +171,57 @@ let tests =
             //      "#SBATCH -p MyPartition"; "hello panda \n module load proteomiqon";
             //      "MyProgram MyArgument1 MyArgument2"|]
             //        "Jobscript check"
+
+            let jobscript = myJob2 |> Job.createJobScript |> fun x -> x.Split "\n"
+            //Expect.equal (jobscript) 
+            let aaaa = [|"#SBATCH -J MyJob2"; "#SBATCH --mem-per-gpu=30gb";
+                "#SBATCH --mem-per-cpu=20gb"; "#SBATCH --mincpus=9"; "#SBATCH --no-requeue";
+                "#SBATCH --nodefile=MyNodeFile"; "#SBATCH --ntasks-per-core=10";
+                "#SBATCH --ntasks-per-gpu=20"; "#SBATCH --ntasks-per-node=23";
+                "#SBATCH --ntasks-per-socket=1337"; "#SBATCH --overcommit";
+                "#SBATCH --oversubscribe"; "#SBATCH --prefer=ThisCPU ThisNode";
+                "#SBATCH --quiet"; "#SBATCH --reboot"; "#SBATCH --mail-user=example@type.de";
+                "#SBATCH --requeue"; "#SBATCH --sockets-per-node=69"; "#SBATCH --spread-job";
+                "#SBATCH --test-only"; "#SBATCH --thread-spec=42";
+                "#SBATCH --threads-per-core==2323"; "#SBATCH --time-min=01-02:03:04";
+                "#SBATCH --uid=MyUserID"; "#SBATCH --use-min-nodes"; "#SBATCH --verbose";
+                "#SBATCH --wait"; "#SBATCH --wait-all-nodes=1";
+                "#SBATCH --wrap=[Wrap; Burrito; Taco]";
+                "#SBATCH --acctg-freq=Task=1,Energy=70"; "#SBATCH -a 1,2,3,10-20,%3";
+                "#SBATCH --reservation=Here,There"; "#SBATCH -b 24-05-2023T16:30:10";
+                "#SBATCH --kill-on-invalid-dep"; "#SBATCH --ignore-pbs"; "#SBATCH -N MyNode";
+                "#SBATCH -o MyOutput"; "#SBATCH --time=01-02:03:04"; "#SBATCH --ntasks=5";
+                "#SBATCH --cpus-per-task=5"; "#SBATCH --mem=MyMemory";
+                "#SBATCH -p MyPartition"; "#SBATCH -e MyError"; "#SBATCH --parsable";
+                "#SBATCH -A MyAccount"; "#SBATCH --batch=ThisIsATest&Batch";
+                "#SBATCH -i MyInput"; "#SBATCH --bbf=BBF"; "#SBATCH --bb=This|IsATest";
+                "#SBATCH -M cluster1,cluster2"; "#SBATCH --hold"; "#SBATCH --gid=CSB";
+                "#SBATCH --extra=Hey I'm Extra"; "#SBATCH -x Hey Exclude Me";
+                "#SBATCH --delay-boot=8"; "#SBATCH -D wdir"; "#SBATCH --cpus-per-gpu=7";
+                "#SBATCH -S 3"; "#SBATCH --contiguous"; "#SBATCH --container-id=MyContainerID";
+                "#SBATCH --container=MyContainer"; "#SBATCH --comment=new comment $";
+                "#SBATCH --cores-per-socket=2";
+                "#SBATCH --dependency=afternotok:jobToDependOn"; "hello panda";
+                "module load proteomiqon"; "MyProgram MyArgument1 MyArgument2"|]
+            aaaa|> Array.mapi (fun i x -> x = jobscript.[i])  |>  Array.contains false |> fun x ->  
+                 Expect.isFalse x "Jobscript creation failed "
+
+
+        testCase "TimeToStart" <| fun _ ->
+            Expect.equal (Job.matchDateTime (DateTimeString.DateTime(28,07,1997,20,04,19))) "1997-07-28T20:04:19" "Time with Date failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.OnlyTime(20,03,10))) "20:03:10" "Time Only Date failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.NowPlusTime(30,timeUnit.Days))) "now+30days" "Now plus time failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Now)) "now" "Time now failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Midnight)) "midnight" "Time failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Noon)) "noon" "Time midnight failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Fika)) "fika" "Time fika failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.TeaTime)) "teatime" "Time teatime failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Tomorrow)) "tomorrow" "tomorrow failed"
+            Expect.equal (Job.matchDateTime (DateTimeString.Today)) "today" "today failed"
+            
+
+
+
 
 
         testCase "environment" <| fun _ ->
