@@ -48,6 +48,7 @@ myJob |> DynObj.format
 // ?error: MyError
 ```
 
+Entries can be removed via `Job.RemoveX`, where x is the name of the value. If you want to display a specific value alone, use the `Job.TryGetX` members.
 If an environment is necessary, such as loading a module, it can be included in the task in the following manner:
 
 ```fsharp
