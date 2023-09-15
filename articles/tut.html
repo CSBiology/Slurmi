@@ -121,7 +121,8 @@ myJob |&gt; Job.SetError &quot;MyError&quot;
 // ?partition: MyPartition
 // ?error: MyError
 </code></pre>
-<p>If an environment is necessary, such as loading a module, it can be included in the task in the following manner:</p>
+<p>Entries can be removed via <code>Job.RemoveX</code>, where x is the name of the value. If you want to display a specific value alone, use the <code>Job.TryGetX</code> members.
+If an environment is necessary, such as loading a module, it can be included in the task in the following manner:</p>
 <pre><code class="lang-fsharp">let newenv = new EnvironmentSLURM()
 newenv.AddCommandAndArgument &quot;module load&quot; &quot;proteomiqon&quot;
 newenv.AddCommandAndArgument &quot;module load&quot; &quot;testtool&quot;

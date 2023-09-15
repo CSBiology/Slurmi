@@ -262,9 +262,21 @@ public class Job : DynamicObj, IDynamicMetaObjectProvider</code></pre>
 </dd>
   </dl>
   <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.SetAccountingFrequency.html#Slurmi_Job_SetAccountingFrequency_Microsoft_FSharp_Core_FSharpOption_System_Tuple_Slurmi_AccountingFrequency_System_Int32_____">SetAccountingFrequency(FSharpOption&lt;Tuple&lt;AccountingFrequency, int&gt;[]&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.SetArray.html#Slurmi_Job_SetArray_Microsoft_FSharp_Core_FSharpOption_Slurmi_ArraySlurm__">SetArray(FSharpOption&lt;ArraySlurm&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
     <dt><a class="xref" href="Slurmi.Job.SetBatch.html#Slurmi_Job_SetBatch_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___">SetBatch(FSharpOption&lt;FSharpList&lt;string&gt;&gt;)</a></dt>
     <dd><p>Nodes can have features assigned to them by the Slurm administrator. Users can specify which of these features are required by their batch script using this options.</p>
 </dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.SetBegin.html#Slurmi_Job_SetBegin_Microsoft_FSharp_Core_FSharpOption_Slurmi_DateTimeString__">SetBegin(FSharpOption&lt;DateTimeString&gt;)</a></dt>
+    <dd></dd>
   </dl>
   <dl class="jumplist">
     <dt><a class="xref" href="Slurmi.Job.SetBurstBufferSpecification.html#Slurmi_Job_SetBurstBufferSpecification_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___">SetBurstBufferSpecification(FSharpOption&lt;FSharpList&lt;string&gt;&gt;)</a></dt>
@@ -567,7 +579,7 @@ public class Job : DynamicObj, IDynamicMetaObjectProvider</code></pre>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Job.createJobscript.html#Slurmi_Job_createJobscript_Slurmi_Job_">createJobscript(Job)</a></dt>
+    <dt><a class="xref" href="Slurmi.Job.createJobScript.html#Slurmi_Job_createJobScript_Slurmi_Job_">createJobScript(Job)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
@@ -575,7 +587,275 @@ public class Job : DynamicObj, IDynamicMetaObjectProvider</code></pre>
     <dd></dd>
   </dl>
   <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.getTimeUnit.html#Slurmi_Job_getTimeUnit_Slurmi_timeUnit_">getTimeUnit(timeUnit)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
     <dt><a class="xref" href="Slurmi.Job.ifOnlyOneDigit.html#Slurmi_Job_ifOnlyOneDigit_System_Int32_">ifOnlyOneDigit(int)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.matchDateTime.html#Slurmi_Job_matchDateTime_Slurmi_DateTimeString_">matchDateTime(DateTimeString)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeAccount.html#Slurmi_Job_removeAccount_Slurmi_Job_">removeAccount(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeAccountingFrequency.html#Slurmi_Job_removeAccountingFrequency_Slurmi_Job_">removeAccountingFrequency(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeArray.html#Slurmi_Job_removeArray_Slurmi_Job_">removeArray(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeBatch.html#Slurmi_Job_removeBatch_Slurmi_Job_">removeBatch(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeBegin.html#Slurmi_Job_removeBegin_Slurmi_Job_">removeBegin(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeBurstBufferSpecification.html#Slurmi_Job_removeBurstBufferSpecification_Slurmi_Job_">removeBurstBufferSpecification(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeBurstBufferSpecificationFilePath.html#Slurmi_Job_removeBurstBufferSpecificationFilePath_Slurmi_Job_">removeBurstBufferSpecificationFilePath(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeCPUsPerGPU.html#Slurmi_Job_removeCPUsPerGPU_Slurmi_Job_">removeCPUsPerGPU(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeCPUsPerTask.html#Slurmi_Job_removeCPUsPerTask_Slurmi_Job_">removeCPUsPerTask(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeClusters.html#Slurmi_Job_removeClusters_Slurmi_Job_">removeClusters(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeComment.html#Slurmi_Job_removeComment_Slurmi_Job_">removeComment(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeContainer.html#Slurmi_Job_removeContainer_Slurmi_Job_">removeContainer(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeContainerID.html#Slurmi_Job_removeContainerID_Slurmi_Job_">removeContainerID(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeContiguous.html#Slurmi_Job_removeContiguous_Slurmi_Job_">removeContiguous(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeCoresPerSocker.html#Slurmi_Job_removeCoresPerSocker_Slurmi_Job_">removeCoresPerSocker(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeDelayBoot.html#Slurmi_Job_removeDelayBoot_Slurmi_Job_">removeDelayBoot(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeDependency.html#Slurmi_Job_removeDependency_Slurmi_Job_">removeDependency(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeEnvironment.html#Slurmi_Job_removeEnvironment_Slurmi_Job_">removeEnvironment(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeError.html#Slurmi_Job_removeError_Slurmi_Job_">removeError(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeExclude.html#Slurmi_Job_removeExclude_Slurmi_Job_">removeExclude(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeExtra.html#Slurmi_Job_removeExtra_Slurmi_Job_">removeExtra(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeGroupID.html#Slurmi_Job_removeGroupID_Slurmi_Job_">removeGroupID(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeHold.html#Slurmi_Job_removeHold_Slurmi_Job_">removeHold(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeIgnorePBS.html#Slurmi_Job_removeIgnorePBS_Slurmi_Job_">removeIgnorePBS(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeInput.html#Slurmi_Job_removeInput_Slurmi_Job_">removeInput(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeJobID.html#Slurmi_Job_removeJobID_Slurmi_Job_">removeJobID(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeKillOnInvalidDep.html#Slurmi_Job_removeKillOnInvalidDep_Slurmi_Job_">removeKillOnInvalidDep(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeMailUser.html#Slurmi_Job_removeMailUser_Slurmi_Job_">removeMailUser(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeMemory.html#Slurmi_Job_removeMemory_Slurmi_Job_">removeMemory(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeMemoryPerCPU.html#Slurmi_Job_removeMemoryPerCPU_Slurmi_Job_">removeMemoryPerCPU(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeMinCPUs.html#Slurmi_Job_removeMinCPUs_Slurmi_Job_">removeMinCPUs(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeMinTime.html#Slurmi_Job_removeMinTime_Slurmi_Job_">removeMinTime(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNTasks.html#Slurmi_Job_removeNTasks_Slurmi_Job_">removeNTasks(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNTasksPerCore.html#Slurmi_Job_removeNTasksPerCore_Slurmi_Job_">removeNTasksPerCore(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNTasksPerGPU.html#Slurmi_Job_removeNTasksPerGPU_Slurmi_Job_">removeNTasksPerGPU(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNTasksPerNode.html#Slurmi_Job_removeNTasksPerNode_Slurmi_Job_">removeNTasksPerNode(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNTasksPerSocket.html#Slurmi_Job_removeNTasksPerSocket_Slurmi_Job_">removeNTasksPerSocket(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNoRequeue.html#Slurmi_Job_removeNoRequeue_Slurmi_Job_">removeNoRequeue(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNode.html#Slurmi_Job_removeNode_Slurmi_Job_">removeNode(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeNodeFile.html#Slurmi_Job_removeNodeFile_Slurmi_Job_">removeNodeFile(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeOutput.html#Slurmi_Job_removeOutput_Slurmi_Job_">removeOutput(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeOvercommit.html#Slurmi_Job_removeOvercommit_Slurmi_Job_">removeOvercommit(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeOversubscribe.html#Slurmi_Job_removeOversubscribe_Slurmi_Job_">removeOversubscribe(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeParsable.html#Slurmi_Job_removeParsable_Slurmi_Job_">removeParsable(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removePartition.html#Slurmi_Job_removePartition_Slurmi_Job_">removePartition(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removePrefer.html#Slurmi_Job_removePrefer_Slurmi_Job_">removePrefer(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeQuiet.html#Slurmi_Job_removeQuiet_Slurmi_Job_">removeQuiet(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeReboot.html#Slurmi_Job_removeReboot_Slurmi_Job_">removeReboot(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeRequeue.html#Slurmi_Job_removeRequeue_Slurmi_Job_">removeRequeue(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeReservation.html#Slurmi_Job_removeReservation_Slurmi_Job_">removeReservation(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeSocketsPerNode.html#Slurmi_Job_removeSocketsPerNode_Slurmi_Job_">removeSocketsPerNode(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeSpezializedCores.html#Slurmi_Job_removeSpezializedCores_Slurmi_Job_">removeSpezializedCores(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeSpreadJob.html#Slurmi_Job_removeSpreadJob_Slurmi_Job_">removeSpreadJob(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeThreadSpec.html#Slurmi_Job_removeThreadSpec_Slurmi_Job_">removeThreadSpec(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeThreadsPerCore.html#Slurmi_Job_removeThreadsPerCore_Slurmi_Job_">removeThreadsPerCore(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeTime.html#Slurmi_Job_removeTime_Slurmi_Job_">removeTime(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeUseMinNodes.html#Slurmi_Job_removeUseMinNodes_Slurmi_Job_">removeUseMinNodes(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeUserID.html#Slurmi_Job_removeUserID_Slurmi_Job_">removeUserID(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeVerbose.html#Slurmi_Job_removeVerbose_Slurmi_Job_">removeVerbose(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeWait.html#Slurmi_Job_removeWait_Slurmi_Job_">removeWait(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeWaitAllNodes.html#Slurmi_Job_removeWaitAllNodes_Slurmi_Job_">removeWaitAllNodes(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeWorkingDirectory.html#Slurmi_Job_removeWorkingDirectory_Slurmi_Job_">removeWorkingDirectory(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removeWrap.html#Slurmi_Job_removeWrap_Slurmi_Job_">removeWrap(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removememoryPerGPU.html#Slurmi_Job_removememoryPerGPU_Slurmi_Job_">removememoryPerGPU(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.removetestOnly.html#Slurmi_Job_removetestOnly_Slurmi_Job_">removetestOnly(Job)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
@@ -583,7 +863,19 @@ public class Job : DynamicObj, IDynamicMetaObjectProvider</code></pre>
     <dd></dd>
   </dl>
   <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.tryGetAccountingFrequency.html#Slurmi_Job_tryGetAccountingFrequency_Slurmi_Job_">tryGetAccountingFrequency(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.tryGetArray.html#Slurmi_Job_tryGetArray_Slurmi_Job_">tryGetArray(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
     <dt><a class="xref" href="Slurmi.Job.tryGetBatch.html#Slurmi_Job_tryGetBatch_Slurmi_Job_">tryGetBatch(Job)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Job.tryGetBegin.html#Slurmi_Job_tryGetBegin_Slurmi_Job_">tryGetBegin(Job)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
