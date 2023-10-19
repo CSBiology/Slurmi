@@ -1846,3 +1846,12 @@ type Job (jobName: string,processList:(string*string list)list)=
             localStr.Append (this.formatEnv)            |> ignore
         localStr.Append this.formatProcess    |> ignore
         localStr.ToString()
+
+    member this.produceCall = 
+        let strLocal = new System.Text.StringBuilder()
+        //strLocal.AppendLine ("#!/bin/bash") |> ignore
+        strLocal.AppendLine ("sbatch <<EOF") |> ignore
+        strLocal.Append this.formatSlurmCalls |> ignore 
+        strLocal.AppendLine("EOF")           |> ignore 
+        strLocal.ToString()
+    

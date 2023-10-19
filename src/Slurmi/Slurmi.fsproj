@@ -43,7 +43,8 @@
 
   <ItemGroup>
     <PackageReference Include="DynamicObj" Version="2.0.0" />
-	  <PackageReference Include="Fli" Version="1.10.0" />
+	<PackageReference Include="Fli" Version="1.10.0" />
+	<PackageReference Include="Graphoscope" Version="0.3.0" />
 
   </ItemGroup>	
 
