@@ -1161,7 +1161,18 @@ type ShortCommand (jobName: string) =
 type LongCommand  (jobName: string) =
     inherit DynamicObj()
     member val Name = jobName with get, set
+    static member SetDependency
+        ([<Optional; DefaultParameterValue(null)>]?Dependency:string) =
+            (fun (job: LongCommand) ->
 
+                Dependency |> DynObj.setValueOpt job "dependency"
+                job
+            )
+    static member tryGetDependency(job: LongCommand) =
+        job.TryGetValue "dependency"
+
+    static member removeDependency(job: LongCommand) =
+        job.Remove "dependency"
     static member SetPriority
         ([<Optional; DefaultParameterValue(null)>]?Priority:Priority) =
             (fun (job: LongCommand) ->
@@ -1755,7 +1766,7 @@ type Job (jobName: string,processList:(string*string list)list)=
 
 
     static member SetJobID
-        ([<Optional; DefaultParameterValue(null)>]?JobID: int) =
+        ([<Optional; DefaultParameterValue(null)>]?JobID: string) =
             (fun (job: Job) ->
 
                 JobID |> DynObj.setValueOpt job "jobid"
@@ -1797,7 +1808,7 @@ type Job (jobName: string,processList:(string*string list)list)=
             localStr.AppendFormat("{0} {1}\n", processX, (String.concat " " args)) |> ignore
         localStr.ToString()
 
-    member private this.formatOneDash = 
+    member this.formatOneDash = 
         let localStr = new System.Text.StringBuilder()
         this.OneDash.GetProperties(true)
         |> Seq.toArray
@@ -1805,7 +1816,7 @@ type Job (jobName: string,processList:(string*string list)list)=
         |> Array.map (fun x -> localStr.Append (sprintf "-%s %s " x.Key (x.Value.ToString()))) |> ignore
         localStr.ToString()
 
-    member private this.formatTwoDashes = 
+    member this.formatTwoDashes = 
         let localStr = new System.Text.StringBuilder()
     
         this.TwoDashes.GetProperties(true)
@@ -1813,7 +1824,7 @@ type Job (jobName: string,processList:(string*string list)list)=
         |> Array.filter (fun x -> x.Key <> "Name")
         |> Array.map (fun x -> localStr.Append (sprintf "--%s=%s " x.Key (x.Value.ToString()))) |> ignore
         localStr.ToString()
-    member private this.formatOnlyKey = 
+    member this.formatOnlyKey = 
         let localStr = new System.Text.StringBuilder()
         this.OnlyKey.GetProperties(true)
         |> Seq.toArray
