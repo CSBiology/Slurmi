@@ -1,4 +1,5 @@
 ﻿namespace Slurmi 
+
 open DynamicObj
 open System.Runtime.InteropServices
 open Fli 
@@ -6,31 +7,6 @@ open Graphoscope
 open System.Collections.Generic
 
 module Workflow = 
-//type Workflow (jobs:Job array)= 
-
-//    inherit DynamicObj()
-
-//    member val Jobs = jobs with get, set
-//    /// Wall clock time limit.
-//    static member SetTime
-//        ([<Optional; DefaultParameterValue(null)>]?Time:(int*int*int*int)) =
-//            (fun (wf: Workflow) ->
-//                Time |> DynObj.setValueOpt wf "time"
-//                wf
-//            )
-
-//    static member tryGetTime (wf: Workflow) =
-//        wf.TryGetValue "time"
-
-//    static member SetPartition
-//        ([<Optional; DefaultParameterValue(null)>]?Partition:string) =
-//            (fun (wf: Workflow) ->
-//                Partition |> DynObj.setValueOpt wf "partition"
-//                wf
-//            )
-
-//    static member tryGetPartition (wf: Workflow) =
-//        wf.TryGetValue "partition"
 
     let callToTerminalCMD (command:string) = 
         let processResponse = 
@@ -81,6 +57,7 @@ module Workflow =
         |> List.iter (
             fun jobWithDep ->
                 //FGraph.addElement jobWithDep.JobInfo.Name jobWithDep.DependingOn jobWithDep.DependingOn |> ignore
+                jobWithDep.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
                 jobWithDep.DependingOn 
                 |> List.iter (fun (job,dep) -> FGraph.addElement job.Name (input|> List.find (fun x -> x.JobInfo.Name = job.Name)) jobWithDep.JobInfo.Name jobWithDep  dep g |> ignore))
     
@@ -171,10 +148,11 @@ module Workflow =
                 then printfn "already worked on %A "jobToLook
             else
                 printfn "added %A" jobToLook
-                formatDep graph jobToLook
-                sendToTerminalAndReceiveJobID  (getJob graph jobToLook)
-                // let jtwo = getJob graph jobToLook
+                let jtwo = getJob graph jobToLook
 
+                formatDep graph jobToLook
+                jtwo.JobInfo |> Job.SetJobID (getResultFromCallBASH (jtwo.JobInfo.produceCall)) |> ignore
+                
                 workedOn.Add jobToLook
         else
             printfn "false"
