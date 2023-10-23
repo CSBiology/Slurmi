@@ -6,6 +6,7 @@
                     ////// .Split "\n") // Replace("\r","\n"))
 open DynamicObj
 open System.Runtime.InteropServices
+open Fli
 
 
 type timeUnit = 
@@ -1734,18 +1735,7 @@ type LongCommand  (jobName: string) =
         job.Remove "mem"
 
 
-    // /// Defer the start of this job until the specified dependencies have been satisfied.
-    // static member SetDependency
-    //     ([<Optional; DefaultParameterValue(null)>]?Dependency:TypeOfDep*DependencyType[]) =
-    //         (fun (job: LongCommand) ->
-    //             Dependency  |> DynObj.setValueOpt job "dependency"
-    //             job
-    //         )
-    // static member tryGetDependency (job: LongCommand) =
-    //     job.TryGetValue "dependency"
 
-    // static member removeDependency(job: LongCommand) =
-    //     job.Remove "dependency"
 type EnvironmentSLURM() =
     let mutable environment : (string * string) list = []
 
@@ -1824,6 +1814,7 @@ type Job (jobName: string,processList:(string*string list)list)=
         |> Array.filter (fun x -> x.Key <> "Name")
         |> Array.map (fun x -> localStr.Append (sprintf "--%s=%s " x.Key (x.Value.ToString()))) |> ignore
         localStr.ToString()
+
     member this.formatOnlyKey = 
         let localStr = new System.Text.StringBuilder()
         this.OnlyKey.GetProperties(true)
@@ -1854,4 +1845,55 @@ type Job (jobName: string,processList:(string*string list)list)=
         strLocal.Append this.formatSlurmCalls |> ignore 
         strLocal.AppendLine("EOF")           |> ignore 
         strLocal.ToString()
+
+     member private this.matchOutput x = 
+        match x with 
+        | Some value -> value 
+        | None -> failwith "No output"
+    member private this.callToTerminalCMD (command:string) = 
+        let processResponse = 
+            cli {
+                Shell CMD
+                Command command
+            }
+            |> Command.execute
+        // processResponse.Text
+        processResponse
+    member private this.callToTerminalBash (command:string) = 
+        let processResponse = 
+            cli {
+                Shell BASH
+                Command command
+            }
+            |> Command.execute
+        // processResponse.Text
+        processResponse
+    member this.getResultFromCallCMD (command:string) = 
+        (this.callToTerminalCMD (command)).Text
+        |> this.matchOutput
+
+    member this.getResultFromCallBash (command:string) = 
+        (this.callToTerminalBash (command)).Text
+        |> this.matchOutput
+
+    member this.sendToTerminalAndReceiveJobIDBash (job:Job)= 
+        job.OnlyKey |> OnlyKey.SetParsable true |> ignore
     
+        let res = this.getResultFromCallBash (job.formatProcess)
+        // submit 
+        // get return 
+        job |> Job.SetJobID res |> ignore 
+        // set as Job ID 
+
+
+    member this.sendToTerminalAndReceiveJobIDCMD (job:Job)= 
+        // job 
+        // set parsable 
+        job.OnlyKey |> OnlyKey.SetParsable true |> ignore
+
+    
+        let res = this.getResultFromCallCMD (job.formatProcess)
+        // submit 
+        // get return 
+        job |> Job.SetJobID res |> ignore 
+        // set as Job ID 
