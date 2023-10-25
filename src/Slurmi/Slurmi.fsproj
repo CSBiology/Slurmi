@@ -34,11 +34,9 @@
 
   <ItemGroup>
     <Compile Include="Process.fs" />
-    <Compile Include="Environment.fs" />
     <Compile Include="Dependency.fs" />
     <Compile Include="Job.fs" />
     <Compile Include="Workflow.fs" />
-    <Compile Include="HelperFunctions.fs" />
   </ItemGroup>
 
   <ItemGroup>

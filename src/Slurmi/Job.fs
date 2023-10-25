@@ -1,9 +1,5 @@
 ﻿namespace Slurmi
-//#r "nuget: DynamicObj, 2.0.0"
-//#r "nuget: Fli, 1.10.0"
 
-// #r "nuget: Slurmi"
-                    ////// .Split "\n") // Replace("\r","\n"))
 open DynamicObj
 open System.Runtime.InteropServices
 open Fli
@@ -26,14 +22,22 @@ type TimeClock =
     }
     with 
         override this.ToString() = 
-            let hourString = sprintf "%02d" this.hour
-            let minuteString = sprintf "%02d" this.minute
-            let secondString = 
-                match this.second with
-                | Some(s) -> sprintf ":%02d" s
-                | None -> ""
-            sprintf "%s:%s%s" hourString minuteString secondString 
-
+            if this = {hour = 0; minute = 0; second = Some 0} then 
+                let hourString = sprintf "%02d" this.hour
+                let minuteString = sprintf "01"
+                let secondString = 
+                    match this.second with
+                    | Some(s) -> sprintf ":%02d" s
+                    | None -> ""
+                sprintf "%s:%s%s" hourString minuteString secondString 
+            else 
+                let hourString = sprintf "%02d" this.hour
+                let minuteString = sprintf "%02d" this.minute
+                let secondString = 
+                    match this.second with
+                    | Some(s) -> sprintf ":%02d" s
+                    | None -> ""
+                sprintf "%s:%s%s" hourString minuteString secondString 
 
 type TimeFormat1 =
     {
@@ -1711,7 +1715,10 @@ type LongCommand  (jobName: string) =
     static member SetCPUsPerTask
         ([<Optional; DefaultParameterValue(null)>]?CPUsPerTask:int) =
             (fun (job: LongCommand) ->
-                CPUsPerTask |> DynObj.setValueOpt job "cpus-per-task"
+                if CPUsPerTask = (Some 0) then 
+                    Some 1 |> DynObj.setValueOpt job "cpus-per-task"
+                else
+                    CPUsPerTask |> DynObj.setValueOpt job "cpus-per-task"
                 job
             )
     static member tryGetCPUsPerTask (job: LongCommand) =
