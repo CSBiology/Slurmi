@@ -96,11 +96,27 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.AccountingFrequency.html">AccountingFrequency</a></dt>
+      <dt><a class="xref" href="Slurmi.AccountingFreq.html">AccountingFreq</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.AccountingFrequency.Tags.html">AccountingFrequency.Tags</a></dt>
+      <dt><a class="xref" href="Slurmi.AccountingFrequencies.html">AccountingFrequencies</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.AccountingType.html">AccountingType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.AccountingType.Tags.html">AccountingType.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.AmPm.html">AmPm</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.AmPm.Tags.html">AmPm.Tags</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
@@ -108,77 +124,280 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DateTimeString.html">DateTimeString</a></dt>
+      <dt><a class="xref" href="Slurmi.Batch.html">Batch</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DateTimeString.DateTime.html">DateTimeString.DateTime</a></dt>
+      <dt><a class="xref" href="Slurmi.BeginTime.html">BeginTime</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.BeginTime.DateTime.html">BeginTime.DateTime</a></dt>
       <dd><p>(day, month, year, hour, minute, second)</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DateTimeString.NowPlusTime.html">DateTimeString.NowPlusTime</a></dt>
+      <dt><a class="xref" href="Slurmi.BeginTime.NowPlusTime.html">BeginTime.NowPlusTime</a></dt>
       <dd><p>(&quot;now&quot; + count * time unit)</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DateTimeString.OnlyTime.html">DateTimeString.OnlyTime</a></dt>
+      <dt><a class="xref" href="Slurmi.BeginTime.OnlyTime.html">BeginTime.OnlyTime</a></dt>
       <dd><p>(hour, minute, second)</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DateTimeString.Tags.html">DateTimeString.Tags</a></dt>
+      <dt><a class="xref" href="Slurmi.BeginTime.Tags.html">BeginTime.Tags</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.html">DependencyType</a></dt>
+      <dt><a class="xref" href="Slurmi.CPUsAcrossCores.html">CPUsAcrossCores</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.After.html">DependencyType.After</a></dt>
-      <dd><p>After the specified jobs start or are cancelled and 'time' in minutes from job start or cancellation happens, this job can begin execution. If no 'time' is given then there is no delay after start or cancellation.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Afterany.html">DependencyType.Afterany</a></dt>
-      <dd><p>This job can begin execution after the specified jobs have terminated. This is the default dependency type.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Afterburstbuffer.html">DependencyType.Afterburstbuffer</a></dt>
-      <dd><p>This job can begin execution after the specified jobs have terminated and any associated burst buffer stage out operations have completed.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Aftercorr.html">DependencyType.Aftercorr</a></dt>
-      <dd><p>A task of this job array can begin execution after the corresponding task ID in the specified job has completed successfully (ran to completion with an exit code of zero).</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Afternotok.html">DependencyType.Afternotok</a></dt>
-      <dd><p>This job can begin execution after the specified jobs have terminated in some failed state (non-zero exit code, node failure, timed out, etc).</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Afterok.html">DependencyType.Afterok</a></dt>
-      <dd><p>This job can begin execution after the specified jobs have successfully executed (ran to completion with an exit code of zero)</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Singleton.html">DependencyType.Singleton</a></dt>
-      <dd><p>This job can begin execution after any previously launched jobs sharing the same job name and user have terminated. In other words, only one job by that name and owned by that user can be running or suspended at any point in time. In a federation, a singleton dependency must be fulfilled on all clusters unless DependencyParameters=disable_remote_singleton is used in slurm.conf.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.DependencyType.Tags.html">DependencyType.Tags</a></dt>
+      <dt><a class="xref" href="Slurmi.CPUsAcrossCores.Tags.html">CPUsAcrossCores.Tags</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.CPUsAcrossSockets.html">CPUsAcrossSockets</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.CPUsAcrossSockets.Tags.html">CPUsAcrossSockets.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Clusters.html">Clusters</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.ControlOverNodes.html">ControlOverNodes</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.ControlOverNodes.Tags.html">ControlOverNodes.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Date.html">Date</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.DateFormatted.html">DateFormatted</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.html">Deadline</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.Date.html">Deadline.Date</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.DateTime.html">Deadline.DateTime</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.Offset.html">Deadline.Offset</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.Tags.html">Deadline.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Deadline.Time.html">Deadline.Time</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Distributions.html">Distributions</a></dt>
+      <dd><p>Specify alternate distribution methods for remote processes. For job allocation, this sets environment variables that will be used by subsequent srun requests and also affects which cores will be selected for job allocation.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Slurmi.EnvironmentSLURM.html">EnvironmentSLURM</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Exclude.html">Exclude</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Exclusive.html">Exclusive</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.ExtraNodeInfo.html">ExtraNodeInfo</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUFreq.html">GPUFreq</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUFreqVal.html">GPUFreqVal</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUFreqVal.Mhz.html">GPUFreqVal.Mhz</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUFreqVal.Tags.html">GPUFreqVal.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUMem.html">GPUMem</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUMem.Tags.html">GPUMem.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUSpez.html">GPUSpez</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUSpezList.html">GPUSpezList</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUTypes.html">GPUTypes</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUTypes.Custom.html">GPUTypes.Custom</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GPUTypes.Tags.html">GPUTypes.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GetUserEnv.html">GetUserEnv</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Gres.html">Gres</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresFlags.html">GresFlags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresFlags.Tags.html">GresFlags.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresName.html">GresName</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresName.Custom.html">GresName.Custom</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresName.Tags.html">GresName.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.GresUnit.html">GresUnit</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Hint.html">Hint</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Hint.Tags.html">Hint.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Immediate.html">Immediate</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Slurmi.Job.html">Job</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.KindOfDependency.html">KindOfDependency</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.KindOfDependency.After.html">KindOfDependency.After</a></dt>
+      <dd><p>After the specified jobs start or are cancelled and 'time' in minutes from job start or cancellation happens, this job can begin execution. If no 'time' is given then there is no delay after start or cancellation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.KindOfDependency.Tags.html">KindOfDependency.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.License.html">License</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.LicenseList.html">LicenseList</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.LongCommand.html">LongCommand</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.MailType.html">MailType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.MailType.Tags.html">MailType.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.MailTypeList.html">MailTypeList</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Memory.html">Memory</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.MemoryUnit.html">MemoryUnit</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.MemoryUnit.Tags.html">MemoryUnit.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Mode.html">Mode</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Mode.Tags.html">Mode.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.OnlyKey.html">OnlyKey</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Prefer.html">Prefer</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Priority.html">Priority</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Priority.Tags.html">Priority.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Priority.Val.html">Priority.Val</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
@@ -202,6 +421,66 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Reservation.html">Reservation</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Seperators.html">Seperators</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.SetBurstBufferSpecification.html">SetBurstBufferSpecification</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.ShortCommand.html">ShortCommand</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.SimultaniousJobs.html">SimultaniousJobs</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Suffix.html">Suffix</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Suffix.Tags.html">Suffix.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TaskToNodes.html">TaskToNodes</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TaskToNodes.Plane.html">TaskToNodes.Plane</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TaskToNodes.Tags.html">TaskToNodes.Tags</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Time.html">Time</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TimeClock.html">TimeClock</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TimeFormat1.html">TimeFormat1</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TimeFormat2.html">TimeFormat2</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.TimeFormat3.html">TimeFormat3</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Slurmi.TypeOfDep.html">TypeOfDep</a></dt>
       <dd></dd>
     </dl>
@@ -210,11 +489,23 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.WaitAllNodes.html">WaitAllNodes</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Slurmi.Workflow.html">Workflow</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="Slurmi.helperFunctions.html">helperFunctions</a></dt>
+      <dt><a class="xref" href="Slurmi.Workflow.JobWithDep.html">Workflow.JobWithDep</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Workflow.WFGraph.html">Workflow.WFGraph</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Slurmi.Workflow.Workflow.html">Workflow.Workflow</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">

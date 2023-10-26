@@ -102,8 +102,8 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CompilationMapping(SourceConstructFlags.ObjectType)]
-public class Workflow : DynamicObj, IDynamicMetaObjectProvider</code></pre>
+    <pre><code class="lang-csharp hljs">[CompilationMapping(SourceConstructFlags.Module)]
+public static class Workflow</code></pre>
   </div>
 
 
@@ -113,104 +113,15 @@ public class Workflow : DynamicObj, IDynamicMetaObjectProvider</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
-      <div><span class="xref">DynamicObj</span></div>
       <div><span class="xref">Workflow</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetValue(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetTypedValue&lt;a&gt;(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.SetValue&lt;c&gt;(string, c)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.getmemberbinder">DynamicObj.TryGetMember(GetMemberBinder, ref object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.setmemberbinder">DynamicObj.TrySetMember(SetMemberBinder, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">DynamicObj.GetProperties(bool)</a>
-    </div>
-    <div>
-      <span class="xref">DynamicObj.GetDynamicMemberNames()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_Dynamic&lt;b&gt;(b, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_DynamicAssignment&lt;a, v&gt;(a, string, v)</a>
-    </div>
-    <div>
-      <span class="xref">DynamicObj.CopyDynamicPropertiesTo(DynamicObj)</span>
-    </div>
-    <div>
-      <span class="xref">DynamicObj.CopyDynamicProperties()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.GetValue(DynamicObj, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(DynamicObj, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">DynamicObj.Equals(object)</a>
-    </div>
-    <div>
-      <span class="xref">DynamicObj.GetHashCode()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
@@ -221,10 +132,16 @@ public class Workflow : DynamicObj, IDynamicMetaObjectProvider</code></pre>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
@@ -232,40 +149,11 @@ public class Workflow : DynamicObj, IDynamicMetaObjectProvider</code></pre>
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-  <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.-ctor.html#Slurmi_Workflow__ctor_Slurmi_Job___">Workflow(Job[])</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-  <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.Jobs.html#Slurmi_Workflow_Jobs">Jobs</a></dt>
-    <dd></dd>
-  </dl>
-
   <h2 class="section" id="methods">Methods
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.SetPartition.html#Slurmi_Workflow_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__">SetPartition(FSharpOption&lt;string&gt;)</a></dt>
-    <dd></dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.SetTime.html#Slurmi_Workflow_SetTime_Microsoft_FSharp_Core_FSharpOption_System_Tuple_System_Int32_System_Int32_System_Int32_System_Int32___">SetTime(FSharpOption&lt;Tuple&lt;int, int, int, int&gt;&gt;)</a></dt>
-    <dd><p>Wall clock time limit.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.tryGetPartition.html#Slurmi_Workflow_tryGetPartition_Slurmi_Workflow_">tryGetPartition(Workflow)</a></dt>
-    <dd></dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Slurmi.Workflow.tryGetTime.html#Slurmi_Workflow_tryGetTime_Slurmi_Workflow_">tryGetTime(Workflow)</a></dt>
+    <dt><a class="xref" href="Slurmi.Workflow.createWorkflow.html#Slurmi_Workflow_createWorkflow_Microsoft_FSharp_Collections_FSharpList_Slurmi_Workflow_JobWithDep__">createWorkflow(FSharpList&lt;JobWithDep&gt;)</a></dt>
     <dd></dd>
   </dl>
 

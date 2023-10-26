@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ShortCommand
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ShortCommand
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Slurmi.ShortCommand">
+
+
+
+  <h1 id="Slurmi_ShortCommand" data-uid="Slurmi.ShortCommand" class="text-break">
+    Class ShortCommand
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Slurmi.html">Slurmi</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Slurmi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CompilationMapping(SourceConstructFlags.ObjectType)]
+public class ShortCommand : DynamicObj, IDynamicMetaObjectProvider</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">DynamicObj</span></div>
+      <div><span class="xref">ShortCommand</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetValue(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetTypedValue&lt;a&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.SetValue&lt;c&gt;(string, c)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.getmemberbinder">DynamicObj.TryGetMember(GetMemberBinder, ref object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.setmemberbinder">DynamicObj.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">DynamicObj.GetProperties(bool)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.GetDynamicMemberNames()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_Dynamic&lt;b&gt;(b, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_DynamicAssignment&lt;a, v&gt;(a, string, v)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.CopyDynamicPropertiesTo(DynamicObj)</span>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.CopyDynamicProperties()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.GetValue(DynamicObj, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(DynamicObj, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">DynamicObj.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.-ctor.html#Slurmi_ShortCommand__ctor_System_String_">ShortCommand(string)</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.Name.html#Slurmi_ShortCommand_Name">Name</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetAccount.html#Slurmi_ShortCommand_SetAccount_Microsoft_FSharp_Core_FSharpOption_System_String__">SetAccount(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Charge resources used by this job to specified account. The account is an arbitrary string. The account name may be changed after job submission using the scontrol command.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetArray.html#Slurmi_ShortCommand_SetArray_Microsoft_FSharp_Core_FSharpOption_Slurmi_ArraySlurm__">SetArray(FSharpOption&lt;ArraySlurm&gt;)</a></dt>
+    <dd><p>Submit a job array, multiple jobs to be executed with identical parameters. The indexes specification identifies what array index values should be used.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetBegin.html#Slurmi_ShortCommand_SetBegin_Microsoft_FSharp_Core_FSharpOption_Slurmi_BeginTime__">SetBegin(FSharpOption&lt;BeginTime&gt;)</a></dt>
+    <dd><p>Submit the batch script to the Slurm controller immediately, like normal, but tell the controller to defer the allocation of the job until the specified time.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetClusters.html#Slurmi_ShortCommand_SetClusters_Microsoft_FSharp_Core_FSharpOption_Slurmi_Clusters__">SetClusters(FSharpOption&lt;Clusters&gt;)</a></dt>
+    <dd><p>Clusters to issue commands to. Multiple cluster names may be comma separated. The job will be submitted to the one cluster providing the earliest expected job initiation time. The default value is the current cluster. A value of 'all' will query to run on all clusters. Note the --export option to control environment variables exported between clusters. Note that the SlurmDBD must be up for this option to work properly.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetDistribution.html#Slurmi_ShortCommand_SetDistribution_Microsoft_FSharp_Core_FSharpOption_Slurmi_Distributions__">SetDistribution(FSharpOption&lt;Distributions&gt;)</a></dt>
+    <dd><p>Specify alternate distribution methods for remote processes. For job allocation, this sets environment variables that will be used by subsequent srun requests and also affects which cores will be selected for job allocation.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetError.html#Slurmi_ShortCommand_SetError_Microsoft_FSharp_Core_FSharpOption_System_String__">SetError(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard error directly to the file name specified in the &quot;filename pattern&quot;.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetExclude.html#Slurmi_ShortCommand_SetExclude_Microsoft_FSharp_Core_FSharpOption_Slurmi_Exclude__">SetExclude(FSharpOption&lt;Exclude&gt;)</a></dt>
+    <dd><p>Explicitly exclude certain nodes from the resources granted to the job.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetExtraNodeInfo.html#Slurmi_ShortCommand_SetExtraNodeInfo_Microsoft_FSharp_Core_FSharpOption_Slurmi_ExtraNodeInfo__">SetExtraNodeInfo(FSharpOption&lt;ExtraNodeInfo&gt;)</a></dt>
+    <dd><p>Restrict node selection to nodes with at least the specified number of sockets, cores per socket and/or threads per core. NOTE: These options do not specify the resource allocation size. Each value specified is considered a minimum. An asterisk (*) can be used as a placeholder indicating that all available resources of that type are to be utilized.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetGPU.html#Slurmi_ShortCommand_SetGPU_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUSpez__">SetGPU(FSharpOption&lt;GPUSpez&gt;)</a></dt>
+    <dd><p>Specify the total number of GPUs required for the job. An optional GPU type specification can be supplied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetInput.html#Slurmi_ShortCommand_SetInput_Microsoft_FSharp_Core_FSharpOption_System_String__">SetInput(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard input directly to the file name specified in the &quot;filename pattern&quot;.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetLicenses.html#Slurmi_ShortCommand_SetLicenses_Microsoft_FSharp_Core_FSharpOption_Slurmi_LicenseList__">SetLicenses(FSharpOption&lt;LicenseList&gt;)</a></dt>
+    <dd><p>Specification of licenses (or other resources available on all nodes of the cluster) which must be allocated to this job. License names can be followed by a colon and count (the default count is one).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetNode.html#Slurmi_ShortCommand_SetNode_Microsoft_FSharp_Core_FSharpOption_System_String__">SetNode(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Request that a minimum of minnodes nodes be allocated to this job.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetOutput.html#Slurmi_ShortCommand_SetOutput_Microsoft_FSharp_Core_FSharpOption_System_String__">SetOutput(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard output directly to the file name specified in the &quot;filename pattern&quot;</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetPartition.html#Slurmi_ShortCommand_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__">SetPartition(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Request a specific partition for the resource allocation.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetSpezializedCores.html#Slurmi_ShortCommand_SetSpezializedCores_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetSpezializedCores(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Count of Specialized Cores per node reserved by the job for system operations and not used by the application.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.SetWorkingDirectory.html#Slurmi_ShortCommand_SetWorkingDirectory_Microsoft_FSharp_Core_FSharpOption_System_String__">SetWorkingDirectory(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Set the working directory of the batch script to directory before it is executed. The path can be specified as full path or relative path to the directory where the command is executed.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeAccount.html#Slurmi_ShortCommand_removeAccount_Slurmi_ShortCommand_">removeAccount(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeArray.html#Slurmi_ShortCommand_removeArray_Slurmi_ShortCommand_">removeArray(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeBegin.html#Slurmi_ShortCommand_removeBegin_Slurmi_ShortCommand_">removeBegin(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeClusters.html#Slurmi_ShortCommand_removeClusters_Slurmi_ShortCommand_">removeClusters(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeDistribution.html#Slurmi_ShortCommand_removeDistribution_Slurmi_ShortCommand_">removeDistribution(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeError.html#Slurmi_ShortCommand_removeError_Slurmi_ShortCommand_">removeError(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeExclude.html#Slurmi_ShortCommand_removeExclude_Slurmi_ShortCommand_">removeExclude(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeExtraNodeInfo.html#Slurmi_ShortCommand_removeExtraNodeInfo_Slurmi_ShortCommand_">removeExtraNodeInfo(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeGPU.html#Slurmi_ShortCommand_removeGPU_Slurmi_ShortCommand_">removeGPU(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeInput.html#Slurmi_ShortCommand_removeInput_Slurmi_ShortCommand_">removeInput(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeLicenses.html#Slurmi_ShortCommand_removeLicenses_Slurmi_ShortCommand_">removeLicenses(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeNode.html#Slurmi_ShortCommand_removeNode_Slurmi_ShortCommand_">removeNode(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeOutput.html#Slurmi_ShortCommand_removeOutput_Slurmi_ShortCommand_">removeOutput(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removePartition.html#Slurmi_ShortCommand_removePartition_Slurmi_ShortCommand_">removePartition(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeSpezializedCores.html#Slurmi_ShortCommand_removeSpezializedCores_Slurmi_ShortCommand_">removeSpezializedCores(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.removeWorkingDirectory.html#Slurmi_ShortCommand_removeWorkingDirectory_Slurmi_ShortCommand_">removeWorkingDirectory(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetAccount.html#Slurmi_ShortCommand_tryGetAccount_Slurmi_ShortCommand_">tryGetAccount(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetArray.html#Slurmi_ShortCommand_tryGetArray_Slurmi_ShortCommand_">tryGetArray(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetBegin.html#Slurmi_ShortCommand_tryGetBegin_Slurmi_ShortCommand_">tryGetBegin(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetClusters.html#Slurmi_ShortCommand_tryGetClusters_Slurmi_ShortCommand_">tryGetClusters(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetDistribution.html#Slurmi_ShortCommand_tryGetDistribution_Slurmi_ShortCommand_">tryGetDistribution(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetError.html#Slurmi_ShortCommand_tryGetError_Slurmi_ShortCommand_">tryGetError(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetExclude.html#Slurmi_ShortCommand_tryGetExclude_Slurmi_ShortCommand_">tryGetExclude(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetExtraNodeInfo.html#Slurmi_ShortCommand_tryGetExtraNodeInfo_Slurmi_ShortCommand_">tryGetExtraNodeInfo(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetGPU.html#Slurmi_ShortCommand_tryGetGPU_Slurmi_ShortCommand_">tryGetGPU(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetInput.html#Slurmi_ShortCommand_tryGetInput_Slurmi_ShortCommand_">tryGetInput(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetLicenses.html#Slurmi_ShortCommand_tryGetLicenses_Slurmi_ShortCommand_">tryGetLicenses(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetNode.html#Slurmi_ShortCommand_tryGetNode_Slurmi_ShortCommand_">tryGetNode(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetOutput.html#Slurmi_ShortCommand_tryGetOutput_Slurmi_ShortCommand_">tryGetOutput(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetPartition.html#Slurmi_ShortCommand_tryGetPartition_Slurmi_ShortCommand_">tryGetPartition(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetSpezializedCores.html#Slurmi_ShortCommand_tryGetSpezializedCores_Slurmi_ShortCommand_">tryGetSpezializedCores(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.ShortCommand.tryGetWorkingDirectory.html#Slurmi_ShortCommand_tryGetWorkingDirectory_Slurmi_ShortCommand_">tryGetWorkingDirectory(ShortCommand)</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

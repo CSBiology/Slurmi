@@ -91,66 +91,114 @@
     Job(&quot;MyJob&quot;,[(&quot;MyProgram&quot;,[&quot;MyArgument1&quot;;&quot;MyArgument2&quot;]);(&quot;MyProgram2&quot;,[&quot;MyArgument1&quot;;&quot;MyArgument2&quot;])])
 </code></pre>
 <p>When displaying the job, the following information is included:</p>
-<pre><code class="lang-fsharp">myJob |&gt; DynObj.format
+<pre><code class="lang-fsharp">myJob 
 
-//?Name: MyJob
-//?Processes: [(MyProgram, [MyArgument1; MyArgument2]); (MyProgram2, [MyArgument1; MyArgument2])]
+//    Slurmi.Job
+//     {Name = &quot;MyJob&quot;;
+//      OneDash = Slurmi.ShortCommand;
+//      OnlyKey = Slurmi.OnlyKey;
+//      Processes = [(&quot;MyProgram&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;]);
+//                   (&quot;MyProgram2&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;])];
+//      TwoDashes = Slurmi.LongCommand;
+//      formatEnv = ?;
+//      formatOneDash = &quot;&quot;;
+//      formatOnlyKey = &quot;&quot;;
+//      formatProcess = &quot;MyProgram MyArgument1 MyArgument2
+//                      MyProgram2 MyArgument1 MyArgument2
+//                      &quot;;
+//      formatSlurmCalls = &quot;#!/bin/bash 
+//                         #SBATCH -J MyJob 
+//                         MyProgram MyArgument1 MyArgument2
+//                         MyProgram2 MyArgument1 MyArgument2
+//                         &quot;;
+//      formatTwoDashes = &quot;&quot;;
+//      getEnvironment = ?;
+//      produceCall = &quot;sbatch &lt;&lt;EOF
+//                     #!/bin/bash 
+//                     #SBATCH -J MyJob 
+//                     MyProgram MyArgument1 MyArgument2
+//                     MyProgram2 MyArgument1 MyArgument2
+//                     EOF
+//                     &quot;;}
+
 </code></pre>
+<p>The fields <code>OneDash</code>, <code>OnlyKey</code> and <code>TwoDashes</code> are empty and will be filled with information regarding the job submission.</p>
 <p>The following step is to add information to the job. This information will later be converted into Slurm commands.</p>
-<pre><code class="lang-fsharp">myJob |&gt; Job.SetNode &quot;MyNode&quot;
-myJob |&gt; Job.SetOutput &quot;MyOutput&quot;
-myJob |&gt; Job.SetTime ((1,2,3,4))
-myJob |&gt; Job.SetNTasks 5
-myJob |&gt; Job.SetCPUsPerTask 5
-myJob |&gt; Job.SetMemory &quot;30 gb&quot;
-myJob |&gt; Job.SetPartition &quot;MyPartition&quot;
-myJob |&gt; Job.SetError &quot;MyError&quot;
-</code></pre>
-<p>Plenty of Slurm commands are available. For instance, the user's input at <code>Job.SetTime((1,2,3,4))</code> reflects the command <code>#SBATCH --time=01-02:03:04</code> , which displays a duration of 1 day, 2 hours, 3 minutes, and 4 seconds. More specific formats are also encoded and applied automatically.</p>
-<p>Once these values have been set, the job will be displayed accordingly.</p>
-<pre><code class="lang-fsharp">myJob |&gt; DynObj.format
+<pre><code class="lang-fsharp">myJob
+myJob.OneDash   |&gt; DynObj.format
+myJob.OneDash   |&gt; ShortCommand.SetPartition &quot;test-Partition&quot;
+myJob.OneDash   |&gt; ShortCommand.SetNode &quot;MyNode&quot;
+myJob.OneDash   |&gt; ShortCommand.SetOutput &quot;MyOutput&quot;
+myJob.TwoDashes |&gt; LongCommand.SetNTasks 5
+myJob.TwoDashes |&gt; LongCommand.SetMemory {memory = 30; unit = MemoryUnit.G }
+myJob.TwoDashes |&gt; LongCommand.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}
+myJob.OnlyKey   |&gt; OnlyKey.SetWait true 
 
-// ?Name: MyJob
-// ?Processes: [(MyProgram, [MyArgument1; MyArgument2]); (MyProgram2, [MyArgument1; MyArgument2])]
-// ?node: MyNode
-// ?output: MyOutput
-// ?time: (1, 2, 3, 4)
-// ?nTasks: 5
-// ?cpusPerTask: 5
-// ?memory: 30 gb
-// ?partition: MyPartition
-// ?error: MyError
 </code></pre>
-<p>Entries can be removed via <code>Job.RemoveX</code>, where x is the name of the value. If you want to display a specific value alone, use the <code>Job.TryGetX</code> members.
+<p>Plenty of Slurm commands are available. For instance, the user's input at <code>LongCommand.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}</code> reflects the command <code>#SBATCH --time=02:30:15</code> , which displays a duration of 0 days, 2 hours, 30 minutes, and 15 seconds. More specific formats are also encoded and applied automatically.</p>
+<p>Once these values have been set, the job will be displayed accordingly.</p>
+<pre><code class="lang-fsharp">myJob 
+
+//   Slurmi.Job
+//     {Name = &quot;MyJob&quot;;
+//      OneDash = Slurmi.ShortCommand;
+//      OnlyKey = Slurmi.OnlyKey;
+//      Processes = [(&quot;MyProgram&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;]);
+//                   (&quot;MyProgram2&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;])];
+//      TwoDashes = Slurmi.LongCommand;
+//      formatEnv = ?;
+//      formatOneDash = &quot;-p test-Partition -N MyNode -o MyOutput &quot;;
+//      formatOnlyKey = &quot;--wait &quot;;
+//      formatProcess = &quot;MyProgram MyArgument1 MyArgument2
+//                       MyProgram2 MyArgument1 MyArgument2
+//                       &quot;;
+//      formatSlurmCalls = &quot;#!/bin/bash 
+//                         #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+//                         MyProgram MyArgument1 MyArgument2
+//                         MyProgram2 MyArgument1 MyArgument2
+//                         &quot;;
+//      formatTwoDashes = &quot;--ntasks=5 --mem=30G --time=02:30:15 &quot;;
+//      getEnvironment = ?;
+//      produceCall = &quot;sbatch &lt;&lt;EOF
+//                     #!/bin/bash 
+//                     #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+//                     MyProgram MyArgument1 MyArgument2
+//                     MyProgram2 MyArgument1 MyArgument2
+//                     EOF
+//                     &quot;;}
+</code></pre>
+<p>Entries can be removed via <code>ShortCommand.RemoveX</code>, where X is the name of the value. If you want to display a specific value alone, use the <code>Job.TryGetX</code> members.
 If an environment is necessary, such as loading a module, it can be included in the task in the following manner:</p>
-<pre><code class="lang-fsharp">let newenv = new EnvironmentSLURM()
-newenv.AddCommandAndArgument &quot;module load&quot; &quot;proteomiqon&quot;
-newenv.AddCommandAndArgument &quot;module load&quot; &quot;testtool&quot;
-myJob |&gt; Job.SetEnvironment newenv 
+<pre><code class="lang-fsharp">let env = EnvironmentSLURM()
+env.AddCommandAndArgument &quot;module load&quot; &quot;dotnet&quot; 
+myJob |&gt; Job.SetEnvironment env
+
+// access the environment
+myJob.getEnvironment
+
+// (string * string) list = [(&quot;module load&quot;, &quot;dotnet&quot;)]
 </code></pre>
 <p>The environment is initialized first, followed by the addition of commands and arguments, and setting it to the job.
-To display the set environment, the following command is used:</p>
-<pre><code class="lang-fsharp">let getEnv  = [(myJob |&gt; Job.tryGetEnvironment)] |&gt; List.choose id |&gt; List.map (fun value -&gt; ((value:?&gt;EnvironmentSLURM).GetEnvironment()))
+To display the formatted environment, the following command is used:</p>
+<pre><code class="lang-fsharp">myJob.formatEnv
 
-// val it: (string * string) list list = [[(&quot;module load&quot;, &quot;testtool&quot;); (&quot;module load&quot;, &quot;proteomiqon&quot;)]]
+// &quot;module load dotnet&quot;
 </code></pre>
-<p>To generate the jobscript, the following command is used:</p>
-<pre><code class="lang-fsharp">let myJobscript = myJob |&gt; Job.createJobscript
+<p>To generate the job call, the following command is used:</p>
+<pre><code class="lang-fsharp">myJob.produceCall
 
-// #!/bin/bash
-// #SBATCH -J MyJob
-// #SBATCH -N MyNode
-// #SBATCH -o MyOutput.out
-// #SBATCH -e MyError.err
-// #SBATCH --time=01-02:03:04
-// #SBATCH --ntasks=5
-// #SBATCH --cpus-per-task=5
-// #SBATCH --mem=30 gb
-// #SBATCH -p MyPartition
-// module load testtool
-// module load proteomiqon
+// &quot;sbatch &lt;&lt;EOF
+// #!/bin/bash 
+// #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+// module load dotnet
 // MyProgram MyArgument1 MyArgument2
 // MyProgram2 MyArgument1 MyArgument2
+// EOF
+// &quot;
+</code></pre>
+<p>This job can be submitted using the <code>myJob.sendToTerminalAndReceiveJobIDBash</code>.
+The job ID is returned as a string.</p>
+<pre><code class="lang-fsharp">myJob.sendToTerminalAndReceiveJobIDBash myJob
 </code></pre>
 </article>
 

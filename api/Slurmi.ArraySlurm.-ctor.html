@@ -120,8 +120,8 @@
 
 <a id="Slurmi_ArraySlurm__ctor_" data-uid="Slurmi.ArraySlurm.#ctor*"></a>
 
-<h3 id="Slurmi_ArraySlurm__ctor_Microsoft_FSharp_Core_FSharpOption_System_Int32____Microsoft_FSharp_Core_FSharpOption_Slurmi_Range__Microsoft_FSharp_Core_FSharpOption_System_Int32__" data-uid="Slurmi.ArraySlurm.#ctor(Microsoft.FSharp.Core.FSharpOption{System.Int32[]},Microsoft.FSharp.Core.FSharpOption{Slurmi.Range},Microsoft.FSharp.Core.FSharpOption{System.Int32})">
-  ArraySlurm(FSharpOption&lt;int[]&gt;, FSharpOption&lt;Range&gt;, FSharpOption&lt;int&gt;)
+<h3 id="Slurmi_ArraySlurm__ctor_Microsoft_FSharp_Core_FSharpOption_Slurmi_Seperators__Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_Slurmi_Range___Microsoft_FSharp_Core_FSharpOption_Slurmi_SimultaniousJobs__" data-uid="Slurmi.ArraySlurm.#ctor(Microsoft.FSharp.Core.FSharpOption{Slurmi.Seperators},Microsoft.FSharp.Core.FSharpOption{Microsoft.FSharp.Collections.FSharpList{Slurmi.Range}},Microsoft.FSharp.Core.FSharpOption{Slurmi.SimultaniousJobs})">
+  ArraySlurm(FSharpOption&lt;Seperators&gt;, FSharpOption&lt;FSharpList&lt;Range&gt;&gt;, FSharpOption&lt;SimultaniousJobs&gt;)
   
 </h3>
 
@@ -129,16 +129,16 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public ArraySlurm(FSharpOption&lt;int[]&gt; seperators, FSharpOption&lt;Range&gt; rangeOfValues, FSharpOption&lt;int&gt; simultaniousJobs)</code></pre>
+  <pre><code class="lang-csharp hljs">public ArraySlurm(FSharpOption&lt;Seperators&gt; seperatorsArray, FSharpOption&lt;FSharpList&lt;Range&gt;&gt; rangeOfValues, FSharpOption&lt;SimultaniousJobs&gt; simultaniousJobsArray)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>seperators</code> <span class="xref">FSharpOption</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]&gt;</dt>
+  <dt><code>seperatorsArray</code> <span class="xref">FSharpOption</span>&lt;<a class="xref" href="Slurmi.Seperators.html">Seperators</a>&gt;</dt>
   <dd></dd>
-  <dt><code>rangeOfValues</code> <span class="xref">FSharpOption</span>&lt;<a class="xref" href="Slurmi.Range.html">Range</a>&gt;</dt>
+  <dt><code>rangeOfValues</code> <span class="xref">FSharpOption</span>&lt;<span class="xref">FSharpList</span>&lt;<a class="xref" href="Slurmi.Range.html">Range</a>&gt;&gt;</dt>
   <dd></dd>
-  <dt><code>simultaniousJobs</code> <span class="xref">FSharpOption</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+  <dt><code>simultaniousJobsArray</code> <span class="xref">FSharpOption</span>&lt;<a class="xref" href="Slurmi.SimultaniousJobs.html">SimultaniousJobs</a>&gt;</dt>
   <dd></dd>
 </dl>
 
