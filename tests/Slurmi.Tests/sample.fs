@@ -11,10 +11,146 @@ open Process
 [<Tests>]
 let tests = 
     testList "job" [
-        testCase "dodo" <| fun _ -> 
-           Expect.equal (1 = 1 ) true "test"
-           //a = b
+        testCase "creating OnlyKey" <| fun _ -> 
+            let job = OnlyKey("MyJob")
+            job |> OnlyKey.SetParsable true |> ignore
+            let result = job |> OnlyKey.tryGetParsable
+            Expect.equal result (Some true) "Access value Parsable Job check"
             
+            job |> OnlyKey.SetNoKill true |> ignore
+            let result = job |> OnlyKey.tryGetNoKill
+            Expect.equal result (Some true) "Access value NoKill Job check"
+            
+            job |> OnlyKey.SetNoKillWithDisable true |> ignore
+            let result = job |> OnlyKey.tryGetNoKillWithDisable
+            Expect.equal result (Some true) "Access value NoKillWithDisable Job check"
+            
+            job |> OnlyKey.SetKillOnBadExit true |> ignore
+            let result = job |> OnlyKey.tryGetKillOnBadExit
+            Expect.equal result (Some true) "Access value KillOnBadExit Job check"
+            
+            job |> OnlyKey.SetWait true |> ignore
+            let result = job |> OnlyKey.tryGetWait
+            Expect.equal result (Some true) "Access value Wait Job check"
+            
+            job |> OnlyKey.SetVerbose true |> ignore
+            let result = job |> OnlyKey.tryGetVerbose
+            Expect.equal result (Some true) "Access value Verbose Job check"
+                
+            job |> OnlyKey.SetUseMinNodes true |> ignore
+            let result = job |> OnlyKey.tryGetUseMinNodes
+            Expect.equal result (Some true) "Access value UseMinNodes Job check"
+                       
+            job |> OnlyKey.SetTestOnly true |> ignore
+            let result = job |> OnlyKey.tryGetTestOnly
+            Expect.equal result (Some true) "Access value TestOnly Job check"
+           
+            job |> OnlyKey.SetSpreadJob true |> ignore
+            let result = job |> OnlyKey.tryGetSpreadJob
+            Expect.equal result (Some true) "Access value SpreadJob Job check"
+           
+            job |> OnlyKey.SetRequeue true |> ignore
+            let result = job |> OnlyKey.tryGetRequeue
+            Expect.equal result (Some true) "Access value Requeue Job check"
+           
+            job |> OnlyKey.SetReboot true |> ignore
+            let result = job |> OnlyKey.tryGetReboot
+            Expect.equal result (Some true) "Access value Reboot Job check"
+           
+            job |> OnlyKey.SetQuiet true |> ignore
+            let result = job |> OnlyKey.tryGetQuiet
+            Expect.equal result (Some true) "Access value Quiet Job check"
+           
+            job |> OnlyKey.SetOversubscribe true |> ignore
+            let result = job |> OnlyKey.tryGetOversubscribe
+            Expect.equal result (Some true) "Access value Oversubscribe Job check"
+           
+            job |> OnlyKey.SetOvercommit true |> ignore
+            let result = job |> OnlyKey.tryGetOvercommit
+            Expect.equal result (Some true) "Access value Overcommit Job check"
+           
+            job |> OnlyKey.SetNoRequeue true |> ignore
+            let result = job |> OnlyKey.tryGetNoRequeue
+            Expect.equal result (Some true) "Access value NoRequeue Job check"
+           
+            job |> OnlyKey.SetKillOnInvalidDep true |> ignore
+            let result = job |> OnlyKey.tryGetKillOnInvalidDep
+            Expect.equal result (Some true) "Access value KillOnInvalidDep Job check"
+           
+            job |> OnlyKey.SetIgnorePBS true |> ignore
+            let result = job |> OnlyKey.tryGetIgnorePBS
+            Expect.equal result (Some true) "Access value IgnorePBS Job check"
+          
+            
+            
+            job |> OnlyKey.removeParsable |> ignore
+            let result = job |> OnlyKey.tryGetParsable
+            Expect.equal result None "Remove value Parsable Job check"
+            
+            job |> OnlyKey.removeNoKill |> ignore
+            let result = job |> OnlyKey.tryGetNoKill
+            Expect.equal result None "Remove value NoKill Job check"
+            
+            job |> OnlyKey.removeNoKillWithDisable |> ignore
+            let result = job |> OnlyKey.tryGetNoKillWithDisable
+            Expect.equal result None "Remove value NoKillWithDisable Job check"
+            
+            job |> OnlyKey.removeKillOnBadExit |> ignore
+            let result = job |> OnlyKey.tryGetKillOnBadExit
+            Expect.equal result None "Remove value KillOnBadExit Job check"
+            
+            job |> OnlyKey.removeWait |> ignore
+            let result = job |> OnlyKey.tryGetWait
+            Expect.equal result None "Remove value Wait Job check"
+            
+            job |> OnlyKey.removeVerbose|> ignore
+            let result = job |> OnlyKey.tryGetVerbose
+            Expect.equal result None "Remove value Verbose Job check"
+                
+            job |> OnlyKey.removeUseMinNodes|> ignore
+            let result = job |> OnlyKey.tryGetUseMinNodes
+            Expect.equal result None "Remove value UseMinNodes Job check"
+                       
+            job |> OnlyKey.removetestOnly |> ignore
+            let result = job |> OnlyKey.tryGetTestOnly
+            Expect.equal result None "Remove value TestOnly Job check"
+           
+            job |> OnlyKey.removeSpreadJob |> ignore
+            let result = job |> OnlyKey.tryGetSpreadJob
+            Expect.equal result None "Remove value SpreadJob Job check"
+           
+            job |> OnlyKey.removeRequeue |> ignore
+            let result = job |> OnlyKey.tryGetRequeue
+            Expect.equal result None "Remove value Requeue Job check"
+           
+            job |> OnlyKey.removeReboot |> ignore
+            let result = job |> OnlyKey.tryGetReboot
+            Expect.equal result None "Remove value Reboot Job check"
+           
+            job |> OnlyKey.removeQuiet |> ignore
+            let result = job |> OnlyKey.tryGetQuiet
+            Expect.equal result None "Remove value Quiet Job check"
+           
+            job |> OnlyKey.removeOversubscribe |> ignore
+            let result = job |> OnlyKey.tryGetOversubscribe
+            Expect.equal result None "Remove value Oversubscribe Job check"
+           
+            job |> OnlyKey.removeOvercommit |> ignore
+            let result = job |> OnlyKey.tryGetOvercommit
+            Expect.equal result None "Remove value Overcommit Job check"
+           
+            job |> OnlyKey.removeNoRequeue |> ignore
+            let result = job |> OnlyKey.tryGetNoRequeue
+            Expect.equal result None "Remove value NoRequeue Job check"
+           
+            job |> OnlyKey.removeKillOnInvalidDep |> ignore
+            let result = job |> OnlyKey.tryGetKillOnInvalidDep
+            Expect.equal result None "Remove value KillOnInvalidDep Job check"
+           
+            job |> OnlyKey.removeIgnorePBS |> ignore
+            let result = job |> OnlyKey.tryGetIgnorePBS
+            Expect.equal result None "Remove value IgnorePBS Job check"
+          
         ]
 //let tests =
 //    testList "job" [
