@@ -5068,366 +5068,6 @@
       "source_relative_path": "api/Slurmi.LongCommand.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.LongCommand.-ctor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetDependency.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetDependency.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeDependency.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetPriority.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetPriority.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removePriority.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetNice.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetNice.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeNice.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetHint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetHint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeHint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGresFlag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGresFlag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGresFlag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGres.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGres.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGres.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGPUPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGPUPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGPUPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGPUPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGPUPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGPUPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetGPUFreq.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetGPUFreq.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeGPUFreq.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetExclusive.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetExclusive.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.removeExclusive.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.SetDeadline.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.LongCommand.tryGetDeadline.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.LongCommand.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.LongCommand.removeDeadline.html"
         }
       },
@@ -6445,6 +6085,366 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetDependency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetDependency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeDependency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removePriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetNice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetNice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeNice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetHint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetHint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeHint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGPUFreq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGPUFreq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetExclusive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetExclusive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeExclusive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetDeadline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetDeadline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGresFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGresFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGresFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGres.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGres.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGres.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGPUPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGPUPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGPUPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGPUPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGPUPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.tryGetGPUPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.removeGPUPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.LongCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.LongCommand.SetGPUFreq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Slurmi.MailType.Tags.yml",
       "output": {
         ".html": {
@@ -7248,6 +7248,16 @@
       "source_relative_path": "api/Slurmi.Mode.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Slurmi.Mode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Mode.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Slurmi.Mode.ToString.html"
         }
       },
@@ -7329,16 +7339,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Mode.IsL.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Mode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Mode.html"
         }
       },
       "version": ""
@@ -7948,16 +7948,6 @@
       "source_relative_path": "api/Slurmi.Prefer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Prefer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Prefer.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.Prefer.-ctor.html"
         }
       },
@@ -8009,6 +7999,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Prefer.prefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Prefer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Prefer.html"
         }
       },
       "version": ""
@@ -8608,6 +8608,46 @@
       "source_relative_path": "api/Slurmi.ShortCommand.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Slurmi.ShortCommand.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.ShortCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.ShortCommand.SetLicenses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.ShortCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.ShortCommand.tryGetLicenses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.ShortCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.ShortCommand.removeLicenses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.ShortCommand.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Slurmi.ShortCommand.SetGPU.html"
         }
       },
@@ -9069,46 +9109,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.ShortCommand.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.ShortCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.ShortCommand.-ctor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.ShortCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.ShortCommand.SetLicenses.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.ShortCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.ShortCommand.tryGetLicenses.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.ShortCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.ShortCommand.removeLicenses.html"
         }
       },
       "version": ""
@@ -10348,36 +10348,6 @@
       "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.-ctor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.GetHashCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.Workflow.WFGraph.Equals.html"
         }
       },
@@ -10559,6 +10529,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Workflow.WFGraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Workflow.WFGraph.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Workflow.WFGraph.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Workflow.WFGraph.GetHashCode.html"
         }
       },
       "version": ""
@@ -10985,6 +10985,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/tutwf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SlurmiWF.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SlurmiWF.png"
         }
       },
       "version": ""

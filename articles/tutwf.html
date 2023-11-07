@@ -85,52 +85,90 @@
         <article data-uid="">
 <h1 id="writing-a-workflow">Writing a workflow</h1>
 
-<p>Developing a workflow is one of the key parts of using the application.
+<p>Developing a workflow is one of the key parts of using Slurmi.
 Here, you define the sequential steps for completing the work.
 Some of these steps are dependent on each other, and these dependencies are defined in the workflow.
-To do this, you first create a job list.</p>
-<pre><code class="lang-fsharp">let myJoblist  =
-    [|
-        Job (&quot;MyJob&quot;,[(&quot;MyProgram&quot;,[&quot;MyArgument1&quot;;&quot;MyArgument2&quot;])]);
-        Job (&quot;MyJob2&quot;,[(&quot;MyProgram2&quot;,[&quot;MyArgument12&quot;;&quot;MyArgument22&quot;])]);
-        Job (&quot;MyJob3&quot;,[(&quot;MyProgram3&quot;,[&quot;MyArgument13&quot;;&quot;MyArgument23&quot;])]);
-    |]
+To do this, you first create multiple jobs.</p>
+<pre><code class="lang-fsharp">let j1 = Job (&quot;MyJob1&quot;,[(&quot;echo&quot;,[&quot;Hello&quot;;&quot;World&quot;])])
+let j2 = Job (&quot;MyJob2&quot;,[(&quot;echo&quot;,[&quot;Hi&quot;;&quot;there&quot;])])
+let j3 = Job (&quot;MyJob3&quot;,[(&quot;echo&quot;,[&quot;Hi&quot;;&quot;;&quot;;&quot;How are you?&quot;])])
+let j4 = Job (&quot;MyJob4&quot;,[(&quot;echo&quot;,[&quot;Aloha&quot;])])
 </code></pre>
-<p>This also enables you to set a value to multiple jobs at once, for instance:</p>
-<pre><code class="lang-fsharp">myJoblist
-|&gt; Array.mapi (fun i x -&gt; x |&gt; Job.SetCPUsPerTask(i))
+<p>To incorporate these tasks into the workflow, they must be transformed into a JobWithDep type, and further details need to be included.
+JobInfo contains the job itself, AllOrAny specifies whether all or any of the dependencies must be satisfied, and the dependencies are specified in the JobDependency type.
+Each dependency is a tuple of the job name and the number of tasks that must be completed before the job can be started.
+If there are no dependencies, an empty list is used.</p>
+<pre><code class="lang-fsharp">let jd1 = {JobInfo = j1; AllOrAny = TypeOfDep.All; DependingOn = []}
+let jd2 = {JobInfo = j2; AllOrAny = TypeOfDep.All; DependingOn = [(j1,KindOfDependency.Afterok )]}
+let jd3 = {JobInfo = j3; AllOrAny = TypeOfDep.All; DependingOn = [(j1, KindOfDependency.Afterok)]}
+let jd4 = {JobInfo = j4; AllOrAny = TypeOfDep.Any; DependingOn = [(j2, KindOfDependency.Afterok);(j3, KindOfDependency.Afterok)]}
 </code></pre>
-<p>In this case, the following values are set to each job:</p>
-<pre><code class="lang-fsharp">myJoblist |&gt; Array.map (fun x -&gt; x |&gt; Job.tryGetCPUsPerTask)
+<p>In the next step, the jobs are combined into a list, allowing the simultaneous editing of multiple jobs.</p>
+<pre><code class="lang-fsharp">[jd1;jd2;jd3;jd4]
+|&gt; List.map (fun x -&gt; x.JobInfo.OneDash |&gt; ShortCommand.SetPartition &quot;bio-csb&quot;)
 
-// val it: obj option array = [|Some 0; Some 1; Some 2|]
+[jd1;jd2;jd3;jd4]
+|&gt; List.map (fun x -&gt; x.JobInfo.TwoDashes |&gt; LongCommand.SetTime ({Days = None ; clock = Some {hour = 0; minute = 1; second = Some 1}}))
 </code></pre>
-<p>The next step is to set up the dependencies.
-Dependencies consist of a job, a list of dependencies, and a dependency type.
-If more than one dependency is specified, the value <code>Any</code> or <code>All</code> is used to specify that any or all of the dependencies must be satisfied.
-In the workflow itself, jobs are referenced by a name which is automatically assigned. To find the correct job by name, the <code>findDependencyName</code> function is used.</p>
-<pre><code class="lang-fsharp">// simple dependency
-let dependency = Afternotok [&quot;jobToDependOn&quot;]
+<h2 id="creating-a-workflow">Creating a workflow</h2>
+<p>The workflow can then be created by calling the <code>createWorkflow</code> function.</p>
+<pre><code class="lang-fsharp">let resultGraph = createWorkflow [jd1;jd2;jd3;jd4]
+</code></pre>
+<h2 id="submitting-a-workflow">Submitting a workflow</h2>
+<p>This workflow can now be submitted to the cluster. With this, all dependencies will be resolved and submitted in the correct order.</p>
+<pre><code class="lang-fsharp">let workedOn =  new List&lt;string&gt;()
 
-// complex dependencies
-myJoblist.[1] |&gt; Job.SetDependency((All,[|Afterany [(findDependencyName &quot;MyJob3&quot; myJoblist)];Afterok [(findDependencyName &quot;MyJob&quot; myJoblist);&quot;Example1&quot;;&quot;Example2&quot;]|]))
-myJoblist.[2] |&gt; Job.SetDependency((Any,[|After [(findDependencyName &quot;MyJob&quot; myJoblist,Some 2);(&quot;alsoJustAnExample&quot;,None)]; Afternotok [findDependencyName &quot;MyJob&quot; myJoblist]|]))
+resultGraph.Graph.submitAll resultGraph.Graph.Graph workedOn
 </code></pre>
-<p>The workflow is initiated with the joblist as an argument. Here you can set the required time and partition.</p>
-<pre><code class="lang-fsharp">let myWorkflow = new Workflow(myJoblist)
-myWorkflow |&gt; Workflow.SetTime((2,3,4,1))
-myWorkflow |&gt; Workflow.SetPartition(&quot;csb&quot;)
-</code></pre>
-<p>To create the workflow, the <code>createWorkflowFromWFType</code> function is used.</p>
-<pre><code class="lang-fsharp">let myWorkflow = createWorkflowFromWFType myWorkflow
+<h2 id="visualisation">Visualisation</h2>
+<p>The workflow graph can be displayed, for example using the CyGraph library.</p>
+<pre><code class="lang-fsharp">let toFullCyGraph nodeKeyTransformer nodeDataTransformer edgeTransformer (fGraph : FGraph&lt;_,_,_&gt;) =
+    CyGraph.initEmpty ()
+    |&gt; CyGraph.withElements [
+            for (nk1,nd1,nk2,nd2,e) in FGraph.toSeq fGraph do
+                let nk1s = nodeKeyTransformer nk1
+                let nk2s = nodeKeyTransformer nk2
+                Elements.node nk1s [CyParam.label &lt;| nodeDataTransformer nd1]
+                Elements.node nk2s [CyParam.label &lt;| nodeDataTransformer nd2]
+                Elements.edge (sprintf &quot;%s_%s&quot; nk2s nk1s) nk2s nk1s (edgeTransformer e)
+        ]
+    |&gt; CyGraph.withStyle &quot;node&quot;     
+        [
+            CyParam.content =. CyParam.label
+            CyParam.color &quot;#A00975&quot;
+        ]
+    |&gt; CyGraph.withStyle &quot;edge&quot;     
+        [
+            CyParam.Line.color =. CyParam.color
+            CyParam.Curve.style &quot;bezier&quot;
+            CyParam.Target.Arrow.shape &quot;triangle&quot;
+            CyParam.Source.Arrow.shape &quot;circle&quot;
+            CyParam.color &quot;#438AFE&quot;
+        ]
+    |&gt; CyGraph.withLayout (Layout.initCose &lt;| Layout.LayoutOptions.Cose(ComponentSpacing = 40, EdgeElasticity = 100))
+    |&gt; CyGraph.withSize(1800, 800)
 
-// #!/bin/bash
-// #SBATCH --time=02-03:04:01
-// #SBATCH -p csb
-// Job0=$(sbatch --parsable  MyJob)
-// Job1=$(sbatch --parsable --dependency=afterany:$Job2,afterok:$Job0:Example1:Example2 MyJob2)
-// Job2=$(sbatch --parsable --dependency=after:$Job0+2:alsoJustAnExample?afternotok:$Job0 MyJob3)
+
+
+toFullCyGraph string (fun x -&gt; x.JobInfo.Name) (fun e -&gt; 
+    [
+        CyParam.label &lt;| e.ToString()
+        match e with
+        | After (value) -&gt; CyParam.color &quot;green&quot;
+        | Afterany -&gt; CyParam.color &quot;turquoise&quot;
+        | Afterburstbuffer -&gt; CyParam.color &quot;orange&quot;
+        | Aftercorr -&gt; CyParam.color &quot;purple&quot;
+        | Afternotok -&gt; CyParam.color &quot;blue&quot;
+        | Afterok -&gt; CyParam.color &quot;red&quot;
+        | Singleton -&gt; CyParam.color &quot;hotpink&quot;
+        // | _ -&gt; CyParam.color &quot;black&quot;
+    ]
+) resultGraph.Graph.Graph
+|&gt; CyGraph.withLayout(Layout.initCircle &lt;| Layout.LayoutOptions.Cose())        
+|&gt; CyGraph.show
 </code></pre>
+<p>The Graph will look like this:</p>
+<p><img src="../images/SlurmiWF.png" alt=" "></p>
 </article>
 
         <div class="contribution d-print-none">
