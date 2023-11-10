@@ -3,6 +3,9 @@
 open Fli 
 open Graphoscope
 open System.Collections.Generic
+open SshNet
+open Renci.SshNet
+open Renci.SshNet.Common
 
 module Workflow = 
     type JobWithDep =
@@ -24,7 +27,7 @@ module Workflow =
             |> List.iter (
                 fun jobWithDep ->
                     //FGraph.addElement jobWithDep.JobInfo.Name jobWithDep.DependingOn jobWithDep.DependingOn |> ignore
-                    jobWithDep.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
+                    //jobWithDep.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
                     jobWithDep.DependingOn 
                     |> List.iter (fun (job,dep) -> FGraph.addElement job.Name (input|> List.find (fun x -> x.JobInfo.Name = job.Name)) jobWithDep.JobInfo.Name jobWithDep  dep g |> ignore))
     
@@ -78,9 +81,12 @@ module Workflow =
         member this.formatDep (graph:FGraph<string,JobWithDep,KindOfDependency>) (job:string) = 
             let deps = (this.getDependencies graph job) |> Seq.map (fun x ->(KindOfDependency.toString x.Value)+(this.getJobId graph x.Key)) |> Seq.toArray
             let jobInfo = this.getJob graph job
-            let command = deps |> String.concat (jobInfo.AllOrAny |> TypeOfDep.toString)
-            //printfn "%A" command
-            jobInfo.JobInfo.TwoDashes |> LongCommand.SetDependency command |> ignore
+            let command = deps |> String.concat (jobInfo.AllOrAny |> TypeOfDep.toString) |> String.filter (fun x -> x <> ' ' ) |> String.filter (fun x -> x <> '\n')
+            printfn "%A" command
+            if command = "" then
+                printfn "no"
+            else 
+                jobInfo.JobInfo.TwoDashes |> LongCommand.SetDependency command |> ignore
 
         member this.checkForWorkedBash (graph:FGraph<string,JobWithDep,KindOfDependency>)(jobToLook:string) (workedOn:List<string>)= 
             if (this.arePredecessorsWorkedAlready graph jobToLook workedOn) then
@@ -99,8 +105,38 @@ module Workflow =
             else
                 //printfn "false"
                 ()
+        member this.sshToTerminal (client:SshClient) (job:Job)= 
+            client.RunCommand(job.produceCall).Result
 
-        member this.checkAllForWorked (graph:FGraph<string,JobWithDep,KindOfDependency>) (jobs:string ) (workedOn:List<string>) = 
+        member this.checkForWorkedBashSSH (graph:FGraph<string,JobWithDep,KindOfDependency>)(jobToLook:string) (workedOn:List<string>) (client: SshClient)= 
+            if (this.arePredecessorsWorkedAlready graph jobToLook workedOn) then
+        
+                if workedOn.Contains jobToLook then
+                    //then printfn "already worked on %A "jobToLook
+                    ()
+                else
+                    printfn "added %A" jobToLook
+                    let jtwo = this.getJob graph jobToLook
+
+                    this.formatDep graph jobToLook
+                    jtwo.JobInfo |> Job.SetJobID (this.sshToTerminal client (jtwo.JobInfo)) |> ignore
+                
+                    workedOn.Add jobToLook
+            else
+                //printfn "false"
+                ()
+
+
+        member this.checkAllForWorkedSSH (graph:FGraph<string,JobWithDep,KindOfDependency>) (jobs:string ) (workedOn:List<string>)  (client: SshClient)= 
+            this.checkForWorkedBashSSH graph jobs workedOn client
+            if (this.hasSuccessors graph jobs) then 
+                let successors = this.getSuccessors graph jobs
+        
+                successors |> Seq.iter (fun x -> this.checkAllForWorkedSSH graph (fst x) workedOn client)
+            else 
+                ()
+
+        member this.checkAllForWorked (graph:FGraph<string,JobWithDep,KindOfDependency>) (jobs:string ) (workedOn:List<string>)  = 
             this.checkForWorkedBash graph jobs workedOn 
             if (this.hasSuccessors graph jobs) then 
                 let successors = this.getSuccessors graph jobs
@@ -116,6 +152,12 @@ module Workflow =
                 |> Seq.toArray
             firstNodes |> Array.map (fun x -> this.checkAllForWorked graph x.JobInfo.Name workedOn) |> ignore
     
+        member this.submitAllSSH (graph:FGraph<string,JobWithDep,KindOfDependency>) (workedOn:List<string>) (client:SshClient)=
+            let firstNodes = 
+                WFGraph.getNodesWithoutDependencies graph
+                |> Seq.toArray
+            firstNodes |> Array.map (fun x -> this.checkAllForWorkedSSH graph x.JobInfo.Name workedOn client) |> ignore
+
     type Workflow = 
         {
             Jobs :  JobWithDep list
@@ -156,7 +198,7 @@ module Workflow =
         member this.sendToTerminalAndReceiveJobIDBash (job:JobWithDep)= 
             // job 
             // set parsable 
-            job.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
+            //job.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
     
             let res = this.getResultFromCallBash (job.JobInfo.formatProcess)
             // submit 
@@ -168,7 +210,7 @@ module Workflow =
         member this.sendToTerminalAndReceiveJobIDCMD (job:JobWithDep)= 
             // job 
             // set parsable 
-            job.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
+            //job.JobInfo.OnlyKey |> OnlyKey.SetParsable true |> ignore
     
             let res = this.getResultFromCallCMD (job.JobInfo.formatProcess)
             // submit 

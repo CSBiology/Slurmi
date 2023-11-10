@@ -1906,6 +1906,8 @@ type Job (jobName: string,processList:(string*string list)list)=
         localStr.Append ("#!/bin/bash \n") |> ignore
         localStr.Append ("#SBATCH ") |> ignore
         localStr.AppendFormat (sprintf "-J %s " this.Name) |> ignore
+        localStr.Append ("--parsable ") |> ignore
+
         localStr.Append (this.formatOneDash)       |> ignore
         localStr.Append (this.formatTwoDashes)     |> ignore
         localStr.Append (this.formatOnlyKey)       |> ignore
@@ -1920,6 +1922,7 @@ type Job (jobName: string,processList:(string*string list)list)=
         //strLocal.AppendLine ("#!/bin/bash") |> ignore
         strLocal.AppendLine ("sbatch <<EOF") |> ignore
         strLocal.Append this.formatSlurmCalls |> ignore 
+
         strLocal.AppendLine("EOF")           |> ignore 
         strLocal.ToString()
 
@@ -1954,7 +1957,7 @@ type Job (jobName: string,processList:(string*string list)list)=
         |> this.matchOutput
 
     member this.sendToTerminalAndReceiveJobIDBash (job:Job)= 
-        job.OnlyKey |> OnlyKey.SetParsable true |> ignore
+        //job.OnlyKey |> OnlyKey.SetParsable true |> ignore
     
         let res = this.getResultFromCallBash (job.formatProcess)
         // submit 
@@ -1966,7 +1969,7 @@ type Job (jobName: string,processList:(string*string list)list)=
     member this.sendToTerminalAndReceiveJobIDCMD (job:Job)= 
         // job 
         // set parsable 
-        job.OnlyKey |> OnlyKey.SetParsable true |> ignore
+        //job.OnlyKey |> OnlyKey.SetParsable true |> ignore
 
         let res = this.getResultFromCallCMD (job.formatProcess)
         // submit 
