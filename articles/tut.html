@@ -93,81 +93,77 @@
 <p>When displaying the job, the following information is included:</p>
 <pre><code class="lang-fsharp">myJob 
 
-//    Slurmi.Job
-//     {Name = &quot;MyJob&quot;;
-//      OneDash = Slurmi.ShortCommand;
+//   Slurmi.Job
+//     {CommandWithArgument = Slurmi.Command;
+//      Name = &quot;MyJob&quot;;
 //      OnlyKey = Slurmi.OnlyKey;
 //      Processes = [(&quot;MyProgram&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;]);
 //                   (&quot;MyProgram2&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;])];
-//      TwoDashes = Slurmi.LongCommand;
 //      formatEnv = ?;
-//      formatOneDash = &quot;&quot;;
 //      formatOnlyKey = &quot;&quot;;
 //      formatProcess = &quot;MyProgram MyArgument1 MyArgument2
-//                      MyProgram2 MyArgument1 MyArgument2
-//                      &quot;;
+//                       MyProgram2 MyArgument1 MyArgument2
+// &quot;;
 //      formatSlurmCalls = &quot;#!/bin/bash 
-//                         #SBATCH -J MyJob 
-//                         MyProgram MyArgument1 MyArgument2
-//                         MyProgram2 MyArgument1 MyArgument2
-//                         &quot;;
-//      formatTwoDashes = &quot;&quot;;
+//                          #SBATCH -J MyJob --parsable 
+//                          MyProgram MyArgument1 MyArgument2
+//                          MyProgram2 MyArgument1 MyArgument2
+//                          &quot;;
+//      formatCommands = &quot;&quot;;
 //      getEnvironment = ?;
 //      produceCall = &quot;sbatch &lt;&lt;EOF
-//                     #!/bin/bash 
-//                     #SBATCH -J MyJob 
-//                     MyProgram MyArgument1 MyArgument2
-//                     MyProgram2 MyArgument1 MyArgument2
-//                     EOF
-//                     &quot;;}
+//                    #!/bin/bash 
+//                    #SBATCH -J MyJob --parsable 
+//                    MyProgram MyArgument1 MyArgument2
+//                    MyProgram2 MyArgument1 MyArgument2
+//                    EOF
+//                    &quot;;}
 
 </code></pre>
-<p>The fields <code>OneDash</code>, <code>OnlyKey</code> and <code>TwoDashes</code> are empty and will be filled with information regarding the job submission.</p>
+<p>The fields <code>OnlyKey</code> and <code>CommandWithArgument</code> are empty and will be filled with information regarding the job submission.</p>
 <p>The following step is to add information to the job. This information will later be converted into Slurm commands.</p>
 <pre><code class="lang-fsharp">myJob
-myJob.OneDash   |&gt; DynObj.format
-myJob.OneDash   |&gt; ShortCommand.SetPartition &quot;test-Partition&quot;
-myJob.OneDash   |&gt; ShortCommand.SetNode &quot;MyNode&quot;
-myJob.OneDash   |&gt; ShortCommand.SetOutput &quot;MyOutput&quot;
-myJob.TwoDashes |&gt; LongCommand.SetNTasks 5
-myJob.TwoDashes |&gt; LongCommand.SetMemory {memory = 30; unit = MemoryUnit.G }
-myJob.TwoDashes |&gt; LongCommand.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}
-myJob.OnlyKey   |&gt; OnlyKey.SetWait true 
+myJob.CommandWithArgument   |&gt; Command.SetPartition &quot;test-Partition&quot;
+myJob.CommandWithArgument   |&gt; Command.SetNode &quot;MyNode&quot;
+myJob.CommandWithArgument   |&gt; Command.SetOutput &quot;MyOutput&quot;
+myJob.CommandWithArgument   |&gt; Command.SetNTasks 5
+myJob.CommandWithArgument   |&gt; Command.SetMemory {memory = 30; unit = MemoryUnit.G }
+myJob.CommandWithArgument   |&gt; Command.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}
+myJob.OnlyKey               |&gt; OnlyKey.SetWait true 
 
 </code></pre>
-<p>Plenty of Slurm commands are available. For instance, the user's input at <code>LongCommand.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}</code> reflects the command <code>#SBATCH --time=02:30:15</code> , which displays a duration of 0 days, 2 hours, 30 minutes, and 15 seconds. More specific formats are also encoded and applied automatically.</p>
+<p>Plenty of Slurm commands are available. For instance, the user's input at <code>Command.SetTime{Days = None; clock = Some {hour = 2; minute = 30; second = Some 15}}</code> reflects the command <code>#SBATCH --time=02:30:15</code> , which displays a duration of 0 days, 2 hours, 30 minutes, and 15 seconds. More specific formats are also encoded and applied automatically.</p>
 <p>Once these values have been set, the job will be displayed accordingly.</p>
 <pre><code class="lang-fsharp">myJob 
 
 //   Slurmi.Job
-//     {Name = &quot;MyJob&quot;;
-//      OneDash = Slurmi.ShortCommand;
+//     {CommandWithArgument = Slurmi.Command;
+//      Name = &quot;MyJob&quot;;
 //      OnlyKey = Slurmi.OnlyKey;
 //      Processes = [(&quot;MyProgram&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;]);
 //                   (&quot;MyProgram2&quot;, [&quot;MyArgument1&quot;; &quot;MyArgument2&quot;])];
-//      TwoDashes = Slurmi.LongCommand;
+//      formatCommands = &quot;--partition=test-Partition --nodes=MyNode --output=MyOutput --ntasks=5 --mem=30G --time=02:30:15 &quot;;
 //      formatEnv = ?;
-//      formatOneDash = &quot;-p test-Partition -N MyNode -o MyOutput &quot;;
 //      formatOnlyKey = &quot;--wait &quot;;
 //      formatProcess = &quot;MyProgram MyArgument1 MyArgument2
-//                       MyProgram2 MyArgument1 MyArgument2
-//                       &quot;;
+//                      MyProgram2 MyArgument1 MyArgument2
+//                      &quot;;
 //      formatSlurmCalls = &quot;#!/bin/bash 
-//                         #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+//                         #SBATCH -J MyJob --parsable --partition=test-Partition --nodes=MyNode --output=MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
 //                         MyProgram MyArgument1 MyArgument2
 //                         MyProgram2 MyArgument1 MyArgument2
 //                         &quot;;
-//      formatTwoDashes = &quot;--ntasks=5 --mem=30G --time=02:30:15 &quot;;
 //      getEnvironment = ?;
 //      produceCall = &quot;sbatch &lt;&lt;EOF
 //                     #!/bin/bash 
-//                     #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+//                     #SBATCH -J MyJob --parsable --partition=test-Partition --nodes=MyNode --output=MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
 //                     MyProgram MyArgument1 MyArgument2
 //                     MyProgram2 MyArgument1 MyArgument2
 //                     EOF
 //                     &quot;;}
+
 </code></pre>
-<p>Entries can be removed via <code>ShortCommand.RemoveX</code>, where X is the name of the value. If you want to display a specific value alone, use the <code>Job.TryGetX</code> members.
+<p>Entries can be removed via <code>Command.RemoveX</code> or <code>OnlyKey.removeX</code>, where X is the name of the value. If you want to display a specific value alone, use the <code>Job.TryGetX</code> members.
 If an environment is necessary, such as loading a module, it can be included in the task in the following manner:</p>
 <pre><code class="lang-fsharp">let env = EnvironmentSLURM()
 env.AddCommandAndArgument &quot;module load&quot; &quot;dotnet&quot; 
@@ -189,16 +185,16 @@ To display the formatted environment, the following command is used:</p>
 
 // &quot;sbatch &lt;&lt;EOF
 // #!/bin/bash 
-// #SBATCH -J MyJob -p test-Partition -N MyNode -o MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
+// #SBATCH -J MyJob --parsable --partition=test-Partition --nodes=MyNode --output=MyOutput --ntasks=5 --mem=30G --time=02:30:15 --wait 
 // module load dotnet
 // MyProgram MyArgument1 MyArgument2
 // MyProgram2 MyArgument1 MyArgument2
 // EOF
 // &quot;
 </code></pre>
-<p>This job can be submitted using the <code>myJob.sendToTerminalAndReceiveJobIDBash</code>.
+<p>This job can be submitted using the <code>Connection.callToTerminalBash</code> function.
 The job ID is returned as a string.</p>
-<pre><code class="lang-fsharp">myJob.sendToTerminalAndReceiveJobIDBash myJob
+<pre><code class="lang-fsharp">Connection.callToTerminalBash myJob.produceCall
 </code></pre>
 </article>
 

@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Command
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Command
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Slurmi.Command">
+
+
+
+  <h1 id="Slurmi_Command" data-uid="Slurmi.Command" class="text-break">
+    Class Command
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Slurmi.html">Slurmi</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Slurmi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CompilationMapping(SourceConstructFlags.ObjectType)]
+public class Command : DynamicObj, IDynamicMetaObjectProvider</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">DynamicObj</span></div>
+      <div><span class="xref">Command</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetValue(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.TryGetTypedValue&lt;a&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.SetValue&lt;c&gt;(string, c)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.getmemberbinder">DynamicObj.TryGetMember(GetMemberBinder, ref object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.setmemberbinder">DynamicObj.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">DynamicObj.GetProperties(bool)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.GetDynamicMemberNames()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_Dynamic&lt;b&gt;(b, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.op_DynamicAssignment&lt;a, v&gt;(a, string, v)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.CopyDynamicPropertiesTo(DynamicObj)</span>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.CopyDynamicProperties()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.GetValue(DynamicObj, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">DynamicObj.Remove(DynamicObj, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">DynamicObj.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">DynamicObj.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.-ctor.html#Slurmi_Command__ctor_System_String_">Command(string)</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.Name.html#Slurmi_Command_Name">Name</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetAccount.html#Slurmi_Command_SetAccount_Microsoft_FSharp_Core_FSharpOption_System_String__">SetAccount(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Charge resources used by this job to specified account. The account is an arbitrary string. The account name may be changed after job submission using the scontrol command.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetAccountingFrequency.html#Slurmi_Command_SetAccountingFrequency_Microsoft_FSharp_Core_FSharpOption_Slurmi_AccountingFrequencies__">SetAccountingFrequency(FSharpOption&lt;AccountingFrequencies&gt;)</a></dt>
+    <dd><p>Define the job accounting and profiling sampling intervals in seconds.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetArray.html#Slurmi_Command_SetArray_Microsoft_FSharp_Core_FSharpOption_Slurmi_ArraySlurm__">SetArray(FSharpOption&lt;ArraySlurm&gt;)</a></dt>
+    <dd><p>Submit a job array, multiple jobs to be executed with identical parameters. The indexes specification identifies what array index values should be used.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetBatch.html#Slurmi_Command_SetBatch_Microsoft_FSharp_Core_FSharpOption_Slurmi_Batch__">SetBatch(FSharpOption&lt;Batch&gt;)</a></dt>
+    <dd><p>Nodes can have features assigned to them by the Slurm administrator. Users can specify which of these features are required by their batch script using this options.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetBegin.html#Slurmi_Command_SetBegin_Microsoft_FSharp_Core_FSharpOption_Slurmi_BeginTime__">SetBegin(FSharpOption&lt;BeginTime&gt;)</a></dt>
+    <dd><p>Submit the batch script to the Slurm controller immediately, like normal, but tell the controller to defer the allocation of the job until the specified time.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetBurstBufferSpecification.html#Slurmi_Command_SetBurstBufferSpecification_Microsoft_FSharp_Core_FSharpOption_Slurmi_SetBurstBufferSpecification__">SetBurstBufferSpecification(FSharpOption&lt;SetBurstBufferSpecification&gt;)</a></dt>
+    <dd><p>When the --bb option is used, Slurm parses this option and creates a temporary burst buffer script file that is used internally by the burst buffer plugins.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetBurstBufferSpecificationFilePath.html#Slurmi_Command_SetBurstBufferSpecificationFilePath_Microsoft_FSharp_Core_FSharpOption_System_String__">SetBurstBufferSpecificationFilePath(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Path of file containing burst buffer specification.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetCPUsPerGPU.html#Slurmi_Command_SetCPUsPerGPU_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetCPUsPerGPU(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Advise Slurm that ensuing job steps will require ncpus processors per allocated GPU. Not compatible with the --cpus-per-task option.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetCPUsPerTask.html#Slurmi_Command_SetCPUsPerTask_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetCPUsPerTask(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Advise the Slurm controller that ensuing job steps will require ncpus number of processors per task.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetClusters.html#Slurmi_Command_SetClusters_Microsoft_FSharp_Core_FSharpOption_Slurmi_Clusters__">SetClusters(FSharpOption&lt;Clusters&gt;)</a></dt>
+    <dd><p>Clusters to issue commands to. Multiple cluster names may be comma separated. The job will be submitted to the one cluster providing the earliest expected job initiation time. The default value is the current cluster. A value of 'all' will query to run on all clusters. Note the --export option to control environment variables exported between clusters. Note that the SlurmDBD must be up for this option to work properly.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetComment.html#Slurmi_Command_SetComment_Microsoft_FSharp_Core_FSharpOption_System_String__">SetComment(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>An arbitrary comment enclosed in double quotes if using spaces or some special characters.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetContainer.html#Slurmi_Command_SetContainer_Microsoft_FSharp_Core_FSharpOption_System_String__">SetContainer(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Absolute path to OCI container bundle.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetContainerID.html#Slurmi_Command_SetContainerID_Microsoft_FSharp_Core_FSharpOption_System_String__">SetContainerID(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Unique name for OCI container.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetCoresPerSocket.html#Slurmi_Command_SetCoresPerSocket_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetCoresPerSocket(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Restrict node selection to nodes with at least the specified number of cores per socket.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetDeadline.html#Slurmi_Command_SetDeadline_Microsoft_FSharp_Core_FSharpOption_Slurmi_Deadline__">SetDeadline(FSharpOption&lt;Deadline&gt;)</a></dt>
+    <dd><p>remove the job if no ending is possible before this deadline (start &gt; (deadline - time[-min])). Default is no deadline.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetDelayBoot.html#Slurmi_Command_SetDelayBoot_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetDelayBoot(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Do not reboot nodes in order to satisfied this job's feature specification if the job has been eligible to run for less than this time period. If the job has waited for less than the specified period, it will use only nodes which already have the specified features. The argument is in units of minutes.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetDependency.html#Slurmi_Command_SetDependency_Microsoft_FSharp_Core_FSharpOption_System_String__">SetDependency(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Defer the start of this job until the specified dependencies have been satisfied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetDistribution.html#Slurmi_Command_SetDistribution_Microsoft_FSharp_Core_FSharpOption_Slurmi_Distributions__">SetDistribution(FSharpOption&lt;Distributions&gt;)</a></dt>
+    <dd><p>Specify alternate distribution methods for remote processes. For job allocation, this sets environment variables that will be used by subsequent srun requests and also affects which cores will be selected for job allocation.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetError.html#Slurmi_Command_SetError_Microsoft_FSharp_Core_FSharpOption_System_String__">SetError(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard error directly to the file name specified in the &quot;filename pattern&quot;.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetExclude.html#Slurmi_Command_SetExclude_Microsoft_FSharp_Core_FSharpOption_Slurmi_Exclude__">SetExclude(FSharpOption&lt;Exclude&gt;)</a></dt>
+    <dd><p>Explicitly exclude certain nodes from the resources granted to the job.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetExclusive.html#Slurmi_Command_SetExclusive_Microsoft_FSharp_Core_FSharpOption_Slurmi_Exclusive__">SetExclusive(FSharpOption&lt;Exclusive&gt;)</a></dt>
+    <dd><p>The job allocation can not share nodes with other running jobs (or just other users with the &quot;=user&quot; option or with the &quot;=mcs&quot; option). If user/mcs are not specified (i.e. the job allocation can not share nodes with other running jobs), the job is allocated all CPUs and GRES on all nodes in the allocation, but is only allocated as much memory as it requested. This is by design to support gang scheduling, because suspended jobs still reside in memory. To request all the memory on a node, use --mem=0. The default shared/exclusive behavior depends on system configuration and the partition's</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetExtra.html#Slurmi_Command_SetExtra_Microsoft_FSharp_Core_FSharpOption_System_String__">SetExtra(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>An arbitrary string enclosed in double quotes if using spaces or some special characters.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetExtraNodeInfo.html#Slurmi_Command_SetExtraNodeInfo_Microsoft_FSharp_Core_FSharpOption_Slurmi_ExtraNodeInfo__">SetExtraNodeInfo(FSharpOption&lt;ExtraNodeInfo&gt;)</a></dt>
+    <dd><p>Restrict node selection to nodes with at least the specified number of sockets, cores per socket and/or threads per core. NOTE: These options do not specify the resource allocation size. Each value specified is considered a minimum. An asterisk (*) can be used as a placeholder indicating that all available resources of that type are to be utilized.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGPU.html#Slurmi_Command_SetGPU_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUSpez__">SetGPU(FSharpOption&lt;GPUSpez&gt;)</a></dt>
+    <dd><p>Specify the total number of GPUs required for the job. An optional GPU type specification can be supplied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGPUFreq.html#Slurmi_Command_SetGPUFreq_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUFreq__">SetGPUFreq(FSharpOption&lt;GPUFreq&gt;)</a></dt>
+    <dd><p>Request that GPUs allocated to the job are configured with specific frequency values. This option can be used to independently configure the GPU and its memory frequencies. After the job is completed, the frequencies of all affected GPUs will be reset to the highest possible values. In some cases, system power caps may override the requested values.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGPUPerNode.html#Slurmi_Command_SetGPUPerNode_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUSpezList__">SetGPUPerNode(FSharpOption&lt;GPUSpezList&gt;)</a></dt>
+    <dd><p>Specify the number of GPUs required for the job on each node included in the job's resource allocation. An optional GPU type specification can be supplied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGPUPerSocket.html#Slurmi_Command_SetGPUPerSocket_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUSpezList__">SetGPUPerSocket(FSharpOption&lt;GPUSpezList&gt;)</a></dt>
+    <dd><p>Specify the number of GPUs required for the job on each socket included in the job's resource allocation. An optional GPU type specification can be supplied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGPUPerTask.html#Slurmi_Command_SetGPUPerTask_Microsoft_FSharp_Core_FSharpOption_Slurmi_GPUSpezList__">SetGPUPerTask(FSharpOption&lt;GPUSpezList&gt;)</a></dt>
+    <dd><p>Specify the number of GPUs required for the job on each task to be spawned in the job's resource allocation. An optional GPU type specification can be supplied.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGres.html#Slurmi_Command_SetGres_Microsoft_FSharp_Core_FSharpOption_Slurmi_Gres__">SetGres(FSharpOption&lt;Gres&gt;)</a></dt>
+    <dd><p>Specifies a comma-delimited list of generic consumable resources.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGresFlag.html#Slurmi_Command_SetGresFlag_Microsoft_FSharp_Core_FSharpOption_Slurmi_GresFlags__">SetGresFlag(FSharpOption&lt;GresFlags&gt;)</a></dt>
+    <dd><p>Specify generic resource task binding options.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetGroupID.html#Slurmi_Command_SetGroupID_Microsoft_FSharp_Core_FSharpOption_System_String__">SetGroupID(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>If sbatch is run as root, and the --gid option is used, submit the job with group's group access permissions. group may be the group name or the numerical group ID.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetHint.html#Slurmi_Command_SetHint_Microsoft_FSharp_Core_FSharpOption_Slurmi_Hint__">SetHint(FSharpOption&lt;Hint&gt;)</a></dt>
+    <dd><p>Bind tasks according to application hints.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetInput.html#Slurmi_Command_SetInput_Microsoft_FSharp_Core_FSharpOption_System_String__">SetInput(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard input directly to the file name specified in the &quot;filename pattern&quot;.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetLicenses.html#Slurmi_Command_SetLicenses_Microsoft_FSharp_Core_FSharpOption_Slurmi_LicenseList__">SetLicenses(FSharpOption&lt;LicenseList&gt;)</a></dt>
+    <dd><p>Specification of licenses (or other resources available on all nodes of the cluster) which must be allocated to this job. License names can be followed by a colon and count (the default count is one).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMailUser.html#Slurmi_Command_SetMailUser_Microsoft_FSharp_Core_FSharpOption_System_String__">SetMailUser(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>User to receive email notification of state changes as defined by --mail-type. The default value is the submitting user.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMemory.html#Slurmi_Command_SetMemory_Microsoft_FSharp_Core_FSharpOption_Slurmi_Memory__">SetMemory(FSharpOption&lt;Memory&gt;)</a></dt>
+    <dd><p>Specify the real memory required per node (with unit, e.g. &quot;30gb&quot;).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMemoryPerCPU.html#Slurmi_Command_SetMemoryPerCPU_Microsoft_FSharp_Core_FSharpOption_Slurmi_Memory__">SetMemoryPerCPU(FSharpOption&lt;Memory&gt;)</a></dt>
+    <dd><p>Minimum memory required per usable allocated CPU.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMemoryPerGPU.html#Slurmi_Command_SetMemoryPerGPU_Microsoft_FSharp_Core_FSharpOption_Slurmi_Memory__">SetMemoryPerGPU(FSharpOption&lt;Memory&gt;)</a></dt>
+    <dd><p>Minimum memory required per allocated GPU.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMinCPUs.html#Slurmi_Command_SetMinCPUs_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetMinCPUs(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Specify a minimum number of logical cpus/processors per node.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetMinTime.html#Slurmi_Command_SetMinTime_Microsoft_FSharp_Core_FSharpOption_Slurmi_Time__">SetMinTime(FSharpOption&lt;Time&gt;)</a></dt>
+    <dd><p>Set a minimum time limit on the job allocation. Format is (day,hours,minutes,seconds). If specified, the job may have its --time limit lowered to a value no lower than --time-min if doing so permits the job to begin execution earlier than otherwise possible.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNTasks.html#Slurmi_Command_SetNTasks_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNTasks(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>sbatch does not launch tasks, it requests an allocation of resources and submits a batch script.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNTasksPerCore.html#Slurmi_Command_SetNTasksPerCore_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNTasksPerCore(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Request the maximum ntasks be invoked on each core. Meant to be used with the --ntasks option. Related to --ntasks-per-node except at the core level instead of the node level.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNTasksPerGPU.html#Slurmi_Command_SetNTasksPerGPU_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNTasksPerGPU(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Request that there are ntasks tasks invoked for every GPU. This option can work in two ways: 1) either specify --ntasks in addition, in which case a type-less GPU specification will be automatically determined to satisfy --ntasks-per-gpu, or 2) specify the GPUs wanted (e.g. via --gpus or --gres) without specifying --ntasks, and the total task count will be automatically determined.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNTasksPerNode.html#Slurmi_Command_SetNTasksPerNode_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNTasksPerNode(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Request that ntasks be invoked on each node. If used with the --ntasks option, the --ntasks option will take precedence and the --ntasks-per-node will be treated as a maximum count of tasks per node. Meant to be used with the --nodes option. This is related to --cpus-per-task=ncpus, but does not require knowledge of the actual number of cpus on each node.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNTasksPerSocket.html#Slurmi_Command_SetNTasksPerSocket_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNTasksPerSocket(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Request the maximum ntasks be invoked on each socket. Meant to be used with the --ntasks option. Related to --ntasks-per-node except at the socket level instead of the node level.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNice.html#Slurmi_Command_SetNice_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetNice(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Run the job with an adjusted scheduling priority within Slurm. With no adjustment value the scheduling priority is decreased by 100. A negative nice value increases the priority, otherwise decreases it. The adjustment range is +/- 2147483645. Only privileged users can specify a negative adjustment.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNode.html#Slurmi_Command_SetNode_Microsoft_FSharp_Core_FSharpOption_System_String__">SetNode(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Request that a minimum of minnodes nodes be allocated to this job.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetNodeFile.html#Slurmi_Command_SetNodeFile_Microsoft_FSharp_Core_FSharpOption_System_String__">SetNodeFile(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Much like --nodelist, but the list is contained in a file of name node file.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetOutput.html#Slurmi_Command_SetOutput_Microsoft_FSharp_Core_FSharpOption_System_String__">SetOutput(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Instruct Slurm to connect the batch script's standard output directly to the file name specified in the &quot;filename pattern&quot;</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetPartition.html#Slurmi_Command_SetPartition_Microsoft_FSharp_Core_FSharpOption_System_String__">SetPartition(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Request a specific partition for the resource allocation.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetPrefer.html#Slurmi_Command_SetPrefer_Microsoft_FSharp_Core_FSharpOption_Microsoft_FSharp_Collections_FSharpList_System_String___">SetPrefer(FSharpOption&lt;FSharpList&lt;string&gt;&gt;)</a></dt>
+    <dd><p>Nodes can have features assigned to them by the Slurm administrator. Users can specify which of these features are desired but not required by their job using the prefer option.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetPriority.html#Slurmi_Command_SetPriority_Microsoft_FSharp_Core_FSharpOption_Slurmi_Priority__">SetPriority(FSharpOption&lt;Priority&gt;)</a></dt>
+    <dd><p>Request a specific job priority. May be subject to configuration specific constraints. value should either be a numeric value or &quot;TOP&quot; (for highest possible value). Only Slurm operators and administrators can set the priority of a job.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetReservation.html#Slurmi_Command_SetReservation_Microsoft_FSharp_Core_FSharpOption_Slurmi_Reservation__">SetReservation(FSharpOption&lt;Reservation&gt;)</a></dt>
+    <dd><p>Allocate resources for the job from the named reservation.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetSocketsPerNode.html#Slurmi_Command_SetSocketsPerNode_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetSocketsPerNode(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Restrict node selection to nodes with at least the specified number of sockets. See additional information under -B option above when task/affinity plugin is enabled. NOTE: This option may implicitly set the number of tasks (if -n was not specified) as one task per requested thread.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetSpezializedCores.html#Slurmi_Command_SetSpezializedCores_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetSpezializedCores(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Count of Specialized Cores per node reserved by the job for system operations and not used by the application.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetThreadSpec.html#Slurmi_Command_SetThreadSpec_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetThreadSpec(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Count of specialized threads per node reserved by the job for system operations and not used by the application. The application will not use these threads, but will be charged for their allocation. This option can not be used with the --core-spec option.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetThreadsPerCore.html#Slurmi_Command_SetThreadsPerCore_Microsoft_FSharp_Core_FSharpOption_System_Int32__">SetThreadsPerCore(FSharpOption&lt;int&gt;)</a></dt>
+    <dd><p>Restrict node selection to nodes with at least the specified number of threads per core. In task layout, use the specified maximum number of threads per core. NOTE: &quot;Threads&quot; refers to the number of processing units on each core rather than the number of application tasks to be launched per core.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetTime.html#Slurmi_Command_SetTime_Microsoft_FSharp_Core_FSharpOption_Slurmi_Time__">SetTime(FSharpOption&lt;Time&gt;)</a></dt>
+    <dd><p>Set a limit on the total run time of the job allocation. If the requested time limit exceeds the partition's time limit, the job will be left in a PENDING state (possibly indefinitely).</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetUserID.html#Slurmi_Command_SetUserID_Microsoft_FSharp_Core_FSharpOption_System_String__">SetUserID(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Attempt to submit and/or run a job as user instead of the invoking user id. The invoking user's credentials will be used to check access permissions for the target partition. User root may use this option to run jobs as a normal user in a RootOnly partition for example. If run as root, sbatch will drop its permissions to the uid specified after node allocation is successful. user may be the user name or numerical user ID.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetWaitAllNodes.html#Slurmi_Command_SetWaitAllNodes_Microsoft_FSharp_Core_FSharpOption_System_Boolean__">SetWaitAllNodes(FSharpOption&lt;bool&gt;)</a></dt>
+    <dd><p>Controls when the execution of the command begins. By default the job will begin execution as soon as the allocation is made.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.SetWorkingDirectory.html#Slurmi_Command_SetWorkingDirectory_Microsoft_FSharp_Core_FSharpOption_System_String__">SetWorkingDirectory(FSharpOption&lt;string&gt;)</a></dt>
+    <dd><p>Set the working directory of the batch script to directory before it is executed. The path can be specified as full path or relative path to the directory where the command is executed.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeAccount.html#Slurmi_Command_removeAccount_Slurmi_Command_">removeAccount(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeAccountingFrequency.html#Slurmi_Command_removeAccountingFrequency_Slurmi_Command_">removeAccountingFrequency(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeArray.html#Slurmi_Command_removeArray_Slurmi_Command_">removeArray(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeBatch.html#Slurmi_Command_removeBatch_Slurmi_Command_">removeBatch(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeBegin.html#Slurmi_Command_removeBegin_Slurmi_Command_">removeBegin(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeBurstBufferSpecification.html#Slurmi_Command_removeBurstBufferSpecification_Slurmi_Command_">removeBurstBufferSpecification(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeBurstBufferSpecificationFilePath.html#Slurmi_Command_removeBurstBufferSpecificationFilePath_Slurmi_Command_">removeBurstBufferSpecificationFilePath(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeCPUsPerGPU.html#Slurmi_Command_removeCPUsPerGPU_Slurmi_Command_">removeCPUsPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeCPUsPerTask.html#Slurmi_Command_removeCPUsPerTask_Slurmi_Command_">removeCPUsPerTask(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeClusters.html#Slurmi_Command_removeClusters_Slurmi_Command_">removeClusters(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeComment.html#Slurmi_Command_removeComment_Slurmi_Command_">removeComment(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeContainer.html#Slurmi_Command_removeContainer_Slurmi_Command_">removeContainer(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeContainerID.html#Slurmi_Command_removeContainerID_Slurmi_Command_">removeContainerID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeCoresPerSocker.html#Slurmi_Command_removeCoresPerSocker_Slurmi_Command_">removeCoresPerSocker(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeDeadline.html#Slurmi_Command_removeDeadline_Slurmi_Command_">removeDeadline(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeDelayBoot.html#Slurmi_Command_removeDelayBoot_Slurmi_Command_">removeDelayBoot(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeDependency.html#Slurmi_Command_removeDependency_Slurmi_Command_">removeDependency(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeDistribution.html#Slurmi_Command_removeDistribution_Slurmi_Command_">removeDistribution(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeError.html#Slurmi_Command_removeError_Slurmi_Command_">removeError(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeExclude.html#Slurmi_Command_removeExclude_Slurmi_Command_">removeExclude(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeExclusive.html#Slurmi_Command_removeExclusive_Slurmi_Command_">removeExclusive(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeExtra.html#Slurmi_Command_removeExtra_Slurmi_Command_">removeExtra(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeExtraNodeInfo.html#Slurmi_Command_removeExtraNodeInfo_Slurmi_Command_">removeExtraNodeInfo(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGPU.html#Slurmi_Command_removeGPU_Slurmi_Command_">removeGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGPUFreq.html#Slurmi_Command_removeGPUFreq_Slurmi_Command_">removeGPUFreq(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGPUPerNode.html#Slurmi_Command_removeGPUPerNode_Slurmi_Command_">removeGPUPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGPUPerSocket.html#Slurmi_Command_removeGPUPerSocket_Slurmi_Command_">removeGPUPerSocket(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGPUPerTask.html#Slurmi_Command_removeGPUPerTask_Slurmi_Command_">removeGPUPerTask(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGres.html#Slurmi_Command_removeGres_Slurmi_Command_">removeGres(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGresFlag.html#Slurmi_Command_removeGresFlag_Slurmi_Command_">removeGresFlag(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeGroupID.html#Slurmi_Command_removeGroupID_Slurmi_Command_">removeGroupID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeHint.html#Slurmi_Command_removeHint_Slurmi_Command_">removeHint(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeInput.html#Slurmi_Command_removeInput_Slurmi_Command_">removeInput(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeLicenses.html#Slurmi_Command_removeLicenses_Slurmi_Command_">removeLicenses(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeMailUser.html#Slurmi_Command_removeMailUser_Slurmi_Command_">removeMailUser(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeMemory.html#Slurmi_Command_removeMemory_Slurmi_Command_">removeMemory(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeMemoryPerCPU.html#Slurmi_Command_removeMemoryPerCPU_Slurmi_Command_">removeMemoryPerCPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeMinCPUs.html#Slurmi_Command_removeMinCPUs_Slurmi_Command_">removeMinCPUs(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeMinTime.html#Slurmi_Command_removeMinTime_Slurmi_Command_">removeMinTime(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNTasks.html#Slurmi_Command_removeNTasks_Slurmi_Command_">removeNTasks(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNTasksPerCore.html#Slurmi_Command_removeNTasksPerCore_Slurmi_Command_">removeNTasksPerCore(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNTasksPerGPU.html#Slurmi_Command_removeNTasksPerGPU_Slurmi_Command_">removeNTasksPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNTasksPerNode.html#Slurmi_Command_removeNTasksPerNode_Slurmi_Command_">removeNTasksPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNTasksPerSocket.html#Slurmi_Command_removeNTasksPerSocket_Slurmi_Command_">removeNTasksPerSocket(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNice.html#Slurmi_Command_removeNice_Slurmi_Command_">removeNice(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNode.html#Slurmi_Command_removeNode_Slurmi_Command_">removeNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeNodeFile.html#Slurmi_Command_removeNodeFile_Slurmi_Command_">removeNodeFile(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeOutput.html#Slurmi_Command_removeOutput_Slurmi_Command_">removeOutput(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removePartition.html#Slurmi_Command_removePartition_Slurmi_Command_">removePartition(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removePrefer.html#Slurmi_Command_removePrefer_Slurmi_Command_">removePrefer(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removePriority.html#Slurmi_Command_removePriority_Slurmi_Command_">removePriority(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeReservation.html#Slurmi_Command_removeReservation_Slurmi_Command_">removeReservation(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeSocketsPerNode.html#Slurmi_Command_removeSocketsPerNode_Slurmi_Command_">removeSocketsPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeSpezializedCores.html#Slurmi_Command_removeSpezializedCores_Slurmi_Command_">removeSpezializedCores(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeThreadSpec.html#Slurmi_Command_removeThreadSpec_Slurmi_Command_">removeThreadSpec(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeThreadsPerCore.html#Slurmi_Command_removeThreadsPerCore_Slurmi_Command_">removeThreadsPerCore(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeTime.html#Slurmi_Command_removeTime_Slurmi_Command_">removeTime(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeUserID.html#Slurmi_Command_removeUserID_Slurmi_Command_">removeUserID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeWaitAllNodes.html#Slurmi_Command_removeWaitAllNodes_Slurmi_Command_">removeWaitAllNodes(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removeWorkingDirectory.html#Slurmi_Command_removeWorkingDirectory_Slurmi_Command_">removeWorkingDirectory(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.removememoryPerGPU.html#Slurmi_Command_removememoryPerGPU_Slurmi_Command_">removememoryPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetAccount.html#Slurmi_Command_tryGetAccount_Slurmi_Command_">tryGetAccount(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetAccountingFrequency.html#Slurmi_Command_tryGetAccountingFrequency_Slurmi_Command_">tryGetAccountingFrequency(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetArray.html#Slurmi_Command_tryGetArray_Slurmi_Command_">tryGetArray(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetBatch.html#Slurmi_Command_tryGetBatch_Slurmi_Command_">tryGetBatch(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetBegin.html#Slurmi_Command_tryGetBegin_Slurmi_Command_">tryGetBegin(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetBurstBufferSpecification.html#Slurmi_Command_tryGetBurstBufferSpecification_Slurmi_Command_">tryGetBurstBufferSpecification(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetBurstBufferSpecificationFilePath.html#Slurmi_Command_tryGetBurstBufferSpecificationFilePath_Slurmi_Command_">tryGetBurstBufferSpecificationFilePath(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetCPUsPerGPU.html#Slurmi_Command_tryGetCPUsPerGPU_Slurmi_Command_">tryGetCPUsPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetCPUsPerTask.html#Slurmi_Command_tryGetCPUsPerTask_Slurmi_Command_">tryGetCPUsPerTask(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetClusters.html#Slurmi_Command_tryGetClusters_Slurmi_Command_">tryGetClusters(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetComment.html#Slurmi_Command_tryGetComment_Slurmi_Command_">tryGetComment(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetContainer.html#Slurmi_Command_tryGetContainer_Slurmi_Command_">tryGetContainer(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetContainerID.html#Slurmi_Command_tryGetContainerID_Slurmi_Command_">tryGetContainerID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetCoresPerSocket.html#Slurmi_Command_tryGetCoresPerSocket_Slurmi_Command_">tryGetCoresPerSocket(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetDeadline.html#Slurmi_Command_tryGetDeadline_Slurmi_Command_">tryGetDeadline(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetDelayBoot.html#Slurmi_Command_tryGetDelayBoot_Slurmi_Command_">tryGetDelayBoot(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetDependency.html#Slurmi_Command_tryGetDependency_Slurmi_Command_">tryGetDependency(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetDistribution.html#Slurmi_Command_tryGetDistribution_Slurmi_Command_">tryGetDistribution(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetError.html#Slurmi_Command_tryGetError_Slurmi_Command_">tryGetError(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetExclude.html#Slurmi_Command_tryGetExclude_Slurmi_Command_">tryGetExclude(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetExclusive.html#Slurmi_Command_tryGetExclusive_Slurmi_Command_">tryGetExclusive(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetExtra.html#Slurmi_Command_tryGetExtra_Slurmi_Command_">tryGetExtra(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetExtraNodeInfo.html#Slurmi_Command_tryGetExtraNodeInfo_Slurmi_Command_">tryGetExtraNodeInfo(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGPU.html#Slurmi_Command_tryGetGPU_Slurmi_Command_">tryGetGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGPUFreq.html#Slurmi_Command_tryGetGPUFreq_Slurmi_Command_">tryGetGPUFreq(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGPUPerNode.html#Slurmi_Command_tryGetGPUPerNode_Slurmi_Command_">tryGetGPUPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGPUPerSocket.html#Slurmi_Command_tryGetGPUPerSocket_Slurmi_Command_">tryGetGPUPerSocket(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGPUPerTask.html#Slurmi_Command_tryGetGPUPerTask_Slurmi_Command_">tryGetGPUPerTask(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGres.html#Slurmi_Command_tryGetGres_Slurmi_Command_">tryGetGres(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGresFlag.html#Slurmi_Command_tryGetGresFlag_Slurmi_Command_">tryGetGresFlag(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetGroupID.html#Slurmi_Command_tryGetGroupID_Slurmi_Command_">tryGetGroupID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetHint.html#Slurmi_Command_tryGetHint_Slurmi_Command_">tryGetHint(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetInput.html#Slurmi_Command_tryGetInput_Slurmi_Command_">tryGetInput(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetLicenses.html#Slurmi_Command_tryGetLicenses_Slurmi_Command_">tryGetLicenses(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMailUser.html#Slurmi_Command_tryGetMailUser_Slurmi_Command_">tryGetMailUser(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMemory.html#Slurmi_Command_tryGetMemory_Slurmi_Command_">tryGetMemory(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMemoryPerCPU.html#Slurmi_Command_tryGetMemoryPerCPU_Slurmi_Command_">tryGetMemoryPerCPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMemoryPerGPU.html#Slurmi_Command_tryGetMemoryPerGPU_Slurmi_Command_">tryGetMemoryPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMinCPUs.html#Slurmi_Command_tryGetMinCPUs_Slurmi_Command_">tryGetMinCPUs(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetMinTime.html#Slurmi_Command_tryGetMinTime_Slurmi_Command_">tryGetMinTime(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNTasks.html#Slurmi_Command_tryGetNTasks_Slurmi_Command_">tryGetNTasks(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNTasksPerCore.html#Slurmi_Command_tryGetNTasksPerCore_Slurmi_Command_">tryGetNTasksPerCore(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNTasksPerGPU.html#Slurmi_Command_tryGetNTasksPerGPU_Slurmi_Command_">tryGetNTasksPerGPU(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNTasksPerNode.html#Slurmi_Command_tryGetNTasksPerNode_Slurmi_Command_">tryGetNTasksPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNTasksPerSocket.html#Slurmi_Command_tryGetNTasksPerSocket_Slurmi_Command_">tryGetNTasksPerSocket(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNice.html#Slurmi_Command_tryGetNice_Slurmi_Command_">tryGetNice(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNode.html#Slurmi_Command_tryGetNode_Slurmi_Command_">tryGetNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetNodeFile.html#Slurmi_Command_tryGetNodeFile_Slurmi_Command_">tryGetNodeFile(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetOutput.html#Slurmi_Command_tryGetOutput_Slurmi_Command_">tryGetOutput(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetPartition.html#Slurmi_Command_tryGetPartition_Slurmi_Command_">tryGetPartition(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetPrefer.html#Slurmi_Command_tryGetPrefer_Slurmi_Command_">tryGetPrefer(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetPriority.html#Slurmi_Command_tryGetPriority_Slurmi_Command_">tryGetPriority(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetReservation.html#Slurmi_Command_tryGetReservation_Slurmi_Command_">tryGetReservation(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetSocketsPerNode.html#Slurmi_Command_tryGetSocketsPerNode_Slurmi_Command_">tryGetSocketsPerNode(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetSpezializedCores.html#Slurmi_Command_tryGetSpezializedCores_Slurmi_Command_">tryGetSpezializedCores(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetThreadSpec.html#Slurmi_Command_tryGetThreadSpec_Slurmi_Command_">tryGetThreadSpec(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetThreadsPerCore.html#Slurmi_Command_tryGetThreadsPerCore_Slurmi_Command_">tryGetThreadsPerCore(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetTime.html#Slurmi_Command_tryGetTime_Slurmi_Command_">tryGetTime(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetUserID.html#Slurmi_Command_tryGetUserID_Slurmi_Command_">tryGetUserID(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetWaitAllNodes.html#Slurmi_Command_tryGetWaitAllNodes_Slurmi_Command_">tryGetWaitAllNodes(Command)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Slurmi.Command.tryGetWorkingDirectory.html#Slurmi_Command_tryGetWorkingDirectory_Slurmi_Command_">tryGetWorkingDirectory(Command)</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

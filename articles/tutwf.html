@@ -105,10 +105,10 @@ let jd4 = {JobInfo = j4; AllOrAny = TypeOfDep.Any; DependingOn = [(j2, KindOfDep
 </code></pre>
 <p>In the next step, the jobs are combined into a list, allowing the simultaneous editing of multiple jobs.</p>
 <pre><code class="lang-fsharp">[jd1;jd2;jd3;jd4]
-|&gt; List.map (fun x -&gt; x.JobInfo.OneDash |&gt; ShortCommand.SetPartition &quot;bio-csb&quot;)
+|&gt; List.map (fun x -&gt; x.JobInfo.CommandWithArgument |&gt; Command.SetPartition &quot;bio-csb&quot;)
 
 [jd1;jd2;jd3;jd4]
-|&gt; List.map (fun x -&gt; x.JobInfo.TwoDashes |&gt; LongCommand.SetTime ({Days = None ; clock = Some {hour = 0; minute = 1; second = Some 1}}))
+|&gt; List.map (fun x -&gt; x.JobInfo.CommandWithArgument |&gt; Command.SetTime ({Days = None ; clock = Some {hour = 0; minute = 1; second = Some 1}}))
 </code></pre>
 <h2 id="creating-a-workflow">Creating a workflow</h2>
 <p>The workflow can then be created by calling the <code>createWorkflow</code> function.</p>
@@ -118,7 +118,7 @@ let jd4 = {JobInfo = j4; AllOrAny = TypeOfDep.Any; DependingOn = [(j2, KindOfDep
 <p>This workflow can now be submitted to the cluster. With this, all dependencies will be resolved and submitted in the correct order.</p>
 <pre><code class="lang-fsharp">let workedOn =  new List&lt;string&gt;()
 
-resultGraph.Graph.submitAll resultGraph.Graph.Graph workedOn
+WFGraph.submitAll resultGraph.Graph.Graph workedOn
 </code></pre>
 <h2 id="visualisation">Visualisation</h2>
 <p>The workflow graph can be displayed, for example using the CyGraph library.</p>
