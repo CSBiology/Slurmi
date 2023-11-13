@@ -28,10 +28,10 @@ In the next step, the jobs are combined into a list, allowing the simultaneous e
 
 ```fsharp 
 [jd1;jd2;jd3;jd4]
-|> List.map (fun x -> x.JobInfo.OneDash |> ShortCommand.SetPartition "bio-csb")
+|> List.map (fun x -> x.JobInfo.CommandWithArgument |> Command.SetPartition "bio-csb")
 
 [jd1;jd2;jd3;jd4]
-|> List.map (fun x -> x.JobInfo.TwoDashes |> LongCommand.SetTime ({Days = None ; clock = Some {hour = 0; minute = 1; second = Some 1}}))
+|> List.map (fun x -> x.JobInfo.CommandWithArgument |> Command.SetTime ({Days = None ; clock = Some {hour = 0; minute = 1; second = Some 1}}))
 ```
 
 ## Creating a workflow
@@ -48,7 +48,7 @@ This workflow can now be submitted to the cluster. With this, all dependencies w
 ```fsharp
 let workedOn =  new List<string>()
 
-resultGraph.Graph.submitAll resultGraph.Graph.Graph workedOn
+WFGraph.submitAll resultGraph.Graph.Graph workedOn
 ```
 
 ## Visualisation
