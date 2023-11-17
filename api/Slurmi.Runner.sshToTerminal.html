@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method sendToTerminalAndReceiveJobIDCMD
+      <title>Method sshToTerminal
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method sendToTerminalAndReceiveJobIDCMD
+      <meta name="title" content="Method sshToTerminal
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD*">
+        <article data-uid="Slurmi.Runner.sshToTerminal*">
 
 
 
 
 
-<h1 id="Slurmi_Connection_sendToTerminalAndReceiveJobIDCMD_" data-uid="Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD*" class="text-break">
-  Method sendToTerminalAndReceiveJobIDCMD
+<h1 id="Slurmi_Runner_sshToTerminal_" data-uid="Slurmi.Runner.sshToTerminal*" class="text-break">
+  Method sshToTerminal
   
 </h1>
 
@@ -118,10 +118,10 @@
 
 
 
-<a id="Slurmi_Connection_sendToTerminalAndReceiveJobIDCMD_" data-uid="Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD*"></a>
+<a id="Slurmi_Runner_sshToTerminal_" data-uid="Slurmi.Runner.sshToTerminal*"></a>
 
-<h3 id="Slurmi_Connection_sendToTerminalAndReceiveJobIDCMD_Slurmi_Job_" data-uid="Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)">
-  sendToTerminalAndReceiveJobIDCMD(Job)
+<h3 id="Slurmi_Runner_sshToTerminal_Renci_SshNet_SshClient_Slurmi_Job_" data-uid="Slurmi.Runner.sshToTerminal(Renci.SshNet.SshClient,Slurmi.Job)">
+  sshToTerminal(SshClient, Job)
   
 </h3>
 
@@ -129,15 +129,23 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static void sendToTerminalAndReceiveJobIDCMD(Job job)</code></pre>
+  <pre><code class="lang-csharp hljs">[CompilationArgumentCounts(new int[] { 1, 1 })]
+public static string sshToTerminal(SshClient client, Job job)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
+  <dt><code>client</code> <span class="xref">SshClient</span></dt>
+  <dd></dd>
   <dt><code>job</code> <a class="xref" href="Slurmi.Job.html">Job</a></dt>
   <dd></dd>
 </dl>
 
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd></dd>
+</dl>
 
 
 

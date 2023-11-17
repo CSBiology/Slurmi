@@ -4444,111 +4444,6 @@ references:
   commentId: Overload:Slurmi.Command.tryGetWorkingDirectory
   fullName: Slurmi.Command.tryGetWorkingDirectory
   nameWithType: Command.tryGetWorkingDirectory
-- uid: Slurmi.Connection
-  name: Connection
-  href: api/Slurmi.Connection.html
-  commentId: T:Slurmi.Connection
-  fullName: Slurmi.Connection
-  nameWithType: Connection
-- uid: Slurmi.Connection.callToTerminalBash(System.String)
-  name: callToTerminalBash(string)
-  href: api/Slurmi.Connection.callToTerminalBash.html#Slurmi_Connection_callToTerminalBash_System_String_
-  commentId: M:Slurmi.Connection.callToTerminalBash(System.String)
-  name.vb: callToTerminalBash(String)
-  fullName: Slurmi.Connection.callToTerminalBash(string)
-  fullName.vb: Slurmi.Connection.callToTerminalBash(String)
-  nameWithType: Connection.callToTerminalBash(string)
-  nameWithType.vb: Connection.callToTerminalBash(String)
-- uid: Slurmi.Connection.callToTerminalBash*
-  name: callToTerminalBash
-  href: api/Slurmi.Connection.callToTerminalBash.html
-  commentId: Overload:Slurmi.Connection.callToTerminalBash
-  fullName: Slurmi.Connection.callToTerminalBash
-  nameWithType: Connection.callToTerminalBash
-- uid: Slurmi.Connection.callToTerminalCMD(System.String)
-  name: callToTerminalCMD(string)
-  href: api/Slurmi.Connection.callToTerminalCMD.html#Slurmi_Connection_callToTerminalCMD_System_String_
-  commentId: M:Slurmi.Connection.callToTerminalCMD(System.String)
-  name.vb: callToTerminalCMD(String)
-  fullName: Slurmi.Connection.callToTerminalCMD(string)
-  fullName.vb: Slurmi.Connection.callToTerminalCMD(String)
-  nameWithType: Connection.callToTerminalCMD(string)
-  nameWithType.vb: Connection.callToTerminalCMD(String)
-- uid: Slurmi.Connection.callToTerminalCMD*
-  name: callToTerminalCMD
-  href: api/Slurmi.Connection.callToTerminalCMD.html
-  commentId: Overload:Slurmi.Connection.callToTerminalCMD
-  fullName: Slurmi.Connection.callToTerminalCMD
-  nameWithType: Connection.callToTerminalCMD
-- uid: Slurmi.Connection.getResultFromCallBash(System.String)
-  name: getResultFromCallBash(string)
-  href: api/Slurmi.Connection.getResultFromCallBash.html#Slurmi_Connection_getResultFromCallBash_System_String_
-  commentId: M:Slurmi.Connection.getResultFromCallBash(System.String)
-  name.vb: getResultFromCallBash(String)
-  fullName: Slurmi.Connection.getResultFromCallBash(string)
-  fullName.vb: Slurmi.Connection.getResultFromCallBash(String)
-  nameWithType: Connection.getResultFromCallBash(string)
-  nameWithType.vb: Connection.getResultFromCallBash(String)
-- uid: Slurmi.Connection.getResultFromCallBash*
-  name: getResultFromCallBash
-  href: api/Slurmi.Connection.getResultFromCallBash.html
-  commentId: Overload:Slurmi.Connection.getResultFromCallBash
-  fullName: Slurmi.Connection.getResultFromCallBash
-  nameWithType: Connection.getResultFromCallBash
-- uid: Slurmi.Connection.getResultFromCallCMD(System.String)
-  name: getResultFromCallCMD(string)
-  href: api/Slurmi.Connection.getResultFromCallCMD.html#Slurmi_Connection_getResultFromCallCMD_System_String_
-  commentId: M:Slurmi.Connection.getResultFromCallCMD(System.String)
-  name.vb: getResultFromCallCMD(String)
-  fullName: Slurmi.Connection.getResultFromCallCMD(string)
-  fullName.vb: Slurmi.Connection.getResultFromCallCMD(String)
-  nameWithType: Connection.getResultFromCallCMD(string)
-  nameWithType.vb: Connection.getResultFromCallCMD(String)
-- uid: Slurmi.Connection.getResultFromCallCMD*
-  name: getResultFromCallCMD
-  href: api/Slurmi.Connection.getResultFromCallCMD.html
-  commentId: Overload:Slurmi.Connection.getResultFromCallCMD
-  fullName: Slurmi.Connection.getResultFromCallCMD
-  nameWithType: Connection.getResultFromCallCMD
-- uid: Slurmi.Connection.matchOutput*
-  name: matchOutput
-  href: api/Slurmi.Connection.matchOutput.html
-  commentId: Overload:Slurmi.Connection.matchOutput
-  fullName: Slurmi.Connection.matchOutput
-  nameWithType: Connection.matchOutput
-- uid: Slurmi.Connection.matchOutput``1(Microsoft.FSharp.Core.FSharpOption{``0})
-  name: matchOutput<a>(FSharpOption<a>)
-  href: api/Slurmi.Connection.matchOutput.html#Slurmi_Connection_matchOutput__1_Microsoft_FSharp_Core_FSharpOption___0__
-  commentId: M:Slurmi.Connection.matchOutput``1(Microsoft.FSharp.Core.FSharpOption{``0})
-  name.vb: matchOutput(Of a)(FSharpOption(Of a))
-  fullName: Slurmi.Connection.matchOutput<a>(Microsoft.FSharp.Core.FSharpOption<a>)
-  fullName.vb: Slurmi.Connection.matchOutput(Of a)(Microsoft.FSharp.Core.FSharpOption(Of a))
-  nameWithType: Connection.matchOutput<a>(FSharpOption<a>)
-  nameWithType.vb: Connection.matchOutput(Of a)(FSharpOption(Of a))
-- uid: Slurmi.Connection.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
-  name: sendToTerminalAndReceiveJobIDBash(Job)
-  href: api/Slurmi.Connection.sendToTerminalAndReceiveJobIDBash.html#Slurmi_Connection_sendToTerminalAndReceiveJobIDBash_Slurmi_Job_
-  commentId: M:Slurmi.Connection.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
-  fullName: Slurmi.Connection.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
-  nameWithType: Connection.sendToTerminalAndReceiveJobIDBash(Job)
-- uid: Slurmi.Connection.sendToTerminalAndReceiveJobIDBash*
-  name: sendToTerminalAndReceiveJobIDBash
-  href: api/Slurmi.Connection.sendToTerminalAndReceiveJobIDBash.html
-  commentId: Overload:Slurmi.Connection.sendToTerminalAndReceiveJobIDBash
-  fullName: Slurmi.Connection.sendToTerminalAndReceiveJobIDBash
-  nameWithType: Connection.sendToTerminalAndReceiveJobIDBash
-- uid: Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
-  name: sendToTerminalAndReceiveJobIDCMD(Job)
-  href: api/Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD.html#Slurmi_Connection_sendToTerminalAndReceiveJobIDCMD_Slurmi_Job_
-  commentId: M:Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
-  fullName: Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
-  nameWithType: Connection.sendToTerminalAndReceiveJobIDCMD(Job)
-- uid: Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD*
-  name: sendToTerminalAndReceiveJobIDCMD
-  href: api/Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD.html
-  commentId: Overload:Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD
-  fullName: Slurmi.Connection.sendToTerminalAndReceiveJobIDCMD
-  nameWithType: Connection.sendToTerminalAndReceiveJobIDCMD
 - uid: Slurmi.ControlOverNodes
   name: ControlOverNodes
   href: api/Slurmi.ControlOverNodes.html
@@ -12019,6 +11914,213 @@ references:
   commentId: Overload:Slurmi.Reservation.reservation
   fullName: Slurmi.Reservation.reservation
   nameWithType: Reservation.reservation
+- uid: Slurmi.Runner
+  name: Runner
+  href: api/Slurmi.Runner.html
+  commentId: T:Slurmi.Runner
+  fullName: Slurmi.Runner
+  nameWithType: Runner
+- uid: Slurmi.Runner.callToTerminalBash(System.String)
+  name: callToTerminalBash(string)
+  href: api/Slurmi.Runner.callToTerminalBash.html#Slurmi_Runner_callToTerminalBash_System_String_
+  commentId: M:Slurmi.Runner.callToTerminalBash(System.String)
+  name.vb: callToTerminalBash(String)
+  fullName: Slurmi.Runner.callToTerminalBash(string)
+  fullName.vb: Slurmi.Runner.callToTerminalBash(String)
+  nameWithType: Runner.callToTerminalBash(string)
+  nameWithType.vb: Runner.callToTerminalBash(String)
+- uid: Slurmi.Runner.callToTerminalBash*
+  name: callToTerminalBash
+  href: api/Slurmi.Runner.callToTerminalBash.html
+  commentId: Overload:Slurmi.Runner.callToTerminalBash
+  fullName: Slurmi.Runner.callToTerminalBash
+  nameWithType: Runner.callToTerminalBash
+- uid: Slurmi.Runner.callToTerminalCMD(System.String)
+  name: callToTerminalCMD(string)
+  href: api/Slurmi.Runner.callToTerminalCMD.html#Slurmi_Runner_callToTerminalCMD_System_String_
+  commentId: M:Slurmi.Runner.callToTerminalCMD(System.String)
+  name.vb: callToTerminalCMD(String)
+  fullName: Slurmi.Runner.callToTerminalCMD(string)
+  fullName.vb: Slurmi.Runner.callToTerminalCMD(String)
+  nameWithType: Runner.callToTerminalCMD(string)
+  nameWithType.vb: Runner.callToTerminalCMD(String)
+- uid: Slurmi.Runner.callToTerminalCMD*
+  name: callToTerminalCMD
+  href: api/Slurmi.Runner.callToTerminalCMD.html
+  commentId: Overload:Slurmi.Runner.callToTerminalCMD
+  fullName: Slurmi.Runner.callToTerminalCMD
+  nameWithType: Runner.callToTerminalCMD
+- uid: Slurmi.Runner.checkAllForWorked(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
+  name: checkAllForWorked(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
+  href: api/Slurmi.Runner.checkAllForWorked.html#Slurmi_Runner_checkAllForWorked_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__
+  commentId: M:Slurmi.Runner.checkAllForWorked(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
+  name.vb: checkAllForWorked(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
+  fullName: Slurmi.Runner.checkAllForWorked(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>)
+  fullName.vb: Slurmi.Runner.checkAllForWorked(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String))
+  nameWithType: Runner.checkAllForWorked(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
+  nameWithType.vb: Runner.checkAllForWorked(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
+- uid: Slurmi.Runner.checkAllForWorked*
+  name: checkAllForWorked
+  href: api/Slurmi.Runner.checkAllForWorked.html
+  commentId: Overload:Slurmi.Runner.checkAllForWorked
+  fullName: Slurmi.Runner.checkAllForWorked
+  nameWithType: Runner.checkAllForWorked
+- uid: Slurmi.Runner.checkAllForWorkedSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name: checkAllForWorkedSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
+  href: api/Slurmi.Runner.checkAllForWorkedSSH.html#Slurmi_Runner_checkAllForWorkedSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
+  commentId: M:Slurmi.Runner.checkAllForWorkedSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name.vb: checkAllForWorkedSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
+  fullName: Slurmi.Runner.checkAllForWorkedSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
+  fullName.vb: Slurmi.Runner.checkAllForWorkedSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
+  nameWithType: Runner.checkAllForWorkedSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
+  nameWithType.vb: Runner.checkAllForWorkedSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
+- uid: Slurmi.Runner.checkAllForWorkedSSH*
+  name: checkAllForWorkedSSH
+  href: api/Slurmi.Runner.checkAllForWorkedSSH.html
+  commentId: Overload:Slurmi.Runner.checkAllForWorkedSSH
+  fullName: Slurmi.Runner.checkAllForWorkedSSH
+  nameWithType: Runner.checkAllForWorkedSSH
+- uid: Slurmi.Runner.checkForWorkedBash(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
+  name: checkForWorkedBash(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
+  href: api/Slurmi.Runner.checkForWorkedBash.html#Slurmi_Runner_checkForWorkedBash_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__
+  commentId: M:Slurmi.Runner.checkForWorkedBash(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
+  name.vb: checkForWorkedBash(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
+  fullName: Slurmi.Runner.checkForWorkedBash(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>)
+  fullName.vb: Slurmi.Runner.checkForWorkedBash(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String))
+  nameWithType: Runner.checkForWorkedBash(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
+  nameWithType.vb: Runner.checkForWorkedBash(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
+- uid: Slurmi.Runner.checkForWorkedBash*
+  name: checkForWorkedBash
+  href: api/Slurmi.Runner.checkForWorkedBash.html
+  commentId: Overload:Slurmi.Runner.checkForWorkedBash
+  fullName: Slurmi.Runner.checkForWorkedBash
+  nameWithType: Runner.checkForWorkedBash
+- uid: Slurmi.Runner.checkForWorkedBashSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name: checkForWorkedBashSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
+  href: api/Slurmi.Runner.checkForWorkedBashSSH.html#Slurmi_Runner_checkForWorkedBashSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
+  commentId: M:Slurmi.Runner.checkForWorkedBashSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name.vb: checkForWorkedBashSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
+  fullName: Slurmi.Runner.checkForWorkedBashSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
+  fullName.vb: Slurmi.Runner.checkForWorkedBashSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
+  nameWithType: Runner.checkForWorkedBashSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
+  nameWithType.vb: Runner.checkForWorkedBashSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
+- uid: Slurmi.Runner.checkForWorkedBashSSH*
+  name: checkForWorkedBashSSH
+  href: api/Slurmi.Runner.checkForWorkedBashSSH.html
+  commentId: Overload:Slurmi.Runner.checkForWorkedBashSSH
+  fullName: Slurmi.Runner.checkForWorkedBashSSH
+  nameWithType: Runner.checkForWorkedBashSSH
+- uid: Slurmi.Runner.getResultFromCallBash(System.String)
+  name: getResultFromCallBash(string)
+  href: api/Slurmi.Runner.getResultFromCallBash.html#Slurmi_Runner_getResultFromCallBash_System_String_
+  commentId: M:Slurmi.Runner.getResultFromCallBash(System.String)
+  name.vb: getResultFromCallBash(String)
+  fullName: Slurmi.Runner.getResultFromCallBash(string)
+  fullName.vb: Slurmi.Runner.getResultFromCallBash(String)
+  nameWithType: Runner.getResultFromCallBash(string)
+  nameWithType.vb: Runner.getResultFromCallBash(String)
+- uid: Slurmi.Runner.getResultFromCallBash*
+  name: getResultFromCallBash
+  href: api/Slurmi.Runner.getResultFromCallBash.html
+  commentId: Overload:Slurmi.Runner.getResultFromCallBash
+  fullName: Slurmi.Runner.getResultFromCallBash
+  nameWithType: Runner.getResultFromCallBash
+- uid: Slurmi.Runner.getResultFromCallCMD(System.String)
+  name: getResultFromCallCMD(string)
+  href: api/Slurmi.Runner.getResultFromCallCMD.html#Slurmi_Runner_getResultFromCallCMD_System_String_
+  commentId: M:Slurmi.Runner.getResultFromCallCMD(System.String)
+  name.vb: getResultFromCallCMD(String)
+  fullName: Slurmi.Runner.getResultFromCallCMD(string)
+  fullName.vb: Slurmi.Runner.getResultFromCallCMD(String)
+  nameWithType: Runner.getResultFromCallCMD(string)
+  nameWithType.vb: Runner.getResultFromCallCMD(String)
+- uid: Slurmi.Runner.getResultFromCallCMD*
+  name: getResultFromCallCMD
+  href: api/Slurmi.Runner.getResultFromCallCMD.html
+  commentId: Overload:Slurmi.Runner.getResultFromCallCMD
+  fullName: Slurmi.Runner.getResultFromCallCMD
+  nameWithType: Runner.getResultFromCallCMD
+- uid: Slurmi.Runner.matchOutput*
+  name: matchOutput
+  href: api/Slurmi.Runner.matchOutput.html
+  commentId: Overload:Slurmi.Runner.matchOutput
+  fullName: Slurmi.Runner.matchOutput
+  nameWithType: Runner.matchOutput
+- uid: Slurmi.Runner.matchOutput``1(Microsoft.FSharp.Core.FSharpOption{``0})
+  name: matchOutput<a>(FSharpOption<a>)
+  href: api/Slurmi.Runner.matchOutput.html#Slurmi_Runner_matchOutput__1_Microsoft_FSharp_Core_FSharpOption___0__
+  commentId: M:Slurmi.Runner.matchOutput``1(Microsoft.FSharp.Core.FSharpOption{``0})
+  name.vb: matchOutput(Of a)(FSharpOption(Of a))
+  fullName: Slurmi.Runner.matchOutput<a>(Microsoft.FSharp.Core.FSharpOption<a>)
+  fullName.vb: Slurmi.Runner.matchOutput(Of a)(Microsoft.FSharp.Core.FSharpOption(Of a))
+  nameWithType: Runner.matchOutput<a>(FSharpOption<a>)
+  nameWithType.vb: Runner.matchOutput(Of a)(FSharpOption(Of a))
+- uid: Slurmi.Runner.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
+  name: sendToTerminalAndReceiveJobIDBash(Job)
+  href: api/Slurmi.Runner.sendToTerminalAndReceiveJobIDBash.html#Slurmi_Runner_sendToTerminalAndReceiveJobIDBash_Slurmi_Job_
+  commentId: M:Slurmi.Runner.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
+  fullName: Slurmi.Runner.sendToTerminalAndReceiveJobIDBash(Slurmi.Job)
+  nameWithType: Runner.sendToTerminalAndReceiveJobIDBash(Job)
+- uid: Slurmi.Runner.sendToTerminalAndReceiveJobIDBash*
+  name: sendToTerminalAndReceiveJobIDBash
+  href: api/Slurmi.Runner.sendToTerminalAndReceiveJobIDBash.html
+  commentId: Overload:Slurmi.Runner.sendToTerminalAndReceiveJobIDBash
+  fullName: Slurmi.Runner.sendToTerminalAndReceiveJobIDBash
+  nameWithType: Runner.sendToTerminalAndReceiveJobIDBash
+- uid: Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
+  name: sendToTerminalAndReceiveJobIDCMD(Job)
+  href: api/Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD.html#Slurmi_Runner_sendToTerminalAndReceiveJobIDCMD_Slurmi_Job_
+  commentId: M:Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
+  fullName: Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)
+  nameWithType: Runner.sendToTerminalAndReceiveJobIDCMD(Job)
+- uid: Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD*
+  name: sendToTerminalAndReceiveJobIDCMD
+  href: api/Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD.html
+  commentId: Overload:Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD
+  fullName: Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD
+  nameWithType: Runner.sendToTerminalAndReceiveJobIDCMD
+- uid: Slurmi.Runner.sshToTerminal(Renci.SshNet.SshClient,Slurmi.Job)
+  name: sshToTerminal(SshClient, Job)
+  href: api/Slurmi.Runner.sshToTerminal.html#Slurmi_Runner_sshToTerminal_Renci_SshNet_SshClient_Slurmi_Job_
+  commentId: M:Slurmi.Runner.sshToTerminal(Renci.SshNet.SshClient,Slurmi.Job)
+  fullName: Slurmi.Runner.sshToTerminal(Renci.SshNet.SshClient, Slurmi.Job)
+  nameWithType: Runner.sshToTerminal(SshClient, Job)
+- uid: Slurmi.Runner.sshToTerminal*
+  name: sshToTerminal
+  href: api/Slurmi.Runner.sshToTerminal.html
+  commentId: Overload:Slurmi.Runner.sshToTerminal
+  fullName: Slurmi.Runner.sshToTerminal
+  nameWithType: Runner.sshToTerminal
+- uid: Slurmi.Runner.submitAll(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String})
+  name: submitAll(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>)
+  href: api/Slurmi.Runner.submitAll.html#Slurmi_Runner_submitAll_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_Collections_Generic_List_System_String__
+  commentId: M:Slurmi.Runner.submitAll(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String})
+  name.vb: submitAll(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String))
+  fullName: Slurmi.Runner.submitAll(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, System.Collections.Generic.List<string>)
+  fullName.vb: Slurmi.Runner.submitAll(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), System.Collections.Generic.List(Of String))
+  nameWithType: Runner.submitAll(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>)
+  nameWithType.vb: Runner.submitAll(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String))
+- uid: Slurmi.Runner.submitAll*
+  name: submitAll
+  href: api/Slurmi.Runner.submitAll.html
+  commentId: Overload:Slurmi.Runner.submitAll
+  fullName: Slurmi.Runner.submitAll
+  nameWithType: Runner.submitAll
+- uid: Slurmi.Runner.submitAllSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name: submitAllSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>, SshClient)
+  href: api/Slurmi.Runner.submitAllSSH.html#Slurmi_Runner_submitAllSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
+  commentId: M:Slurmi.Runner.submitAllSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
+  name.vb: submitAllSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String), SshClient)
+  fullName: Slurmi.Runner.submitAllSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
+  fullName.vb: Slurmi.Runner.submitAllSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
+  nameWithType: Runner.submitAllSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>, SshClient)
+  nameWithType.vb: Runner.submitAllSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String), SshClient)
+- uid: Slurmi.Runner.submitAllSSH*
+  name: submitAllSSH
+  href: api/Slurmi.Runner.submitAllSSH.html
+  commentId: Overload:Slurmi.Runner.submitAllSSH
+  fullName: Slurmi.Runner.submitAllSSH
+  nameWithType: Runner.submitAllSSH
 - uid: Slurmi.Seperators
   name: Seperators
   href: api/Slurmi.Seperators.html
@@ -14197,66 +14299,6 @@ references:
   commentId: Overload:Slurmi.Workflow.WFGraph.arePredecessorsWorkedAlready
   fullName: Slurmi.Workflow.WFGraph.arePredecessorsWorkedAlready
   nameWithType: Workflow.WFGraph.arePredecessorsWorkedAlready
-- uid: Slurmi.Workflow.WFGraph.checkAllForWorked(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
-  name: checkAllForWorked(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
-  href: api/Slurmi.Workflow.WFGraph.checkAllForWorked.html#Slurmi_Workflow_WFGraph_checkAllForWorked_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__
-  commentId: M:Slurmi.Workflow.WFGraph.checkAllForWorked(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
-  name.vb: checkAllForWorked(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
-  fullName: Slurmi.Workflow.WFGraph.checkAllForWorked(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>)
-  fullName.vb: Slurmi.Workflow.WFGraph.checkAllForWorked(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String))
-  nameWithType: Workflow.WFGraph.checkAllForWorked(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
-  nameWithType.vb: Workflow.WFGraph.checkAllForWorked(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
-- uid: Slurmi.Workflow.WFGraph.checkAllForWorked*
-  name: checkAllForWorked
-  href: api/Slurmi.Workflow.WFGraph.checkAllForWorked.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.checkAllForWorked
-  fullName: Slurmi.Workflow.WFGraph.checkAllForWorked
-  nameWithType: Workflow.WFGraph.checkAllForWorked
-- uid: Slurmi.Workflow.WFGraph.checkAllForWorkedSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name: checkAllForWorkedSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
-  href: api/Slurmi.Workflow.WFGraph.checkAllForWorkedSSH.html#Slurmi_Workflow_WFGraph_checkAllForWorkedSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
-  commentId: M:Slurmi.Workflow.WFGraph.checkAllForWorkedSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name.vb: checkAllForWorkedSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
-  fullName: Slurmi.Workflow.WFGraph.checkAllForWorkedSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
-  fullName.vb: Slurmi.Workflow.WFGraph.checkAllForWorkedSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
-  nameWithType: Workflow.WFGraph.checkAllForWorkedSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
-  nameWithType.vb: Workflow.WFGraph.checkAllForWorkedSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
-- uid: Slurmi.Workflow.WFGraph.checkAllForWorkedSSH*
-  name: checkAllForWorkedSSH
-  href: api/Slurmi.Workflow.WFGraph.checkAllForWorkedSSH.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.checkAllForWorkedSSH
-  fullName: Slurmi.Workflow.WFGraph.checkAllForWorkedSSH
-  nameWithType: Workflow.WFGraph.checkAllForWorkedSSH
-- uid: Slurmi.Workflow.WFGraph.checkForWorkedBash(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
-  name: checkForWorkedBash(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
-  href: api/Slurmi.Workflow.WFGraph.checkForWorkedBash.html#Slurmi_Workflow_WFGraph_checkForWorkedBash_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__
-  commentId: M:Slurmi.Workflow.WFGraph.checkForWorkedBash(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})
-  name.vb: checkForWorkedBash(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
-  fullName: Slurmi.Workflow.WFGraph.checkForWorkedBash(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>)
-  fullName.vb: Slurmi.Workflow.WFGraph.checkForWorkedBash(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String))
-  nameWithType: Workflow.WFGraph.checkForWorkedBash(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>)
-  nameWithType.vb: Workflow.WFGraph.checkForWorkedBash(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String))
-- uid: Slurmi.Workflow.WFGraph.checkForWorkedBash*
-  name: checkForWorkedBash
-  href: api/Slurmi.Workflow.WFGraph.checkForWorkedBash.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.checkForWorkedBash
-  fullName: Slurmi.Workflow.WFGraph.checkForWorkedBash
-  nameWithType: Workflow.WFGraph.checkForWorkedBash
-- uid: Slurmi.Workflow.WFGraph.checkForWorkedBashSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name: checkForWorkedBashSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
-  href: api/Slurmi.Workflow.WFGraph.checkForWorkedBashSSH.html#Slurmi_Workflow_WFGraph_checkForWorkedBashSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
-  commentId: M:Slurmi.Workflow.WFGraph.checkForWorkedBashSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name.vb: checkForWorkedBashSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
-  fullName: Slurmi.Workflow.WFGraph.checkForWorkedBashSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, string, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
-  fullName.vb: Slurmi.Workflow.WFGraph.checkForWorkedBashSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), String, System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
-  nameWithType: Workflow.WFGraph.checkForWorkedBashSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, string, List<string>, SshClient)
-  nameWithType.vb: Workflow.WFGraph.checkForWorkedBashSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), String, List(Of String), SshClient)
-- uid: Slurmi.Workflow.WFGraph.checkForWorkedBashSSH*
-  name: checkForWorkedBashSSH
-  href: api/Slurmi.Workflow.WFGraph.checkForWorkedBashSSH.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.checkForWorkedBashSSH
-  fullName: Slurmi.Workflow.WFGraph.checkForWorkedBashSSH
-  nameWithType: Workflow.WFGraph.checkForWorkedBashSSH
 - uid: Slurmi.Workflow.WFGraph.createGraphFromJobList(Microsoft.FSharp.Collections.FSharpList{Slurmi.Workflow.JobWithDep})
   name: createGraphFromJobList(FSharpList<JobWithDep>)
   href: api/Slurmi.Workflow.WFGraph.createGraphFromJobList.html#Slurmi_Workflow_WFGraph_createGraphFromJobList_Microsoft_FSharp_Collections_FSharpList_Slurmi_Workflow_JobWithDep__
@@ -14434,48 +14476,6 @@ references:
   commentId: Overload:Slurmi.Workflow.WFGraph.hasSuccessors
   fullName: Slurmi.Workflow.WFGraph.hasSuccessors
   nameWithType: Workflow.WFGraph.hasSuccessors
-- uid: Slurmi.Workflow.WFGraph.sshToTerminal(Renci.SshNet.SshClient,Slurmi.Job)
-  name: sshToTerminal(SshClient, Job)
-  href: api/Slurmi.Workflow.WFGraph.sshToTerminal.html#Slurmi_Workflow_WFGraph_sshToTerminal_Renci_SshNet_SshClient_Slurmi_Job_
-  commentId: M:Slurmi.Workflow.WFGraph.sshToTerminal(Renci.SshNet.SshClient,Slurmi.Job)
-  fullName: Slurmi.Workflow.WFGraph.sshToTerminal(Renci.SshNet.SshClient, Slurmi.Job)
-  nameWithType: Workflow.WFGraph.sshToTerminal(SshClient, Job)
-- uid: Slurmi.Workflow.WFGraph.sshToTerminal*
-  name: sshToTerminal
-  href: api/Slurmi.Workflow.WFGraph.sshToTerminal.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.sshToTerminal
-  fullName: Slurmi.Workflow.WFGraph.sshToTerminal
-  nameWithType: Workflow.WFGraph.sshToTerminal
-- uid: Slurmi.Workflow.WFGraph.submitAll(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String})
-  name: submitAll(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>)
-  href: api/Slurmi.Workflow.WFGraph.submitAll.html#Slurmi_Workflow_WFGraph_submitAll_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_Collections_Generic_List_System_String__
-  commentId: M:Slurmi.Workflow.WFGraph.submitAll(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String})
-  name.vb: submitAll(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String))
-  fullName: Slurmi.Workflow.WFGraph.submitAll(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, System.Collections.Generic.List<string>)
-  fullName.vb: Slurmi.Workflow.WFGraph.submitAll(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), System.Collections.Generic.List(Of String))
-  nameWithType: Workflow.WFGraph.submitAll(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>)
-  nameWithType.vb: Workflow.WFGraph.submitAll(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String))
-- uid: Slurmi.Workflow.WFGraph.submitAll*
-  name: submitAll
-  href: api/Slurmi.Workflow.WFGraph.submitAll.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.submitAll
-  fullName: Slurmi.Workflow.WFGraph.submitAll
-  nameWithType: Workflow.WFGraph.submitAll
-- uid: Slurmi.Workflow.WFGraph.submitAllSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name: submitAllSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>, SshClient)
-  href: api/Slurmi.Workflow.WFGraph.submitAllSSH.html#Slurmi_Workflow_WFGraph_submitAllSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_
-  commentId: M:Slurmi.Workflow.WFGraph.submitAllSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)
-  name.vb: submitAllSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String), SshClient)
-  fullName: Slurmi.Workflow.WFGraph.submitAllSSH(System.Collections.Generic.Dictionary<string, System.Tuple<System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>, Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary<string, Slurmi.KindOfDependency>>>, System.Collections.Generic.List<string>, Renci.SshNet.SshClient)
-  fullName.vb: Slurmi.Workflow.WFGraph.submitAllSSH(System.Collections.Generic.Dictionary(Of String, System.Tuple(Of System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency), Slurmi.Workflow.JobWithDep, System.Collections.Generic.Dictionary(Of String, Slurmi.KindOfDependency))), System.Collections.Generic.List(Of String), Renci.SshNet.SshClient)
-  nameWithType: Workflow.WFGraph.submitAllSSH(Dictionary<string, Tuple<Dictionary<string, KindOfDependency>, Workflow.JobWithDep, Dictionary<string, KindOfDependency>>>, List<string>, SshClient)
-  nameWithType.vb: Workflow.WFGraph.submitAllSSH(Dictionary(Of String, Tuple(Of Dictionary(Of String, KindOfDependency), Workflow.JobWithDep, Dictionary(Of String, KindOfDependency))), List(Of String), SshClient)
-- uid: Slurmi.Workflow.WFGraph.submitAllSSH*
-  name: submitAllSSH
-  href: api/Slurmi.Workflow.WFGraph.submitAllSSH.html
-  commentId: Overload:Slurmi.Workflow.WFGraph.submitAllSSH
-  fullName: Slurmi.Workflow.WFGraph.submitAllSSH
-  nameWithType: Workflow.WFGraph.submitAllSSH
 - uid: Slurmi.Workflow.Workflow
   name: Workflow.Workflow
   href: api/Slurmi.Workflow.Workflow.html

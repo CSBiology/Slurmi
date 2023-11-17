@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method checkAllForWorked
+      <title>Method sendToTerminalAndReceiveJobIDCMD
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method checkAllForWorked
+      <meta name="title" content="Method sendToTerminalAndReceiveJobIDCMD
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Slurmi.Workflow.WFGraph.checkAllForWorked*">
+        <article data-uid="Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD*">
 
 
 
 
 
-<h1 id="Slurmi_Workflow_WFGraph_checkAllForWorked_" data-uid="Slurmi.Workflow.WFGraph.checkAllForWorked*" class="text-break">
-  Method checkAllForWorked
+<h1 id="Slurmi_Runner_sendToTerminalAndReceiveJobIDCMD_" data-uid="Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD*" class="text-break">
+  Method sendToTerminalAndReceiveJobIDCMD
   
 </h1>
 
@@ -118,10 +118,10 @@
 
 
 
-<a id="Slurmi_Workflow_WFGraph_checkAllForWorked_" data-uid="Slurmi.Workflow.WFGraph.checkAllForWorked*"></a>
+<a id="Slurmi_Runner_sendToTerminalAndReceiveJobIDCMD_" data-uid="Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD*"></a>
 
-<h3 id="Slurmi_Workflow_WFGraph_checkAllForWorked_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__" data-uid="Slurmi.Workflow.WFGraph.checkAllForWorked(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})">
-  checkAllForWorked(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt;, string, List&lt;string&gt;)
+<h3 id="Slurmi_Runner_sendToTerminalAndReceiveJobIDCMD_Slurmi_Job_" data-uid="Slurmi.Runner.sendToTerminalAndReceiveJobIDCMD(Slurmi.Job)">
+  sendToTerminalAndReceiveJobIDCMD(Job)
   
 </h3>
 
@@ -129,17 +129,12 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">[CompilationArgumentCounts(new int[] { 1, 1, 1 })]
-public static void checkAllForWorked(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, Workflow.JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt; graph, string jobs, List&lt;string&gt; workedOn)</code></pre>
+  <pre><code class="lang-csharp hljs">public static void sendToTerminalAndReceiveJobIDCMD(Job job)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>graph</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="Slurmi.KindOfDependency.html">KindOfDependency</a>&gt;, <a class="xref" href="Slurmi.Workflow.html">Workflow</a>.<a class="xref" href="Slurmi.Workflow.JobWithDep.html">JobWithDep</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="Slurmi.KindOfDependency.html">KindOfDependency</a>&gt;&gt;&gt;</dt>
-  <dd></dd>
-  <dt><code>jobs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd></dd>
-  <dt><code>workedOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+  <dt><code>job</code> <a class="xref" href="Slurmi.Job.html">Job</a></dt>
   <dd></dd>
 </dl>
 

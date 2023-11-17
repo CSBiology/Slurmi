@@ -15,7 +15,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/tutwf.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/workflowCreation.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -118,7 +118,7 @@ let jd4 = {JobInfo = j4; AllOrAny = TypeOfDep.Any; DependingOn = [(j2, KindOfDep
 <p>This workflow can now be submitted to the cluster. With this, all dependencies will be resolved and submitted in the correct order.</p>
 <pre><code class="lang-fsharp">let workedOn =  new List&lt;string&gt;()
 
-WFGraph.submitAll resultGraph.Graph.Graph workedOn
+Runner.submitAll resultGraph.Graph.Graph workedOn 
 </code></pre>
 <h2 id="visualisation">Visualisation</h2>
 <p>The workflow graph can be displayed, for example using the CyGraph library.</p>
@@ -172,7 +172,7 @@ toFullCyGraph string (fun x -&gt; x.JobInfo.Name) (fun e -&gt;
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/tutwf.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/workflowCreation.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

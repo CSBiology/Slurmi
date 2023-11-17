@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method checkForWorkedBashSSH
+      <title>Method checkForWorkedBash
  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method checkForWorkedBashSSH
+      <meta name="title" content="Method checkForWorkedBash
  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Slurmi.Workflow.WFGraph.checkForWorkedBashSSH*">
+        <article data-uid="Slurmi.Runner.checkForWorkedBash*">
 
 
 
 
 
-<h1 id="Slurmi_Workflow_WFGraph_checkForWorkedBashSSH_" data-uid="Slurmi.Workflow.WFGraph.checkForWorkedBashSSH*" class="text-break">
-  Method checkForWorkedBashSSH
+<h1 id="Slurmi_Runner_checkForWorkedBash_" data-uid="Slurmi.Runner.checkForWorkedBash*" class="text-break">
+  Method checkForWorkedBash
   
 </h1>
 
@@ -118,10 +118,10 @@
 
 
 
-<a id="Slurmi_Workflow_WFGraph_checkForWorkedBashSSH_" data-uid="Slurmi.Workflow.WFGraph.checkForWorkedBashSSH*"></a>
+<a id="Slurmi_Runner_checkForWorkedBash_" data-uid="Slurmi.Runner.checkForWorkedBash*"></a>
 
-<h3 id="Slurmi_Workflow_WFGraph_checkForWorkedBashSSH_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__Renci_SshNet_SshClient_" data-uid="Slurmi.Workflow.WFGraph.checkForWorkedBashSSH(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String},Renci.SshNet.SshClient)">
-  checkForWorkedBashSSH(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt;, string, List&lt;string&gt;, SshClient)
+<h3 id="Slurmi_Runner_checkForWorkedBash_System_Collections_Generic_Dictionary_System_String_System_Tuple_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency__Slurmi_Workflow_JobWithDep_System_Collections_Generic_Dictionary_System_String_Slurmi_KindOfDependency____System_String_System_Collections_Generic_List_System_String__" data-uid="Slurmi.Runner.checkForWorkedBash(System.Collections.Generic.Dictionary{System.String,System.Tuple{System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency},Slurmi.Workflow.JobWithDep,System.Collections.Generic.Dictionary{System.String,Slurmi.KindOfDependency}}},System.String,System.Collections.Generic.List{System.String})">
+  checkForWorkedBash(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt;, string, List&lt;string&gt;)
   
 </h3>
 
@@ -129,8 +129,8 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">[CompilationArgumentCounts(new int[] { 1, 1, 1, 1 })]
-public static void checkForWorkedBashSSH(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, Workflow.JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt; graph, string jobToLook, List&lt;string&gt; workedOn, SshClient client)</code></pre>
+  <pre><code class="lang-csharp hljs">[CompilationArgumentCounts(new int[] { 1, 1, 1 })]
+public static void checkForWorkedBash(Dictionary&lt;string, Tuple&lt;Dictionary&lt;string, KindOfDependency&gt;, Workflow.JobWithDep, Dictionary&lt;string, KindOfDependency&gt;&gt;&gt; graph, string jobToLook, List&lt;string&gt; workedOn)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -140,8 +140,6 @@ public static void checkForWorkedBashSSH(Dictionary&lt;string, Tuple&lt;Dictiona
   <dt><code>jobToLook</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
   <dd></dd>
   <dt><code>workedOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-  <dd></dd>
-  <dt><code>client</code> <span class="xref">SshClient</span></dt>
   <dd></dd>
 </dl>
 
