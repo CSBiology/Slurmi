@@ -48,7 +48,7 @@ This workflow can now be submitted to the cluster. With this, all dependencies w
 ```fsharp
 let workedOn =  new List<string>()
 
-WFGraph.submitAll resultGraph.Graph.Graph workedOn
+Runner.submitAll resultGraph.Graph.Graph workedOn 
 ```
 
 ## Visualisation
