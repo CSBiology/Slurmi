@@ -36,8 +36,8 @@
     <Compile Include="Process.fs" />
     <Compile Include="Dependency.fs" />
     <Compile Include="Job.fs" />
-    <Compile Include="Connection.fs" />
     <Compile Include="Workflow.fs" />
+    <Compile Include="Runner.fs" />
   </ItemGroup>
 
   <ItemGroup>

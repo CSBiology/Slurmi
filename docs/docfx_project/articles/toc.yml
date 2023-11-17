@@ -1,4 +1,6 @@
 - name: Writing a jobscript
-  href: tut.md
+  href: jobCreation.md
 - name: Writing a workflow
-  href: tutwf.md
+  href: workflowCreation.md
+- name: SSH Connection
+  href: sshConnection.md

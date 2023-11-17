@@ -131,11 +131,11 @@ myJob.produceCall
 // "
 ```
 
-This job can be submitted using the `Connection.callToTerminalBash` function. 
+This job can be submitted using the `Runner.callToTerminalBash` function. 
 The job ID is returned as a string. 
 
 ```fsharp
-Connection.callToTerminalBash myJob.produceCall
+Runner.callToTerminalBash myJob.produceCall
 ```
 
 

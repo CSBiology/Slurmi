@@ -6,7 +6,7 @@ open System.Collections.Generic
 open SshNet
 open Renci.SshNet
 open Renci.SshNet.Common
-open Connection 
+//open Connection 
 
 module Workflow = 
     type JobWithDep =
@@ -85,79 +85,11 @@ module Workflow =
             let command = deps |> String.concat (jobInfo.AllOrAny |> TypeOfDep.toString) |> String.filter (fun x -> x <> ' ' ) |> String.filter (fun x -> x <> '\n')
             printfn "%A" command
             if command = "" then
-                printfn "no"
+                ()
             else 
                 jobInfo.JobInfo.CommandWithArgument |> Command.SetDependency command |> ignore
 
-        static member checkForWorkedBash (graph:FGraph<string,JobWithDep,KindOfDependency>)(jobToLook:string) (workedOn:List<string>)= 
-            if (WFGraph.arePredecessorsWorkedAlready graph jobToLook workedOn) then
-        
-                if workedOn.Contains jobToLook then
-                    //then printfn "already worked on %A "jobToLook
-                    ()
-                else
-                    //printfn "added %A" jobToLook
-                    let jtwo = WFGraph.getJob graph jobToLook
 
-                    WFGraph.formatDep graph jobToLook
-                    jtwo.JobInfo |> Job.SetJobID (getResultFromCallBash (jtwo.JobInfo.produceCall)) |> ignore
-                
-                    workedOn.Add jobToLook
-            else
-                //printfn "false"
-                ()
-        static member sshToTerminal (client:SshClient) (job:Job)= 
-            client.RunCommand(job.produceCall).Result
-
-        static member checkForWorkedBashSSH (graph:FGraph<string,JobWithDep,KindOfDependency>)(jobToLook:string) (workedOn:List<string>) (client: SshClient)= 
-            if (WFGraph.arePredecessorsWorkedAlready graph jobToLook workedOn) then
-        
-                if workedOn.Contains jobToLook then
-                    //then printfn "already worked on %A "jobToLook
-                    ()
-                else
-                    printfn "added %A" jobToLook
-                    let jtwo = WFGraph.getJob graph jobToLook
-
-                    WFGraph.formatDep graph jobToLook
-                    jtwo.JobInfo |> Job.SetJobID (WFGraph.sshToTerminal client (jtwo.JobInfo)) |> ignore
-                
-                    workedOn.Add jobToLook
-            else
-                //printfn "false"
-                ()
-
-
-        static member checkAllForWorkedSSH (graph:FGraph<string,JobWithDep,KindOfDependency>) (jobs:string ) (workedOn:List<string>)  (client: SshClient)= 
-            WFGraph.checkForWorkedBashSSH graph jobs workedOn client
-            if (WFGraph.hasSuccessors graph jobs) then 
-                let successors = WFGraph.getSuccessors graph jobs
-        
-                successors |> Seq.iter (fun x -> WFGraph.checkAllForWorkedSSH graph (fst x) workedOn client)
-            else 
-                ()
-
-        static member checkAllForWorked (graph:FGraph<string,JobWithDep,KindOfDependency>) (jobs:string ) (workedOn:List<string>)  = 
-            WFGraph.checkForWorkedBash graph jobs workedOn 
-            if (WFGraph.hasSuccessors graph jobs) then 
-                let successors = WFGraph.getSuccessors graph jobs
-        
-                successors |> Seq.iter (fun x -> WFGraph.checkAllForWorked graph (fst x) workedOn)
-            else 
-                ()
-
-
-        static member submitAll (graph:FGraph<string,JobWithDep,KindOfDependency>) (workedOn:List<string>)=
-            let firstNodes = 
-                WFGraph.getNodesWithoutDependencies graph
-                |> Seq.toArray
-            firstNodes |> Array.map (fun x -> WFGraph.checkAllForWorked graph x.JobInfo.Name workedOn) |> ignore
-    
-        static member submitAllSSH (graph:FGraph<string,JobWithDep,KindOfDependency>) (workedOn:List<string>) (client:SshClient)=
-            let firstNodes = 
-                WFGraph.getNodesWithoutDependencies graph
-                |> Seq.toArray
-            firstNodes |> Array.map (fun x -> WFGraph.checkAllForWorkedSSH graph x.JobInfo.Name workedOn client) |> ignore
 
     type Workflow = 
         {
