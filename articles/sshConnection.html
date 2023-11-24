@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>SSH connection </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="SSH connection ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/sshConnection.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="ssh-connection">SSH connection</h1>
+
+<p>When working with a cluster or HPC, it can be useful to connect via SSH.
+To submit the created Jobs directly to the cluster, Slurmi allows you a SSH connection using <a href="https://github.com/sshnet/SSH.NET">SSH.NET</a>.</p>
+<p>First, you need to create a <code>SshClient</code> containing your connection info (host, username, password).</p>
+<pre><code class="lang-fsharp">let hostName = &quot;testHost&quot; 
+let userName = &quot;testUser&quot;
+let password = &quot;testPassword&quot;
+
+let connectionInfo =
+    ConnectionInfo(hostName, userName, PasswordAuthenticationMethod(userName,password))
+
+let client = let client = new SshClient(connectionInfo)
+</code></pre>
+<p>To start the connection to the host, you can use the <code>Connect</code> method.</p>
+<pre><code class="lang-fsharp">client.Connect()
+</code></pre>
+<p>To disconnect from the host, you can use the <code>Disconnect</code> method.</p>
+<pre><code class="lang-fsharp">client.Disconnect()
+</code></pre>
+<h2 id="submitting-jobs">Submitting Jobs</h2>
+<p>To submit a job, you need to create a <a href="../articles/jobCreation.html">job</a> object.</p>
+<p>For a single job, use the function <code>Runner.sshToTerminal</code>. This will give you the jobID after submission as an output.</p>
+<pre><code class="lang-fsharp">let myJob =
+    Job(&quot;MyJob&quot;,[(&quot;echo&quot;,[&quot;Hello World&quot;])])
+
+let jobID = Runner.sshToTerminal client myJob
+</code></pre>
+<p>When submitting a <a href="../articles/workflowCreation.html">workflow</a>, use the function <code>Runner.submitAllSSH</code>.
+This will resolve the dependencies and submit the jobs in the correct order.</p>
+<pre><code class="lang-fsharp">// for the creation, see workflowCreation
+let resultGraph = createWorkflow [jd1;jd2;jd3;jd4;jd5]
+
+Runner.submitAllSSH resultGraph.Graph.Graph workedOn client
+</code></pre>
+<p>And with that, you're able to interact with your cluster or HPC via SSH using Slurmi and SSH.NET.</p>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/CSBiology/Slurmi/blob/main/docs/docfx_project/articles/sshConnection.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
