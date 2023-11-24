@@ -30,7 +30,7 @@ client.Disconnect()
 
 ## Submitting Jobs
 
-To submit a job, you need to create a `Job` object (see [jobCreation](https://csbiology.github.io/Slurmi/articles/jobCreation.html)).
+To submit a job, you need to create a [job](../articles/jobCreation.html) object.
 
 For a single job, use the function `Runner.sshToTerminal`. This will give you the jobID after submission as an output. 
 
@@ -41,7 +41,7 @@ let myJob =
 let jobID = Runner.sshToTerminal client myJob
 ```
 
-When submitting a [workflow](https://csbiology.github.io/Slurmi/articles/workflowCreation.html), use the function `Runner.submitAllSSH`. 
+When submitting a [workflow](../articles/workflowCreation.html), use the function `Runner.submitAllSSH`. 
 This will resolve the dependencies and submit the jobs in the correct order.
 
 ```fsharp
