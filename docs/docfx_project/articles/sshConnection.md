@@ -6,6 +6,13 @@ To submit the created Jobs directly to the cluster, Slurmi allows you a SSH conn
 First, you need to create a `SshClient` containing your connection info (host, username, password).
 
 ```fsharp 
+#r "nuget: DynamicObj, 2.0.0"
+#r "nuget: SSH.NET, 2023.0.0"
+open Slurmi
+open SshNet
+open Renci.SshNet
+open Renci.SshNet.Common
+
 let hostName = "testHost" 
 let userName = "testUser"
 let password = "testPassword"
@@ -13,13 +20,18 @@ let password = "testPassword"
 let connectionInfo =
     ConnectionInfo(hostName, userName, PasswordAuthenticationMethod(userName,password))
 
-let client = let client = new SshClient(connectionInfo)
+let client = new SshClient(connectionInfo)
 ```
 
 To start the connection to the host, you can use the `Connect` method.
 
 ```fsharp
 client.Connect()
+```
+To check if the connection was successful, you can, for example, use the following command: 
+
+```fsharp
+client.RunCommand("echo Hello World")
 ```
 
 To disconnect from the host, you can use the `Disconnect` method.

@@ -3,6 +3,26 @@
 Developing a workflow is one of the key parts of using Slurmi. 
 Here, you define the sequential steps for completing the work.
 Some of these steps are dependent on each other, and these dependencies are defined in the workflow.
+
+First, you need a few dependencies. 
+
+```fsharp
+#r "nuget: DynamicObj, 2.0.0"
+#r "nuget: SSH.NET, 2023.0.0"
+#r "nuget: Graphoscope, 0.3.0"
+#r "nuget: Fli, 1.101.0"
+open Fli
+open Slurmi
+open Slurmi.Runner
+open DynamicObj
+open SshNet
+open Renci.SshNet
+open Renci.SshNet.Common
+open Graphoscope
+open Slurmi.Workflow
+open System.Collections.Generic
+```
+
 To do this, you first create multiple jobs.
 
 ```fsharp 
@@ -49,6 +69,7 @@ This workflow can now be submitted to the cluster. With this, all dependencies w
 let workedOn =  new List<string>()
 
 Runner.submitAll resultGraph.Graph.Graph workedOn 
+// or if using SSH Runner.submitAllSSH
 ```
 
 ## Visualisation
