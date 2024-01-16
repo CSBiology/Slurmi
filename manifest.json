@@ -1528,6 +1528,876 @@
       "source_relative_path": "api/Slurmi.Command.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Slurmi.Command.SetNTasksPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNTasksPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNTasksPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetNTasksPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeThreadsPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetThreadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetThreadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeThreadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetSocketsPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetSocketsPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeSocketsPerNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetReservation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetReservation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeReservation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetPrefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetPrefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removePrefer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetNTasksPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNTasksPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNTasksPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNTasksPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNTasksPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetNTasksPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNTasksPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNTasksPerCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetNodeFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNodeFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNodeFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetMinCPUs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetMinCPUs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeMinCPUs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetMemoryPerCPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetMemoryPerCPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeMemoryPerCPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetMemoryPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetMemoryPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removememoryPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetMailUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetMailUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeMailUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetGroupID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetGroupID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeGroupID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetExtra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetExtra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeExtra.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetDelayBoot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetDelayBoot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeDelayBoot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetCPUsPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetCPUsPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeCPUsPerGPU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetCoresPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetCoresPerSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeCoresPerSocker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetContainerID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetContainerID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeContainerID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeComment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetBurstBufferSpecificationFilePath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetBurstBufferSpecificationFilePath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeBurstBufferSpecificationFilePath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetBurstBufferSpecification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetBurstBufferSpecification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeBurstBufferSpecification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetBatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetBatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeBatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetNTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetNTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeNTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetCPUsPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetCPUsPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeCPUsPerTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.SetMemory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.tryGetMemory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.removeMemory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Command.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Slurmi.Command.-ctor.html"
         }
       },
@@ -2509,876 +3379,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Command.tryGetThreadsPerCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeThreadsPerCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetThreadSpec.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetThreadSpec.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeThreadSpec.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetSocketsPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetSocketsPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeSocketsPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetReservation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetReservation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeReservation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetPrefer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetPrefer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removePrefer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNTasksPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNTasksPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNTasksPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNTasksPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNTasksPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNTasksPerNode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNTasksPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNTasksPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNTasksPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNTasksPerCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNTasksPerCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNTasksPerCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNodeFile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNodeFile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNodeFile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetMinCPUs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetMinCPUs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeMinCPUs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetMemoryPerCPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetMemoryPerCPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeMemoryPerCPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetMemoryPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetMemoryPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removememoryPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetMailUser.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetMailUser.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeMailUser.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetGroupID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetGroupID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeGroupID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetExtra.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetExtra.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeExtra.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetDelayBoot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetDelayBoot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeDelayBoot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetCPUsPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetCPUsPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeCPUsPerGPU.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetCoresPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetCoresPerSocket.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeCoresPerSocker.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetContainerID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetContainerID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeContainerID.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetContainer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetContainer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeContainer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetComment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetComment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeComment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetBurstBufferSpecificationFilePath.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetBurstBufferSpecificationFilePath.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeBurstBufferSpecificationFilePath.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetBurstBufferSpecification.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetBurstBufferSpecification.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeBurstBufferSpecification.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetBatch.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetBatch.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeBatch.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetTime.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetTime.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeTime.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetNTasks.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetNTasks.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeNTasks.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetCPUsPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetCPUsPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeCPUsPerTask.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.SetMemory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.tryGetMemory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.removeMemory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.Name.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Command.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Command.html"
         }
       },
       "version": ""
@@ -5148,6 +5148,106 @@
       "source_relative_path": "api/Slurmi.GPUTypes.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.NewCustom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.CompareTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.GetHashCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.Equals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.Hopper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.IsHopper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.AdaLovelace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GPUTypes.IsAdaLovelace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GPUTypes.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Slurmi.GPUTypes.Ampere.html"
         }
       },
@@ -5305,126 +5405,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.NewCustom.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.CompareTo.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.GetHashCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.Equals.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.Tag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.Hopper.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.IsHopper.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.AdaLovelace.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GPUTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GPUTypes.IsAdaLovelace.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GetUserEnv.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GetUserEnv.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.GetUserEnv.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.GetUserEnv.Timeout.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Slurmi.GetUserEnv.yml",
       "output": {
         ".html": {
@@ -5479,6 +5459,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.GetUserEnv.Equals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GetUserEnv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GetUserEnv.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.GetUserEnv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.GetUserEnv.Timeout.html"
         }
       },
       "version": ""
@@ -8018,166 +8018,6 @@
       "source_relative_path": "api/Slurmi.OnlyKey.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetRequeue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.tryGetRequeue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.removeRequeue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetReboot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.tryGetReboot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.removeReboot.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetQuiet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.tryGetQuiet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.removeQuiet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetOversubscribe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.tryGetOversubscribe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.removeOversubscribe.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetOvercommit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.tryGetOvercommit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.removeOvercommit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.OnlyKey.SetNoRequeue.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.OnlyKey.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.OnlyKey.tryGetNoRequeue.html"
         }
       },
@@ -8359,6 +8199,166 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.OnlyKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.tryGetRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.removeRequeue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetReboot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.tryGetReboot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.removeReboot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetQuiet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.tryGetQuiet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.removeQuiet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetOversubscribe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.tryGetOversubscribe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.removeOversubscribe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetOvercommit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.tryGetOvercommit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.removeOvercommit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.OnlyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.OnlyKey.SetNoRequeue.html"
         }
       },
       "version": ""
@@ -9308,26 +9308,6 @@
       "source_relative_path": "api/Slurmi.Suffix.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Suffix.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Suffix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Suffix.CompareTo.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Suffix.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Slurmi.Suffix.GetHashCode.html"
         }
       },
@@ -9459,6 +9439,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Suffix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Suffix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Suffix.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Suffix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Suffix.CompareTo.html"
         }
       },
       "version": ""
@@ -10408,7 +10408,17 @@
       "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.html"
+          "relative_path": "api/Slurmi.Workflow.WFGraph.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Workflow.WFGraph.ToString.html"
         }
       },
       "version": ""
@@ -10578,27 +10588,7 @@
       "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.-ctor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.WFGraph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Workflow.WFGraph.ToString.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Slurmi.Workflow.Workflow.-ctor.html"
+          "relative_path": "api/Slurmi.Workflow.WFGraph.html"
         }
       },
       "version": ""
@@ -10659,6 +10649,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Slurmi.Workflow.Workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Slurmi.Workflow.Workflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Slurmi.Workflow.Workflow.-ctor.html"
         }
       },
       "version": ""
